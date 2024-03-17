@@ -1,7 +1,7 @@
 export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	arbok: {
 		inherit: true,
-		baseStats: {hp: 60, atk: 85, def: 69, spa: 65, spd: 79, spe: 80},
+		baseStats: {hp: 61, atk: 85, def: 69, spa: 65, spd: 79, spe: 80},
 	},
 	unown: {
 		inherit: true,
