@@ -139,10 +139,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	blackbelt: {
 		name: "Black Belt",
-		desc: "Holder's Fighting-type attacks have 1.2x power.",
+		desc: "Holder's Fighting-type attacks have 1.1x power.",
+		/*desc: "Holder's Fighting-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Fighting-type attacks have 1.1x power.",
-		},
+		},*/
 	},
 	blacksludge: {
 		name: "Black Sludge",
@@ -152,10 +153,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	blackglasses: {
 		name: "Black Glasses",
-		desc: "Holder's Dark-type attacks have 1.2x power.",
+		desc: "Holder's Dark-type attacks have 1.1x power.",
+		/*desc: "Holder's Dark-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Dark-type attacks have 1.1x power.",
-		},
+		},*/
 	},
 	blastoisinite: {
 		name: "Blastoisinite",
@@ -221,10 +223,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	charcoal: {
 		name: "Charcoal",
-		desc: "Holder's Fire-type attacks have 1.2x power.",
+		desc: "Holder's Fire-type attacks have 1.1x power.",
+		/*desc: "Holder's Fire-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Fire-type attacks have 1.1x power.",
-		},
+		},*/
 	},
 	charizarditex: {
 		name: "Charizardite X",
@@ -390,10 +393,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	dragonfang: {
 		name: "Dragon Fang",
-		desc: "Holder's Dragon-type attacks have 1.2x power.",
+		desc: "Holder's Dragon-type attacks have 1.1x power.",
+		/*desc: "Holder's Dragon-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Dragon-type attacks have 1.1x power.",
-		},
+		},*/
 		gen2: {
 			desc: "No competitive use.",
 		},
@@ -493,10 +497,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	enigmaberry: {
 		name: "Enigma Berry",
-		desc: "Restores 1/4 max HP after holder is hit by a supereffective move. Single use.",
+		desc: "No competitive use.",
+		/*desc: "Restores 1/4 max HP after holder is hit by a supereffective move. Single use.",
 		gen3: {
 			desc: "No competitive use.",
-		},
+		},*/
 	},
 	eviolite: {
 		name: "Eviolite",
@@ -766,10 +771,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	hardstone: {
 		name: "Hard Stone",
-		desc: "Holder's Rock-type attacks have 1.2x power.",
+		desc: "Holder's Rock-type attacks have 1.1x power.",
+		/*desc: "Holder's Rock-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Rock-type attacks have 1.1x power.",
-		},
+		},*/
 	},
 	healball: {
 		name: "Heal Ball",
@@ -922,10 +928,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	laxincense: {
 		name: "Lax Incense",
-		desc: "The accuracy of attacks against the holder is 0.9x.",
+		desc: "The accuracy of attacks against the holder is 0.95x.",
+		/*desc: "The accuracy of attacks against the holder is 0.9x.",
 		gen3: {
 			desc: "The accuracy of attacks against the holder is 0.95x.",
-		},
+		},*/
 	},
 	leafstone: {
 		name: "Leaf Stone",
@@ -967,13 +974,14 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	lightball: {
 		name: "Light Ball",
-		desc: "If held by a Pikachu, its Attack and Sp. Atk are doubled.",
+		desc: "If held by a Pikachu, its Special Attack is doubled.",
+		/*desc: "If held by a Pikachu, its Attack and Sp. Atk are doubled.",
 		gen4: {
 			desc: "If held by a Pikachu, its attacks have their power doubled.",
 		},
 		gen3: {
 			desc: "If held by a Pikachu, its Special Attack is doubled.",
-		},
+		},*/
 	},
 	lightclay: {
 		name: "Light Clay",
@@ -1051,10 +1059,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	magnet: {
 		name: "Magnet",
-		desc: "Holder's Electric-type attacks have 1.2x power.",
+		desc: "Holder's Electric-type attacks have 1.1x power.",
+		/*desc: "Holder's Electric-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Electric-type attacks have 1.1x power.",
-		},
+		},*/
 	},
 	magoberry: {
 		name: "Mago Berry",
@@ -1127,12 +1136,14 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	metalcoat: {
 		name: "Metal Coat",
-		desc: "Holder's Steel-type attacks have 1.2x power. Evolves Onix into Steelix and Scyther into Scizor when traded.",
+		desc: "Holder's Steel-type attacks have 1.1x power. Evolves Onix into Steelix and Scyther into Scizor when traded.",
+		shortDesc: "Holder's Steel-type attacks have 1.1x power.",
+		/*desc: "Holder's Steel-type attacks have 1.2x power. Evolves Onix into Steelix and Scyther into Scizor when traded.",
 		shortDesc: "Holder's Steel-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Steel-type attacks have 1.1x power. Evolves Onix into Steelix and Scyther into Scizor when traded.",
 			shortDesc: "Holder's Steel-type attacks have 1.1x power.",
-		},
+		},*/
 	},
 	metalpowder: {
 		name: "Metal Powder",
@@ -1174,10 +1185,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	miracleseed: {
 		name: "Miracle Seed",
-		desc: "Holder's Grass-type attacks have 1.2x power.",
+		desc: "Holder's Grass-type attacks have 1.1x power.",
+		/*desc: "Holder's Grass-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Grass-type attacks have 1.1x power.",
-		},
+		},*/
 	},
 	mirrorherb: {
 		name: "Mirror Herb",
@@ -1204,10 +1216,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	mysticwater: {
 		name: "Mystic Water",
-		desc: "Holder's Water-type attacks have 1.2x power.",
+		desc: "Holder's Water-type attacks have 1.1x power.",
+		/*desc: "Holder's Water-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Water-type attacks have 1.1x power.",
-		},
+		},*/
 	},
 	nanabberry: {
 		name: "Nanab Berry",
@@ -1223,10 +1236,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	nevermeltice: {
 		name: "Never-Melt Ice",
-		desc: "Holder's Ice-type attacks have 1.2x power.",
+		desc: "Holder's Ice-type attacks have 1.1x power.",
+		/*desc: "Holder's Ice-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Ice-type attacks have 1.1x power.",
-		},
+		},*/
 	},
 	nomelberry: {
 		name: "Nomel Berry",
@@ -1321,10 +1335,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	poisonbarb: {
 		name: "Poison Barb",
-		desc: "Holder's Poison-type attacks have 1.2x power.",
+		desc: "Holder's Poison-type attacks have 1.1x power.",
+		/*desc: "Holder's Poison-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Poison-type attacks have 1.1x power.",
-		},
+		},*/
 	},
 	poisongem: {
 		name: "Poison Gem",
@@ -1598,17 +1613,19 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	seaincense: {
 		name: "Sea Incense",
-		desc: "Holder's Water-type attacks have 1.2x power.",
+		desc: "Holder's Water-type attacks have 1.05x power.",
+		/*desc: "Holder's Water-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Water-type attacks have 1.05x power.",
-		},
+		},*/
 	},
 	sharpbeak: {
 		name: "Sharp Beak",
-		desc: "Holder's Flying-type attacks have 1.2x power.",
+		desc: "Holder's Flying-type attacks have 1.1x power.",
+		/*desc: "Holder's Flying-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Flying-type attacks have 1.1x power.",
-		},
+		},*/
 	},
 	sharpedonite: {
 		name: "Sharpedonite",
@@ -1639,24 +1656,27 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	silkscarf: {
 		name: "Silk Scarf",
-		desc: "Holder's Normal-type attacks have 1.2x power.",
+		desc: "Holder's Normal-type attacks have 1.1x power.",
+		/*desc: "Holder's Normal-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Normal-type attacks have 1.1x power.",
-		},
+		},*/
 	},
 	silverpowder: {
 		name: "Silver Powder",
-		desc: "Holder's Bug-type attacks have 1.2x power.",
+		desc: "Holder's Bug-type attacks have 1.1x power.",
+		/*desc: "Holder's Bug-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Bug-type attacks have 1.1x power.",
-		},
+		},*/
 	},
 	sitrusberry: {
 		name: "Sitrus Berry",
-		desc: "Restores 1/4 max HP when at 1/2 max HP or less. Single use.",
+		desc: "Restores 30 HP when at 1/2 max HP or less. Single use.",
+		/*desc: "Restores 1/4 max HP when at 1/2 max HP or less. Single use.",
 		gen3: {
 			desc: "Restores 30 HP when at 1/2 max HP or less. Single use.",
-		},
+		},*/
 	},
 	skullfossil: {
 		name: "Skull Fossil",
@@ -1684,10 +1704,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	softsand: {
 		name: "Soft Sand",
-		desc: "Holder's Ground-type attacks have 1.2x power.",
+		desc: "Holder's Ground-type attacks have 1.1x power.",
+		/*desc: "Holder's Ground-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Ground-type attacks have 1.1x power.",
-		},
+		},*/
 	},
 	solganiumz: {
 		name: "Solganium Z",
@@ -1702,10 +1723,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	spelltag: {
 		name: "Spell Tag",
-		desc: "Holder's Ghost-type attacks have 1.2x power.",
+		desc: "Holder's Ghost-type attacks have 1.1x power.",
+		/*desc: "Holder's Ghost-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Ghost-type attacks have 1.1x power.",
-		},
+		},*/
 	},
 	spelonberry: {
 		name: "Spelon Berry",
@@ -2236,10 +2258,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	twistedspoon: {
 		name: "Twisted Spoon",
-		desc: "Holder's Psychic-type attacks have 1.2x power.",
+		desc: "Holder's Psychic-type attacks have 1.1x power.",
+		/*desc: "Holder's Psychic-type attacks have 1.2x power.",
 		gen3: {
 			desc: "Holder's Psychic-type attacks have 1.1x power.",
-		},
+		},*/
 	},
 	tyranitarite: {
 		name: "Tyranitarite",
