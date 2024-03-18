@@ -7062,7 +7062,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		changesFrom: "Deoxys",
 	},
-	turtwig: {
+	/*turtwig: {
 		num: 387,
 		name: "Turtwig",
 		types: ["Grass"],
@@ -19729,5 +19729,5 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Undiscovered"],
 		gen: 5,
-	},
+	},*/
 };
