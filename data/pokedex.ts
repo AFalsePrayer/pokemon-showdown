@@ -44,7 +44,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Venusaur", "Venusaur-Mega"],
 		canGigantamax: "G-Max Vine Lash",
 	},
-	venusaurmega: {
+	/*venusaurmega: {
 		num: 3,
 		name: "Venusaur-Mega",
 		baseSpecies: "Venusaur",
@@ -73,7 +73,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Monster", "Grass"],
 		changesFrom: "Venusaur",
-	},
+	},*/
 	charmander: {
 		num: 4,
 		name: "Charmander",
@@ -118,7 +118,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		otherFormes: ["Charizard-Mega-X", "Charizard-Mega-Y"],
 		formeOrder: ["Charizard", "Charizard-Mega-X", "Charizard-Mega-Y"],
 		canGigantamax: "G-Max Wildfire",
-	},
+	},/*
 	charizardmegax: {
 		num: 6,
 		name: "Charizard-Mega-X",
@@ -163,7 +163,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Monster", "Dragon"],
 		changesFrom: "Charizard",
-	},
+	},*/
 	squirtle: {
 		num: 7,
 		name: "Squirtle",
@@ -208,7 +208,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		otherFormes: ["Blastoise-Mega"],
 		formeOrder: ["Blastoise", "Blastoise-Mega"],
 		canGigantamax: "G-Max Cannonade",
-	},
+	},/*
 	blastoisemega: {
 		num: 9,
 		name: "Blastoise-Mega",
@@ -238,7 +238,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Monster", "Water 1"],
 		changesFrom: "Blastoise",
-	},
+	},*/
 	caterpie: {
 		num: 10,
 		name: "Caterpie",
@@ -278,7 +278,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 10,
 		eggGroups: ["Bug"],
 		canGigantamax: "G-Max Befuddle",
-	},
+	},/*
 	butterfreegmax: {
 		num: 12,
 		name: "Butterfree-Gmax",
@@ -292,7 +292,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Bug"],
 		changesFrom: "Butterfree",
-	},
+	},*/
 	weedle: {
 		num: 13,
 		name: "Weedle",
@@ -333,7 +333,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug"],
 		otherFormes: ["Beedrill-Mega"],
 		formeOrder: ["Beedrill", "Beedrill-Mega"],
-	},
+	},/*
 	beedrillmega: {
 		num: 15,
 		name: "Beedrill-Mega",
@@ -347,7 +347,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Bug"],
 		requiredItem: "Beedrillite",
-	},
+	},*/
 	pidgey: {
 		num: 16,
 		name: "Pidgey",
@@ -388,7 +388,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Flying"],
 		otherFormes: ["Pidgeot-Mega"],
 		formeOrder: ["Pidgeot", "Pidgeot-Mega"],
-	},
+	},/*
 	pidgeotmega: {
 		num: 18,
 		name: "Pidgeot-Mega",
@@ -402,7 +402,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		eggGroups: ["Flying"],
 		requiredItem: "Pidgeotite",
-	},
+	},*/
 	rattata: {
 		num: 19,
 		name: "Rattata",
@@ -416,7 +416,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 		otherFormes: ["Rattata-Alola"],
 		formeOrder: ["Rattata", "Rattata-Alola"],
-	},
+	},/*
 	rattataalola: {
 		num: 19,
 		name: "Rattata-Alola",
@@ -430,7 +430,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		evos: ["Raticate-Alola"],
 		eggGroups: ["Field"],
-	},
+	},*/
 	raticate: {
 		num: 20,
 		name: "Raticate",
@@ -445,7 +445,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 		otherFormes: ["Raticate-Alola", "Raticate-Alola-Totem"],
 		formeOrder: ["Raticate", "Raticate-Alola", "Raticate-Alola-Totem"],
-	},
+	},/*
 	raticatealola: {
 		num: 20,
 		name: "Raticate-Alola",
@@ -474,7 +474,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 105,
 		color: "Black",
 		eggGroups: ["Field"],
-	},
+	},*/
 	spearow: {
 		num: 21,
 		name: "Spearow",
