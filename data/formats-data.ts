@@ -486,12 +486,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	articuno: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	zapdos: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	moltres: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	dratini: {
@@ -504,9 +507,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	mewtwo: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	mew: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	chikorita: {
@@ -732,12 +737,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	raikou: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	entei: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	suicune: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	larvitar: {
@@ -750,12 +758,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	lugia: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	hooh: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	celebi: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	treecko: {
@@ -1146,33 +1157,43 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	latias: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	latios: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	kyogre: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	groudon: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	rayquaza: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	jirachi: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	deoxys: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	deoxysattack: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	deoxysdefense: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	deoxysspeed: {
+		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 };
