@@ -181,12 +181,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	blaze: {
 		name: "Blaze",
-		desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its offensive stat is multiplied by 1.5 while using a Fire-type attack.",
+		desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its Fire-type attacks have their power multiplied by 1.5.",
+		shortDesc: "At 1/3 or less of its max HP, this Pokemon's Fire-type attacks have 1.5x power.",
+		/*desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its offensive stat is multiplied by 1.5 while using a Fire-type attack.",
 		shortDesc: "At 1/3 or less of its max HP, this Pokemon's offensive stat is 1.5x with Fire attacks.",
 		gen4: {
 			desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its Fire-type attacks have their power multiplied by 1.5.",
 			shortDesc: "At 1/3 or less of its max HP, this Pokemon's Fire-type attacks have 1.5x power.",
-		},
+		},*/
 	},
 	bulletproof: {
 		name: "Bulletproof",
@@ -207,11 +209,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	chlorophyll: {
 		name: "Chlorophyll",
-		desc: "If Sunny Day is active, this Pokemon's Speed is doubled. This effect is prevented if this Pokemon is holding a Utility Umbrella.",
+		desc: "If Sunny Day is active, this Pokemon's Speed is doubled.",
+		shortDesc: "If Sunny Day is active, this Pokemon's Speed is doubled.",
+		/*desc: "If Sunny Day is active, this Pokemon's Speed is doubled. This effect is prevented if this Pokemon is holding a Utility Umbrella.",
 		shortDesc: "If Sunny Day is active, this Pokemon's Speed is doubled.",
 		gen7: {
 			desc: "If Sunny Day is active, this Pokemon's Speed is doubled.",
-		},
+		},*/
 	},
 	clearbody: {
 		name: "Clear Body",
@@ -225,11 +229,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	colorchange: {
 		name: "Color Change",
-		desc: "This Pokemon's type changes to match the type of the last move that hit it, unless that type is already one of its types. This effect applies after all hits from a multi-hit move. This effect is prevented if the move had a secondary effect removed by the Sheer Force Ability.",
+		desc: "This Pokemon's type changes to match the type of the last move that hit it, unless that type is already one of its types. This effect applies after each hit from a multi-hit move. This effect does not happen if this Pokemon did not lose HP from the attack.",
+		shortDesc: "This Pokemon's type changes to the type of a move it's hit by, unless it has the type.",
+		/*desc: "This Pokemon's type changes to match the type of the last move that hit it, unless that type is already one of its types. This effect applies after all hits from a multi-hit move. This effect is prevented if the move had a secondary effect removed by the Sheer Force Ability.",
 		shortDesc: "This Pokemon's type changes to the type of a move it's hit by, unless it has the type.",
 		gen4: {
 			desc: "This Pokemon's type changes to match the type of the last move that hit it, unless that type is already one of its types. This effect applies after each hit from a multi-hit move. This effect does not happen if this Pokemon did not lose HP from the attack.",
-		},
+		},*/
 	},
 	comatose: {
 		name: "Comatose",
@@ -542,11 +548,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	forecast: {
 		name: "Forecast",
-		desc: "If this Pokemon is a Castform, its type changes to the current weather condition's type, except Sandstorm. This effect is prevented if this Pokemon is holding a Utility Umbrella and the weather is Rain Dance or Sunny Day.",
+		desc: "If this Pokemon is a Castform, its type changes to the current weather condition's type, except Sandstorm.",
+		shortDesc: "Castform's type changes to the current weather condition's type, except Sandstorm.",
+		/*desc: "If this Pokemon is a Castform, its type changes to the current weather condition's type, except Sandstorm. This effect is prevented if this Pokemon is holding a Utility Umbrella and the weather is Rain Dance or Sunny Day.",
 		shortDesc: "Castform's type changes to the current weather condition's type, except Sandstorm.",
 		gen7: {
 			desc: "If this Pokemon is a Castform, its type changes to the current weather condition's type, except Sandstorm.",
-		},
+		},*/
 	},
 	forewarn: {
 		name: "Forewarn",
@@ -736,11 +744,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	illuminate: {
 		name: "Illuminate",
-		desc: "Prevents other Pokemon from lowering this Pokemon's accuracy stat stage. This Pokemon ignores a target's evasiveness stat stage.",
+		shortDesc: "No competitive use.",
+		/*desc: "Prevents other Pokemon from lowering this Pokemon's accuracy stat stage. This Pokemon ignores a target's evasiveness stat stage.",
 		shortDesc: "This Pokemon's accuracy can't be lowered by others; ignores their evasiveness stat.",
 		gen8: {
 			shortDesc: "No competitive use.",
-		},
+		},*/
 	},
 	illusion: {
 		name: "Illusion",
@@ -780,12 +789,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	innerfocus: {
 		name: "Inner Focus",
-		desc: "This Pokemon cannot be made to flinch. This Pokemon is immune to the effect of the Intimidate Ability.",
+		desc: "This Pokemon cannot be made to flinch.",
+		shortDesc: "This Pokemon cannot be made to flinch.",
+		/*desc: "This Pokemon cannot be made to flinch. This Pokemon is immune to the effect of the Intimidate Ability.",
 		shortDesc: "This Pokemon cannot be made to flinch. Immune to Intimidate.",
 		gen7: {
 			desc: "This Pokemon cannot be made to flinch.",
 			shortDesc: "This Pokemon cannot be made to flinch.",
-		},
+		},*/
 	},
 	insomnia: {
 		name: "Insomnia",
@@ -837,12 +848,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	keeneye: {
 		name: "Keen Eye",
-		desc: "Prevents other Pokemon from lowering this Pokemon's accuracy stat stage. This Pokemon ignores a target's evasiveness stat stage.",
+		desc: "Prevents other Pokemon from lowering this Pokemon's accuracy stat stage.",
+		shortDesc: "Prevents other Pokemon from lowering this Pokemon's accuracy stat stage.",
+		/*desc: "Prevents other Pokemon from lowering this Pokemon's accuracy stat stage. This Pokemon ignores a target's evasiveness stat stage.",
 		shortDesc: "This Pokemon's accuracy can't be lowered by others; ignores their evasiveness stat.",
 		gen5: {
 			desc: "Prevents other Pokemon from lowering this Pokemon's accuracy stat stage.",
 			shortDesc: "Prevents other Pokemon from lowering this Pokemon's accuracy stat stage.",
-		},
+		},*/
 	},
 	klutz: {
 		name: "Klutz",
@@ -926,10 +939,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	liquidooze: {
 		name: "Liquid Ooze",
+		desc: "This Pokemon damages those draining HP from it for as much as they would heal. This effect does not consider Dream Eater.",
 		shortDesc: "This Pokemon damages those draining HP from it for as much as they would heal.",
+		/*shortDesc: "This Pokemon damages those draining HP from it for as much as they would heal.",
 		gen4: {
 			desc: "This Pokemon damages those draining HP from it for as much as they would heal. This effect does not consider Dream Eater.",
-		},
+		},*/
 
 		damage: "  [POKEMON] sucked up the liquid ooze!",
 	},
@@ -1164,7 +1179,9 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	oblivious: {
 		name: "Oblivious",
-		desc: "This Pokemon cannot be infatuated or taunted. Gaining this Ability while infatuated or taunted cures it. This Pokemon is immune to the effect of the Intimidate Ability.",
+		desc: "This Pokemon cannot be infatuated. Gaining this Ability while infatuated cures it.",
+		shortDesc: "This Pokemon cannot be infatuated. Gaining this Ability while infatuated cures it.",
+		/*desc: "This Pokemon cannot be infatuated or taunted. Gaining this Ability while infatuated or taunted cures it. This Pokemon is immune to the effect of the Intimidate Ability.",
 		shortDesc: "This Pokemon cannot be infatuated or taunted. Immune to Intimidate.",
 		gen7: {
 			desc: "This Pokemon cannot be infatuated or taunted. Gaining this Ability while infatuated or taunted cures it.",
@@ -1173,7 +1190,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		gen5: {
 			desc: "This Pokemon cannot be infatuated. Gaining this Ability while infatuated cures it.",
 			shortDesc: "This Pokemon cannot be infatuated. Gaining this Ability while infatuated cures it.",
-		},
+		},*/
 	},
 	opportunist: {
 		name: "Opportunist",
@@ -1201,21 +1218,25 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	overgrow: {
 		name: "Overgrow",
-		desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its offensive stat is multiplied by 1.5 while using a Grass-type attack.",
+		desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its Grass-type attacks have their power multiplied by 1.5.",
+		shortDesc: "At 1/3 or less of its max HP, this Pokemon's Grass-type attacks have 1.5x power.",
+		/*desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its offensive stat is multiplied by 1.5 while using a Grass-type attack.",
 		shortDesc: "At 1/3 or less of its max HP, this Pokemon's offensive stat is 1.5x with Grass attacks.",
 		gen4: {
 			desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its Grass-type attacks have their power multiplied by 1.5.",
 			shortDesc: "At 1/3 or less of its max HP, this Pokemon's Grass-type attacks have 1.5x power.",
-		},
+		},*/
 	},
 	owntempo: {
 		name: "Own Tempo",
-		desc: "This Pokemon cannot be confused. Gaining this Ability while confused cures it. This Pokemon is immune to the effect of the Intimidate Ability.",
+		desc: "This Pokemon cannot be confused. Gaining this Ability while confused cures it.",
+		shortDesc: "This Pokemon cannot be confused.",
+		/*desc: "This Pokemon cannot be confused. Gaining this Ability while confused cures it. This Pokemon is immune to the effect of the Intimidate Ability.",
 		shortDesc: "This Pokemon cannot be confused. Immune to Intimidate.",
 		gen7: {
 			desc: "This Pokemon cannot be confused. Gaining this Ability while confused cures it.",
 			shortDesc: "This Pokemon cannot be confused.",
-		},
+		},*/
 	},
 	parentalbond: {
 		name: "Parental Bond",
@@ -1251,11 +1272,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	pickup: {
 		name: "Pickup",
-		shortDesc: "If this Pokemon has no item, it finds one used by an adjacent Pokemon this turn.",
+		desc: "No competitive use.",
+		shortDesc: "No competitive use.",
+		/*shortDesc: "If this Pokemon has no item, it finds one used by an adjacent Pokemon this turn.",
 		gen4: {
 			desc: "No competitive use.",
 			shortDesc: "No competitive use.",
-		},
+		},*/
 
 		addItem: "#recycle",
 	},
@@ -1348,7 +1371,9 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	pressure: {
 		name: "Pressure",
-		desc: "If this Pokemon is the target of an opposing Pokemon's move, that move loses one additional PP. Imprison, Snatch, and Tera Blast also lose one additional PP when used by an opposing Pokemon, but Sticky Web does not.",
+		desc: "If this Pokemon is the target of another Pokemon's move, that move loses one additional PP.",
+		shortDesc: "If this Pokemon is the target of a move, that move loses one additional PP.",
+		/*desc: "If this Pokemon is the target of an opposing Pokemon's move, that move loses one additional PP. Imprison, Snatch, and Tera Blast also lose one additional PP when used by an opposing Pokemon, but Sticky Web does not.",
 		shortDesc: "If this Pokemon is the target of a foe's move, that move loses one additional PP.",
 		gen8: {
 			desc: "If this Pokemon is the target of an opposing Pokemon's move, that move loses one additional PP. Imprison and Snatch also lose one additional PP when used by an opposing Pokemon, but Sticky Web does not.",
@@ -1359,7 +1384,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		gen4: {
 			desc: "If this Pokemon is the target of another Pokemon's move, that move loses one additional PP.",
 			shortDesc: "If this Pokemon is the target of a move, that move loses one additional PP.",
-		},
+		},*/
 
 		start: "  [POKEMON] is exerting its pressure!",
 	},
@@ -1446,11 +1471,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	raindish: {
 		name: "Rain Dish",
-		desc: "If Rain Dance is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. This effect is prevented if this Pokemon is holding a Utility Umbrella.",
+		desc: "If Rain Dance is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn.",
+		shortDesc: "If Rain Dance is active, this Pokemon heals 1/16 of its max HP each turn.",
+		/*desc: "If Rain Dance is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. This effect is prevented if this Pokemon is holding a Utility Umbrella.",
 		shortDesc: "If Rain Dance is active, this Pokemon heals 1/16 of its max HP each turn.",
 		gen7: {
 			desc: "If Rain Dance is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn.",
-		},
+		},*/
 	},
 	rattled: {
 		name: "Rattled",
@@ -1599,11 +1626,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	serenegrace: {
 		name: "Serene Grace",
-		desc: "This Pokemon's moves have their secondary effect chance doubled. This effect stacks with the Rainbow effect, except for secondary effects that cause the target to flinch.",
+		desc: "This Pokemon's moves have their secondary effect chance doubled.",
+		shortDesc: "This Pokemon's moves have their secondary effect chance doubled.",
+		/*desc: "This Pokemon's moves have their secondary effect chance doubled. This effect stacks with the Rainbow effect, except for secondary effects that cause the target to flinch.",
 		shortDesc: "This Pokemon's moves have their secondary effect chance doubled.",
 		gen4: {
 			desc: "This Pokemon's moves have their secondary effect chance doubled.",
-		},
+		},*/
 	},
 	shadowshield: {
 		name: "Shadow Shield",
@@ -1753,7 +1782,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	soundproof: {
 		name: "Soundproof",
-		shortDesc: "This Pokemon is immune to sound-based moves, unless it used the move.",
+		shortDesc: "This Pokemon is immune to sound-based moves, including Heal Bell.",
+		/*shortDesc: "This Pokemon is immune to sound-based moves, unless it used the move.",
 		gen7: {
 			shortDesc: "This Pokemon is immune to sound-based moves, including Heal Bell.",
 		},
@@ -1762,7 +1792,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		},
 		gen4: {
 			shortDesc: "This Pokemon is immune to sound-based moves, including Heal Bell.",
-		},
+		},*/
 	},
 	speedboost: {
 		name: "Speed Boost",
@@ -1829,20 +1859,24 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	stench: {
 		name: "Stench",
-		desc: "This Pokemon's attacks without a chance to make the target flinch gain a 10% chance to make the target flinch.",
+		desc: "No competitive use.",
+		shortDesc: "No competitive use.",
+		/*desc: "This Pokemon's attacks without a chance to make the target flinch gain a 10% chance to make the target flinch.",
 		shortDesc: "This Pokemon's attacks without a chance to flinch gain a 10% chance to flinch.",
 		gen4: {
 			desc: "No competitive use.",
 			shortDesc: "No competitive use.",
-		},
+		},*/
 	},
 	stickyhold: {
 		name: "Sticky Hold",
-		desc: "This Pokemon cannot lose its held item due to another Pokemon's Ability or attack, unless the attack knocks out this Pokemon. A Sticky Barb will be transferred to other Pokemon regardless of this Ability.",
+		desc: "This Pokemon cannot lose its held item due to another Pokemon's attack, even if the attack knocks out this Pokemon. A Sticky Barb will be transferred to other Pokemon regardless of this Ability.",
+		shortDesc: "This Pokemon cannot lose its held item due to another Pokemon's Ability or attack.",
+		/*desc: "This Pokemon cannot lose its held item due to another Pokemon's Ability or attack, unless the attack knocks out this Pokemon. A Sticky Barb will be transferred to other Pokemon regardless of this Ability.",
 		shortDesc: "This Pokemon cannot lose its held item due to another Pokemon's Ability or attack.",
 		gen4: {
 			desc: "This Pokemon cannot lose its held item due to another Pokemon's attack, even if the attack knocks out this Pokemon. A Sticky Barb will be transferred to other Pokemon regardless of this Ability.",
-		},
+		},*/
 
 		block: "  [POKEMON]'s item cannot be removed!",
 	},
@@ -1864,12 +1898,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	sturdy: {
 		name: "Sturdy",
-		desc: "If this Pokemon is at full HP, it survives one hit with at least 1 HP. OHKO moves fail when used against this Pokemon.",
+		desc: "OHKO moves fail when used against this Pokemon.",
+		shortDesc: "OHKO moves fail when used against this Pokemon.",
+		/*desc: "If this Pokemon is at full HP, it survives one hit with at least 1 HP. OHKO moves fail when used against this Pokemon.",
 		shortDesc: "If this Pokemon is at full HP, it survives one hit with at least 1 HP. Immune to OHKO.",
 		gen4: {
 			desc: "OHKO moves fail when used against this Pokemon.",
 			shortDesc: "OHKO moves fail when used against this Pokemon.",
-		},
+		},*/
 
 		activate: "  [POKEMON] endured the hit!",
 	},
@@ -1902,12 +1938,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	swarm: {
 		name: "Swarm",
-		desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its offensive stat is multiplied by 1.5 while using a Bug-type attack.",
+		desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its Bug-type attacks have their power multiplied by 1.5.",
+		shortDesc: "At 1/3 or less of its max HP, this Pokemon's Bug-type attacks have 1.5x power.",
+		/*desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its offensive stat is multiplied by 1.5 while using a Bug-type attack.",
 		shortDesc: "At 1/3 or less of its max HP, this Pokemon's offensive stat is 1.5x with Bug attacks.",
 		gen4: {
 			desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its Bug-type attacks have their power multiplied by 1.5.",
 			shortDesc: "At 1/3 or less of its max HP, this Pokemon's Bug-type attacks have 1.5x power.",
-		},
+		},*/
 	},
 	sweetveil: {
 		name: "Sweet Veil",
@@ -1918,11 +1956,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	swiftswim: {
 		name: "Swift Swim",
-		desc: "If Rain Dance is active, this Pokemon's Speed is doubled. This effect is prevented if this Pokemon is holding a Utility Umbrella.",
+		desc: "If Rain Dance is active, this Pokemon's Speed is doubled.",
+		shortDesc: "If Rain Dance is active, this Pokemon's Speed is doubled.",
+		/*desc: "If Rain Dance is active, this Pokemon's Speed is doubled. This effect is prevented if this Pokemon is holding a Utility Umbrella.",
 		shortDesc: "If Rain Dance is active, this Pokemon's Speed is doubled.",
 		gen7: {
 			desc: "If Rain Dance is active, this Pokemon's Speed is doubled.",
-		},
+		},*/
 	},
 	swordofruin: {
 		name: "Sword of Ruin",
@@ -1945,11 +1985,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	synchronize: {
 		name: "Synchronize",
-		desc: "If another Pokemon burns, paralyzes, poisons, or badly poisons this Pokemon, that Pokemon receives the same non-volatile status condition.",
+		desc: "If another Pokemon burns, paralyzes, or poisons this Pokemon, that Pokemon receives the same non-volatile status condition. If another Pokemon badly poisons this Pokemon, that Pokemon becomes poisoned.",
+		shortDesc: "If another Pokemon burns/poisons/paralyzes this Pokemon, it also gets that status.",
+		/*desc: "If another Pokemon burns, paralyzes, poisons, or badly poisons this Pokemon, that Pokemon receives the same non-volatile status condition.",
 		shortDesc: "If another Pokemon burns/poisons/paralyzes this Pokemon, it also gets that status.",
 		gen4: {
 			desc: "If another Pokemon burns, paralyzes, or poisons this Pokemon, that Pokemon receives the same non-volatile status condition. If another Pokemon badly poisons this Pokemon, that Pokemon becomes poisoned.",
-		},
+		},*/
 	},
 	tabletsofruin: {
 		name: "Tablets of Ruin",
@@ -2045,12 +2087,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	torrent: {
 		name: "Torrent",
-		desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its offensive stat is multiplied by 1.5 while using a Water-type attack.",
+		desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its Water-type attacks have their power multiplied by 1.5.",
+		shortDesc: "At 1/3 or less of its max HP, this Pokemon's Water-type attacks have 1.5x power.",
+		/*desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its offensive stat is multiplied by 1.5 while using a Water-type attack.",
 		shortDesc: "At 1/3 or less of its max HP, this Pokemon's offensive stat is 1.5x with Water attacks.",
 		gen4: {
 			desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its Water-type attacks have their power multiplied by 1.5.",
 			shortDesc: "At 1/3 or less of its max HP, this Pokemon's Water-type attacks have 1.5x power.",
-		},
+		},*/
 	},
 	toughclaws: {
 		name: "Tough Claws",
