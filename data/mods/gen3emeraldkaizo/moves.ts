@@ -22,7 +22,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	drillrun: {
 		inherit: true,
-		num: 356,
+		num: 529,
 		accuracy: 95,
 		basePower: 80,
 		category: "Physical",
