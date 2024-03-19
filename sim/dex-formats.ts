@@ -3,7 +3,7 @@ import {toID, BasicEffect} from './dex-data';
 import {EventMethods} from './dex-conditions';
 import {Tags} from '../data/tags';
 
-const DEFAULT_MOD = 'gen9';
+const DEFAULT_MOD = 'gen3';
 
 export interface FormatData extends Partial<Format>, EventMethods {
 	name: string;
