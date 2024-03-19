@@ -646,6 +646,7 @@ export class DexMoves {
 			});
 			if (move.gen > this.dex.gen) {
 				(move as any).isNonstandard = 'Future';
+				console.log(move.name)
 			}
 		} else {
 			move = new DataMove({
