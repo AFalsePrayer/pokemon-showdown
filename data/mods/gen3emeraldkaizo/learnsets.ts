@@ -12285,7 +12285,7 @@ export const Learnsets: {[k: string]: LearnsetData} = {
     {
         learnset:
         {
-            sketch: ["3L91"]
+            sketch: ["3L1", "3L11", "3L21", "3L31", "3L41", "3L51", "3L61", "3L71", "3L81", "3L91"]
         }
     },
     miltank:
