@@ -6298,6 +6298,7 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "If another Pokemon uses certain non-damaging moves this turn, the user steals that move to use itself. If multiple Pokemon use this move this turn, the applicable moves are stolen by each of those Pokemon in turn order, and only the last user in turn order will gain the effects.",
 		shortDesc: "User steals certain support moves to use itself.",
 		gen3: {
+			desc: "No competitive use.",
 			shortDesc: "No competitive use.",
 		},
 		/*desc: "If another Pokemon uses certain non-damaging moves this turn, the user steals that move to use itself. If multiple Pokemon use one of those moves this turn, the applicable moves are all stolen by the first Pokemon in turn order that used this move this turn. This effect is ignored while the user is under the effect of Sky Drop.",
@@ -7115,6 +7116,7 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "For 2 turns, prevents the target from using non-damaging moves.",
 		shortDesc: "For 2 turns, the target can't use status moves.",
 		gen3: {
+			desc: "No competitive use.",
 			shortDesc: "No competitive use.",
 		},
 		/*desc: "Prevents the target from using non-damaging moves for its next three turns. Pokemon with the Oblivious Ability or protected by the Aroma Veil Ability are immune.",
