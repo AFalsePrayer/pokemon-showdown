@@ -1,8 +1,6 @@
-export const Learnsets: {[k: string]: LearnsetData} = {
-    bulbasaur:
-    {
-        learnset:
-        {
+export const Learnsets: {[k: string]: ModdedLearnsetData} = {
+    bulbasaur: {
+        learnset: {
             absorb: ["3L4"],
             acid: ["3L14"],
             attract: ["3M"],
@@ -53,10 +51,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             vinewhip: ["3L7"]
         }
     },
-    ivysaur:
-    {
-        learnset:
-        {
+    ivysaur: {
+        learnset: {
             acid: ["3L16"],
             attract: ["3M"],
             bodyslam: ["3T", "3L1"],
@@ -100,10 +96,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             vinewhip: ["3L10"]
         }
     },
-    venusaur:
-    {
-        learnset:
-        {
+    venusaur: {
+        learnset: {
             ancientpower: ["3L1"],
             attract: ["3M"],
             block: ["3L10"],
@@ -151,10 +145,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             weatherball: ["3L15"]
         }
     },
-    charmander:
-    {
-        learnset:
-        {
+    charmander: {
+        learnset: {
             aerialace: ["3M"],
             ancientpower: ["3E"],
             attract: ["3M"],
@@ -213,10 +205,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    charmeleon:
-    {
-        learnset:
-        {
+    charmeleon: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bite: ["3L34"],
@@ -271,10 +261,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    charizard:
-    {
-        learnset:
-        {
+    charizard: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bite: ["3L34"],
@@ -336,10 +324,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wingattack: ["3L36"]
         }
     },
-    squirtle:
-    {
-        learnset:
-        {
+    squirtle: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L23"],
             bite: ["3L10"],
@@ -399,10 +385,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3E"]
         }
     },
-    wartortle:
-    {
-        learnset:
-        {
+    wartortle: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L25"],
             bite: ["3L10"],
@@ -455,10 +439,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterspout: ["3L1"]
         }
     },
-    blastoise:
-    {
-        learnset:
-        {
+    blastoise: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L13"],
             blizzard: ["3M"],
@@ -517,26 +499,20 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L1"]
         }
     },
-    caterpie:
-    {
-        learnset:
-        {
+    caterpie: {
+        learnset: {
             stringshot: ["3L1"],
             tackle: ["3L1"]
         }
     },
-    metapod:
-    {
-        learnset:
-        {
+    metapod: {
+        learnset: {
             harden: ["3L7"],
             tackle: ["3L1"]
         }
     },
-    butterfree:
-    {
-        learnset:
-        {
+    butterfree: {
+        learnset: {
             aerialace: ["3M", "3L15"],
             attract: ["3M"],
             confusion: ["3L10"],
@@ -579,26 +555,20 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    weedle:
-    {
-        learnset:
-        {
+    weedle: {
+        learnset: {
             poisonsting: ["3L1"],
             stringshot: ["3L1"]
         }
     },
-    kakuna:
-    {
-        learnset:
-        {
+    kakuna: {
+        learnset: {
             harden: ["3L7"],
             poisonsting: ["3L1"]
         }
     },
-    beedrill:
-    {
-        learnset:
-        {
+    beedrill: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             brickbreak: ["3M"],
@@ -637,10 +607,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L32"]
         }
     },
-    pidgey:
-    {
-        learnset:
-        {
+    pidgey: {
+        learnset: {
             aerialace: ["3M"],
             aircutter: ["3E"],
             airslash: ["3L19"],
@@ -678,10 +646,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlwind: ["3L39"]
         }
     },
-    pidgeotto:
-    {
-        learnset:
-        {
+    pidgeotto: {
+        learnset: {
             aerialace: ["3M"],
             airslash: ["3L20"],
             attract: ["3M"],
@@ -716,10 +682,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    pidgeot:
-    {
-        learnset:
-        {
+    pidgeot: {
+        learnset: {
             aerialace: ["3M"],
             airslash: ["3L9"],
             attract: ["3M"],
@@ -756,10 +720,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlwind: ["3L13"]
         }
     },
-    rattata:
-    {
-        learnset:
-        {
+    rattata: {
+        learnset: {
             attract: ["3M"],
             bite: ["3E"],
             blizzard: ["3M"],
@@ -811,10 +773,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             uproar: ["3E"]
         }
     },
-    raticate:
-    {
-        learnset:
-        {
+    raticate: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -863,10 +823,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    spearow:
-    {
-        learnset:
-        {
+    spearow: {
+        learnset: {
             aerialace: ["3M", "3L25"],
             astonish: ["3E"],
             attract: ["3M"],
@@ -906,10 +864,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             triattack: ["3E"]
         }
     },
-    fearow:
-    {
-        learnset:
-        {
+    fearow: {
+        learnset: {
             aerialace: ["3M", "3L26"],
             attract: ["3M"],
             doubleedge: ["3T", "3L1"],
@@ -945,10 +901,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             triattack: ["3L30"]
         }
     },
-    ekans:
-    {
-        learnset:
-        {
+    ekans: {
+        learnset: {
             acid: ["3L8"],
             attract: ["3M"],
             beatup: ["3E"],
@@ -991,10 +945,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wrap: ["3L1"]
         }
     },
-    arbok:
-    {
-        learnset:
-        {
+    arbok: {
+        learnset: {
             acid: ["3L8"],
             attract: ["3M"],
             bite: ["3L13"],
@@ -1036,10 +988,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wrap: ["3L1"]
         }
     },
-    pichu:
-    {
-        learnset:
-        {
+    pichu: {
+        learnset: {
             attract: ["3M"],
             bide: ["3E"],
             bodyslam: ["3T"],
@@ -1088,10 +1038,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3E"]
         }
     },
-    pikachu:
-    {
-        learnset:
-        {
+    pikachu: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
@@ -1141,10 +1089,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wildcharge: ["3L20"]
         }
     },
-    raichu:
-    {
-        learnset:
-        {
+    raichu: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
@@ -1192,10 +1138,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    sandshrew:
-    {
-        learnset:
-        {
+    sandshrew: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -1248,10 +1192,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    sandslash:
-    {
-        learnset:
-        {
+    sandslash: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bodyslam: ["3T", "3L33"],
@@ -1302,10 +1244,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    nidoranf:
-    {
-        learnset:
-        {
+    nidoranf: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             beatup: ["3E"],
@@ -1359,10 +1299,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    nidorina:
-    {
-        learnset:
-        {
+    nidorina: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bite: ["3L2"],
@@ -1408,10 +1346,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    nidoqueen:
-    {
-        learnset:
-        {
+    nidoqueen: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -1479,10 +1415,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    nidoranm:
-    {
-        learnset:
-        {
+    nidoranm: {
+        learnset: {
             amnesia: ["3E"],
             attract: ["3M"],
             beatup: ["3E"],
@@ -1535,10 +1469,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    nidorino:
-    {
-        learnset:
-        {
+    nidorino: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -1585,10 +1517,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    nidoking:
-    {
-        learnset:
-        {
+    nidoking: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -1655,10 +1585,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    cleffa:
-    {
-        learnset:
-        {
+    cleffa: {
+        learnset: {
             amnesia: ["3E"],
             attract: ["3M", "3L1"],
             bellydrum: ["3E"],
@@ -1716,10 +1644,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3E"]
         }
     },
-    clefairy:
-    {
-        learnset:
-        {
+    clefairy: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T", "3L21"],
@@ -1793,10 +1719,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    clefable:
-    {
-        learnset:
-        {
+    clefable: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -1862,10 +1786,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3L1"]
         }
     },
-    vulpix:
-    {
-        learnset:
-        {
+    vulpix: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L13"],
             bodyslam: ["3T", "3L21"],
@@ -1910,10 +1832,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             willowisp: ["3L64"]
         }
     },
-    ninetales:
-    {
-        learnset:
-        {
+    ninetales: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L1"],
             bodyslam: ["3T"],
@@ -1948,10 +1868,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    igglybuff:
-    {
-        learnset:
-        {
+    igglybuff: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             charm: ["3L1"],
@@ -2007,10 +1925,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3E"]
         }
     },
-    jigglypuff:
-    {
-        learnset:
-        {
+    jigglypuff: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T", "3L19"],
@@ -2073,10 +1989,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    wigglytuff:
-    {
-        learnset:
-        {
+    wigglytuff: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -2137,10 +2051,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    zubat:
-    {
-        learnset:
-        {
+    zubat: {
+        learnset: {
             aerialace: ["3M", "3L17"],
             airslash: ["3L36"],
             attract: ["3M"],
@@ -2186,10 +2098,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wingattack: ["3L7"]
         }
     },
-    golbat:
-    {
-        learnset:
-        {
+    golbat: {
+        learnset: {
             aerialace: ["3M", "3L21"],
             airslash: ["3L42"],
             attract: ["3M"],
@@ -2233,10 +2143,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wingattack: ["3L11"]
         }
     },
-    crobat:
-    {
-        learnset:
-        {
+    crobat: {
+        learnset: {
             aerialace: ["3M", "3L21"],
             airslash: ["3L42"],
             attract: ["3M"],
@@ -2281,10 +2189,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wingattack: ["3L11"]
         }
     },
-    oddish:
-    {
-        learnset:
-        {
+    oddish: {
+        learnset: {
             acid: ["3L7"],
             attract: ["3M"],
             bulletseed: ["3M"],
@@ -2323,10 +2229,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M", "3L14"]
         }
     },
-    gloom:
-    {
-        learnset:
-        {
+    gloom: {
+        learnset: {
             aromatherapy: ["3L2"],
             attract: ["3M"],
             bulletseed: ["3M"],
@@ -2362,10 +2266,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             weatherball: ["3L1"]
         }
     },
-    vileplume:
-    {
-        learnset:
-        {
+    vileplume: {
+        learnset: {
             aromatherapy: ["3L1"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -2399,10 +2301,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    bellossom:
-    {
-        learnset:
-        {
+    bellossom: {
+        learnset: {
             attract: ["3M"],
             bulletseed: ["3M"],
             cut: ["3M"],
@@ -2437,10 +2337,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    paras:
-    {
-        learnset:
-        {
+    paras: {
+        learnset: {
             aerialace: ["3M"],
             aromatherapy: ["3L27"],
             attract: ["3M"],
@@ -2488,10 +2386,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L24"]
         }
     },
-    parasect:
-    {
-        learnset:
-        {
+    parasect: {
+        learnset: {
             aerialace: ["3M"],
             aromatherapy: ["3L36"],
             attract: ["3M"],
@@ -2535,10 +2431,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L28"]
         }
     },
-    venonat:
-    {
-        learnset:
-        {
+    venonat: {
+        learnset: {
             attract: ["3M"],
             batonpass: ["3E"],
             doubleedge: ["3T"],
@@ -2577,10 +2471,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M", "3L16"]
         }
     },
-    venomoth:
-    {
-        learnset:
-        {
+    venomoth: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             disable: ["3L1"],
@@ -2621,10 +2513,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M", "3L20"]
         }
     },
-    diglett:
-    {
-        learnset:
-        {
+    diglett: {
+        learnset: {
             aerialace: ["3M"],
             ancientpower: ["3E"],
             attract: ["3M"],
@@ -2667,10 +2557,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             uproar: ["3E"]
         }
     },
-    dugtrio:
-    {
-        learnset:
-        {
+    dugtrio: {
+        learnset: {
             aerialace: ["3M"],
             ancientpower: ["3L1"],
             attract: ["3M"],
@@ -2710,10 +2598,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             triattack: ["3L26"]
         }
     },
-    meowth:
-    {
-        learnset:
-        {
+    meowth: {
+        learnset: {
             aerialace: ["3M"],
             amnesia: ["3E"],
             assist: ["3E"],
@@ -2767,10 +2653,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    persian:
-    {
-        learnset:
-        {
+    persian: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bite: ["3L17"],
@@ -2822,10 +2706,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    psyduck:
-    {
-        learnset:
-        {
+    psyduck: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -2887,10 +2769,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    golduck:
-    {
-        learnset:
-        {
+    golduck: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -2949,10 +2829,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L1"]
         }
     },
-    mankey:
-    {
-        learnset:
-        {
+    mankey: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             beatup: ["3E"],
@@ -3016,10 +2894,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             uproar: ["3L1"]
         }
     },
-    primeape:
-    {
-        learnset:
-        {
+    primeape: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             beatup: ["3L1"],
@@ -3079,10 +2955,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    growlithe:
-    {
-        learnset:
-        {
+    growlithe: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bite: ["3L1"],
@@ -3127,10 +3001,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wildcharge: ["3L43"]
         }
     },
-    arcanine:
-    {
-        learnset:
-        {
+    arcanine: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -3168,10 +3040,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wildcharge: ["3L41"]
         }
     },
-    poliwag:
-    {
-        learnset:
-        {
+    poliwag: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -3212,10 +3082,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             watersport: ["3E"]
         }
     },
-    poliwhirl:
-    {
-        learnset:
-        {
+    poliwhirl: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -3261,10 +3129,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    poliwrath:
-    {
-        learnset:
-        {
+    poliwrath: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -3314,10 +3180,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    politoed:
-    {
-        learnset:
-        {
+    politoed: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T", "3L1"],
@@ -3367,10 +3231,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    abra:
-    {
-        learnset:
-        {
+    abra: {
+        learnset: {
             attract: ["3M"],
             barrier: ["3E"],
             bodyslam: ["3T"],
@@ -3425,10 +3287,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    kadabra:
-    {
-        learnset:
-        {
+    kadabra: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             calmmind: ["3M"],
@@ -3487,10 +3347,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    alakazam:
-    {
-        learnset:
-        {
+    alakazam: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             calmmind: ["3M"],
@@ -3548,10 +3406,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    machop:
-    {
-        learnset:
-        {
+    machop: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
@@ -3608,10 +3464,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             vitalthrow: ["3L22"]
         }
     },
-    machoke:
-    {
-        learnset:
-        {
+    machoke: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L13"],
             brickbreak: ["3M"],
@@ -3661,10 +3515,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             vitalthrow: ["3L22"]
         }
     },
-    machamp:
-    {
-        learnset:
-        {
+    machamp: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L13"],
             brickbreak: ["3M"],
@@ -3715,10 +3567,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             vitalthrow: ["3L33"]
         }
     },
-    bellsprout:
-    {
-        learnset:
-        {
+    bellsprout: {
+        learnset: {
             acid: ["3L6"],
             attract: ["3M"],
             bulletseed: ["3M"],
@@ -3760,10 +3610,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wrap: ["3L17"]
         }
     },
-    weepinbell:
-    {
-        learnset:
-        {
+    weepinbell: {
+        learnset: {
             acid: ["3L3"],
             attract: ["3M"],
             bodyslam: ["3L18"],
@@ -3802,10 +3650,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wrap: ["3L11"]
         }
     },
-    victreebel:
-    {
-        learnset:
-        {
+    victreebel: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L1"],
             bulletseed: ["3M"],
@@ -3839,10 +3685,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    tentacool:
-    {
-        learnset:
-        {
+    tentacool: {
+        learnset: {
             acid: ["3L12"],
             attract: ["3M"],
             aurorabeam: ["3E", "3L25"],
@@ -3887,10 +3731,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    tentacruel:
-    {
-        learnset:
-        {
+    tentacruel: {
+        learnset: {
             acid: ["3L19"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -3933,10 +3775,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wrap: ["3L12"]
         }
     },
-    geodude:
-    {
-        learnset:
-        {
+    geodude: {
+        learnset: {
             attract: ["3M"],
             block: ["3E"],
             bodyslam: ["3T", "3L26"],
@@ -3985,10 +3825,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    graveler:
-    {
-        learnset:
-        {
+    graveler: {
+        learnset: {
             ancientpower: ["3L1"],
             attract: ["3M"],
             bodyslam: ["3T", "3L29"],
@@ -4037,10 +3875,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    golem:
-    {
-        learnset:
-        {
+    golem: {
+        learnset: {
             ancientpower: ["3L1"],
             attract: ["3M"],
             bodyslam: ["3T", "3L29"],
@@ -4094,10 +3930,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    ponyta:
-    {
-        learnset:
-        {
+    ponyta: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             bounce: ["3L19"],
@@ -4136,10 +3970,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    rapidash:
-    {
-        learnset:
-        {
+    rapidash: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L5"],
             bounce: ["3L14"],
@@ -4178,10 +4010,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             willowisp: ["3L1"]
         }
     },
-    slowpoke:
-    {
-        learnset:
-        {
+    slowpoke: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L24"],
             bellydrum: ["3E"],
@@ -4242,10 +4072,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L3"]
         }
     },
-    slowbro:
-    {
-        learnset:
-        {
+    slowbro: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T", "3L20"],
@@ -4311,10 +4139,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L1"]
         }
     },
-    slowking:
-    {
-        learnset:
-        {
+    slowking: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -4379,10 +4205,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L1"]
         }
     },
-    magnemite:
-    {
-        learnset:
-        {
+    magnemite: {
+        learnset: {
             doubleedge: ["3T"],
             doubleteam: ["3M"],
             endure: ["3T"],
@@ -4418,10 +4242,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wildcharge: ["3L26"]
         }
     },
-    magneton:
-    {
-        learnset:
-        {
+    magneton: {
+        learnset: {
             doubleedge: ["3T"],
             doubleteam: ["3M"],
             endure: ["3T"],
@@ -4459,10 +4281,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wildcharge: ["3L26"]
         }
     },
-    farfetchd:
-    {
-        learnset:
-        {
+    farfetchd: {
+        learnset: {
             aerialace: ["3M", "3L21"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -4508,10 +4328,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    doduo:
-    {
-        learnset:
-        {
+    doduo: {
+        learnset: {
             aerialace: ["3M", "3L25"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -4553,10 +4371,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             uproar: ["3L33"]
         }
     },
-    dodrio:
-    {
-        learnset:
-        {
+    dodrio: {
+        learnset: {
             aerialace: ["3M", "3L25"],
             attract: ["3M"],
             bodyslam: ["3T", "3L60"],
@@ -4595,10 +4411,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             uproar: ["3L1"]
         }
     },
-    seel:
-    {
-        learnset:
-        {
+    seel: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L14"],
             blizzard: ["3M"],
@@ -4643,10 +4457,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    dewgong:
-    {
-        learnset:
-        {
+    dewgong: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L21"],
             blizzard: ["3M"],
@@ -4687,10 +4499,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    grimer:
-    {
-        learnset:
-        {
+    grimer: {
+        learnset: {
             acid: ["3L1"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -4742,10 +4552,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M", "3L26"]
         }
     },
-    muk:
-    {
-        learnset:
-        {
+    muk: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M", "3L4"],
@@ -4796,10 +4604,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M", "3L26"]
         }
     },
-    shellder:
-    {
-        learnset:
-        {
+    shellder: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L16"],
             barrier: ["3E"],
@@ -4841,10 +4647,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    cloyster:
-    {
-        learnset:
-        {
+    cloyster: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             dive: ["3M"],
@@ -4880,10 +4684,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    gastly:
-    {
-        learnset:
-        {
+    gastly: {
+        learnset: {
             astonish: ["3E"],
             attract: ["3M"],
             confuseray: ["3L28"],
@@ -4932,10 +4734,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             willowisp: ["3E"]
         }
     },
-    haunter:
-    {
-        learnset:
-        {
+    haunter: {
+        learnset: {
             attract: ["3M"],
             confuseray: ["3L31"],
             doubleteam: ["3M"],
@@ -4979,10 +4779,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             willowisp: ["3L1"]
         }
     },
-    gengar:
-    {
-        learnset:
-        {
+    gengar: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
@@ -5041,10 +4839,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    onix:
-    {
-        learnset:
-        {
+    onix: {
+        learnset: {
             attract: ["3M"],
             bind: ["3L9"],
             block: ["3E"],
@@ -5088,10 +4884,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    steelix:
-    {
-        learnset:
-        {
+    steelix: {
+        learnset: {
             attract: ["3M"],
             bind: ["3L9"],
             bodyslam: ["3T"],
@@ -5135,10 +4929,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    drowzee:
-    {
-        learnset:
-        {
+    drowzee: {
+        learnset: {
             assist: ["3E"],
             attract: ["3M"],
             barrier: ["3E"],
@@ -5196,10 +4988,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    hypno:
-    {
-        learnset:
-        {
+    hypno: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L10"],
             brickbreak: ["3M", "3L49"],
@@ -5253,10 +5043,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    krabby:
-    {
-        learnset:
-        {
+    krabby: {
+        learnset: {
             amnesia: ["3E"],
             ancientpower: ["3L45"],
             attract: ["3M"],
@@ -5306,10 +5094,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L34"]
         }
     },
-    kingler:
-    {
-        learnset:
-        {
+    kingler: {
+        learnset: {
             ancientpower: ["3L1"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -5356,10 +5142,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L49"]
         }
     },
-    voltorb:
-    {
-        learnset:
-        {
+    voltorb: {
+        learnset: {
             doubleteam: ["3M"],
             endure: ["3T"],
             explosion: ["3T", "3L46"],
@@ -5395,10 +5179,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wildcharge: ["3L21"]
         }
     },
-    electrode:
-    {
-        learnset:
-        {
+    electrode: {
+        learnset: {
             doubleteam: ["3M"],
             endure: ["3T"],
             explosion: ["3T", "3L54"],
@@ -5436,10 +5218,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wildcharge: ["3L21"]
         }
     },
-    exeggcute:
-    {
-        learnset:
-        {
+    exeggcute: {
+        learnset: {
             ancientpower: ["3E"],
             attract: ["3M"],
             bulletseed: ["3M"],
@@ -5490,10 +5270,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    exeggutor:
-    {
-        learnset:
-        {
+    exeggutor: {
+        learnset: {
             ancientpower: ["3L1"],
             attract: ["3M"],
             bulletseed: ["3M"],
@@ -5536,10 +5314,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    cubone:
-    {
-        learnset:
-        {
+    cubone: {
+        learnset: {
             aerialace: ["3M"],
             ancientpower: ["3E"],
             attract: ["3M"],
@@ -5598,10 +5374,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    marowak:
-    {
-        learnset:
-        {
+    marowak: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -5656,10 +5430,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    tyrogue:
-    {
-        learnset:
-        {
+    tyrogue: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
@@ -5700,10 +5472,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    hitmonlee:
-    {
-        learnset:
-        {
+    hitmonlee: {
+        learnset: {
             attract: ["3M"],
             blazekick: ["3L6"],
             bodyslam: ["3T", "3L36"],
@@ -5749,10 +5519,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    hitmonchan:
-    {
-        learnset:
-        {
+    hitmonchan: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L28"],
             brickbreak: ["3M"],
@@ -5800,10 +5568,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    hitmontop:
-    {
-        learnset:
-        {
+    hitmontop: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
@@ -5847,10 +5613,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    lickitung:
-    {
-        learnset:
-        {
+    lickitung: {
+        learnset: {
             attract: ["3M"],
             bellydrum: ["3E"],
             blizzard: ["3M"],
@@ -5924,10 +5688,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wrap: ["3L29"]
         }
     },
-    koffing:
-    {
-        learnset:
-        {
+    koffing: {
+        learnset: {
             attract: ["3M"],
             destinybond: ["3E"],
             doubleteam: ["3M"],
@@ -5971,10 +5733,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             willowisp: ["3E"]
         }
     },
-    weezing:
-    {
-        learnset:
-        {
+    weezing: {
+        learnset: {
             attract: ["3M"],
             doubleteam: ["3M"],
             endure: ["3T"],
@@ -6016,10 +5776,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M", "3L51"]
         }
     },
-    rhyhorn:
-    {
-        learnset:
-        {
+    rhyhorn: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T", "3L38"],
@@ -6075,10 +5833,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    rhydon:
-    {
-        learnset:
-        {
+    rhydon: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T", "3L15"],
@@ -6142,10 +5898,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    chansey:
-    {
-        learnset:
-        {
+    chansey: {
+        learnset: {
             aromatherapy: ["3E"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -6221,10 +5975,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    blissey:
-    {
-        learnset:
-        {
+    blissey: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -6295,10 +6047,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    tangela:
-    {
-        learnset:
-        {
+    tangela: {
+        learnset: {
             absorb: ["3L1"],
             amnesia: ["3E"],
             ancientpower: ["3L40"],
@@ -6346,10 +6096,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             vinewhip: ["3L13"]
         }
     },
-    kangaskhan:
-    {
-        learnset:
-        {
+    kangaskhan: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bite: ["3L7"],
@@ -6419,10 +6167,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    horsea:
-    {
-        learnset:
-        {
+    horsea: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3E"],
             blizzard: ["3M"],
@@ -6464,10 +6210,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    seadra:
-    {
-        learnset:
-        {
+    seadra: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bubblebeam: ["3L29"],
@@ -6506,10 +6250,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    kingdra:
-    {
-        learnset:
-        {
+    kingdra: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -6549,10 +6291,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    goldeen:
-    {
-        learnset:
-        {
+    goldeen: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bubblebeam: ["3L1"],
@@ -6589,10 +6329,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M", "3L15"]
         }
     },
-    seaking:
-    {
-        learnset:
-        {
+    seaking: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bubblebeam: ["3L1"],
@@ -6630,10 +6368,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M", "3L15"]
         }
     },
-    staryu:
-    {
-        learnset:
-        {
+    staryu: {
+        learnset: {
             blizzard: ["3M"],
             bubblebeam: ["3L10"],
             camouflage: ["3L6"],
@@ -6680,10 +6416,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlpool: ["3L15"]
         }
     },
-    starmie:
-    {
-        learnset:
-        {
+    starmie: {
+        learnset: {
             blizzard: ["3M"],
             confuseray: ["3L33"],
             dive: ["3M"],
@@ -6727,10 +6461,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    mrmime:
-    {
-        learnset:
-        {
+    mrmime: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
@@ -6795,10 +6527,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             trick: ["3E"]
         }
     },
-    scyther:
-    {
-        learnset:
-        {
+    scyther: {
+        learnset: {
             aerialace: ["3M", "3L26"],
             airslash: ["3L41"],
             attract: ["3M"],
@@ -6844,10 +6574,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L36"]
         }
     },
-    scizor:
-    {
-        learnset:
-        {
+    scizor: {
+        learnset: {
             aerialace: ["3M", "3L21"],
             airslash: ["3L4"],
             attract: ["3M"],
@@ -6890,10 +6618,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L46"]
         }
     },
-    smoochum:
-    {
-        learnset:
-        {
+    smoochum: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L25"],
             blizzard: ["3M"],
@@ -6950,10 +6676,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3E"]
         }
     },
-    jynx:
-    {
-        learnset:
-        {
+    jynx: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -7011,10 +6735,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    elekid:
-    {
-        learnset:
-        {
+    elekid: {
+        learnset: {
             attract: ["3M"],
             barrier: ["3E"],
             bodyslam: ["3T"],
@@ -7063,10 +6785,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    electabuzz:
-    {
-        learnset:
-        {
+    electabuzz: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
@@ -7115,10 +6835,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wildcharge: ["3L36"]
         }
     },
-    magby:
-    {
-        learnset:
-        {
+    magby: {
+        learnset: {
             attract: ["3M"],
             barrier: ["3E"],
             bodyslam: ["3T"],
@@ -7165,10 +6883,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    magmar:
-    {
-        learnset:
-        {
+    magmar: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M", "3L33"],
@@ -7212,10 +6928,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    pinsir:
-    {
-        learnset:
-        {
+    pinsir: {
+        learnset: {
             attract: ["3M"],
             bind: ["3L7"],
             bodyslam: ["3T"],
@@ -7263,10 +6977,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L36"]
         }
     },
-    tauros:
-    {
-        learnset:
-        {
+    tauros: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T", "3L55"],
@@ -7313,19 +7025,15 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    magikarp:
-    {
-        learnset:
-        {
+    magikarp: {
+        learnset: {
             bounce: ["3L30"],
             flail: ["3L1"],
             tackle: ["3L15"]
         }
     },
-    gyarados:
-    {
-        learnset:
-        {
+    gyarados: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L20"],
             blizzard: ["3M"],
@@ -7374,10 +7082,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    lapras:
-    {
-        learnset:
-        {
+    lapras: {
+        learnset: {
             ancientpower: ["3L1"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -7431,17 +7137,13 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    ditto:
-    {
-        learnset:
-        {
+    ditto: {
+        learnset: {
             transform: ["3L1"]
         }
     },
-    eevee:
-    {
-        learnset:
-        {
+    eevee: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L30"],
             bodyslam: ["3T", "3L36"],
@@ -7480,10 +7182,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3E"]
         }
     },
-    vaporeon:
-    {
-        learnset:
-        {
+    vaporeon: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L42"],
             bite: ["3L30"],
@@ -7530,10 +7230,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    jolteon:
-    {
-        learnset:
-        {
+    jolteon: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L52"],
             bodyslam: ["3T"],
@@ -7577,10 +7275,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wildcharge: ["3L36"]
         }
     },
-    flareon:
-    {
-        learnset:
-        {
+    flareon: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L30"],
             bodyslam: ["3T"],
@@ -7621,10 +7317,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    espeon:
-    {
-        learnset:
-        {
+    espeon: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             calmmind: ["3M"],
@@ -7671,10 +7365,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    umbreon:
-    {
-        learnset:
-        {
+    umbreon: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L47"],
             bodyslam: ["3T", "3L36"],
@@ -7722,10 +7414,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3L1"]
         }
     },
-    porygon:
-    {
-        learnset:
-        {
+    porygon: {
+        learnset: {
             aerialace: ["3M"],
             blizzard: ["3M"],
             conversion: ["3L9"],
@@ -7774,10 +7464,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             triattack: ["3L36"]
         }
     },
-    porygon2:
-    {
-        learnset:
-        {
+    porygon2: {
+        learnset: {
             aerialace: ["3M"],
             blizzard: ["3M"],
             conversion: ["3L44"],
@@ -7825,10 +7513,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             triattack: ["3L49"]
         }
     },
-    omanyte:
-    {
-        learnset:
-        {
+    omanyte: {
+        learnset: {
             ancientpower: ["3L42"],
             attract: ["3M"],
             aurorabeam: ["3E", "3L15"],
@@ -7874,10 +7560,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M", "3L20"]
         }
     },
-    omastar:
-    {
-        learnset:
-        {
+    omastar: {
+        learnset: {
             ancientpower: ["3L47"],
             attract: ["3M"],
             aurorabeam: ["3L19"],
@@ -7923,10 +7607,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M", "3L37"]
         }
     },
-    kabuto:
-    {
-        learnset:
-        {
+    kabuto: {
+        learnset: {
             aerialace: ["3M"],
             ancientpower: ["3L55"],
             attract: ["3M"],
@@ -7976,10 +7658,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L37"]
         }
     },
-    kabutops:
-    {
-        learnset:
-        {
+    kabutops: {
+        learnset: {
             aerialace: ["3M"],
             ancientpower: ["3L65"],
             attract: ["3M"],
@@ -8033,10 +7713,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L40"]
         }
     },
-    aerodactyl:
-    {
-        learnset:
-        {
+    aerodactyl: {
+        learnset: {
             aerialace: ["3M"],
             airslash: ["3L36"],
             ancientpower: ["3L50"],
@@ -8088,10 +7766,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wingattack: ["3L1"]
         }
     },
-    snorlax:
-    {
-        learnset:
-        {
+    snorlax: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T", "3L33"],
@@ -8158,10 +7834,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L37"]
         }
     },
-    articuno:
-    {
-        learnset:
-        {
+    articuno: {
+        learnset: {
             aerialace: ["3M", "3L25"],
             blizzard: ["3M", "3L73"],
             doubleedge: ["3T", "3L37"],
@@ -8201,10 +7875,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    zapdos:
-    {
-        learnset:
-        {
+    zapdos: {
+        learnset: {
             aerialace: ["3M"],
             detect: ["3L37"],
             doubleedge: ["3T", "3L73"],
@@ -8246,10 +7918,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    moltres:
-    {
-        learnset:
-        {
+    moltres: {
+        learnset: {
             aerialace: ["3M", "3L1"],
             doubleedge: ["3T", "3L37"],
             doubleteam: ["3M"],
@@ -8287,10 +7957,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    dratini:
-    {
-        learnset:
-        {
+    dratini: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -8343,10 +8011,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wrap: ["3L1"]
         }
     },
-    dragonair:
-    {
-        learnset:
-        {
+    dragonair: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -8394,10 +8060,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlwind: ["3L47"]
         }
     },
-    dragonite:
-    {
-        learnset:
-        {
+    dragonite: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -8465,10 +8129,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wrap: ["3L1"]
         }
     },
-    mewtwo:
-    {
-        learnset:
-        {
+    mewtwo: {
+        learnset: {
             aerialace: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -8545,10 +8207,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    mew:
-    {
-        learnset:
-        {
+    mew: {
+        learnset: {
             aerialace: ["3M"],
             ancientpower: ["3L50"],
             attract: ["3M"],
@@ -8648,10 +8308,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    chikorita:
-    {
-        learnset:
-        {
+    chikorita: {
+        learnset: {
             ancientpower: ["3E"],
             attract: ["3M"],
             bodyslam: ["3T", "3L29"],
@@ -8698,10 +8356,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             vinewhip: ["3E"]
         }
     },
-    bayleef:
-    {
-        learnset:
-        {
+    bayleef: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L31"],
             bulletseed: ["3M"],
@@ -8744,10 +8400,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    meganium:
-    {
-        learnset:
-        {
+    meganium: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L31"],
             bulletseed: ["3M"],
@@ -8793,10 +8447,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    cyndaquil:
-    {
-        learnset:
-        {
+    cyndaquil: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -8840,10 +8492,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    quilava:
-    {
-        learnset:
-        {
+    quilava: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -8887,10 +8537,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wildcharge: ["3L1"]
         }
     },
-    typhlosion:
-    {
-        learnset:
-        {
+    typhlosion: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -8943,10 +8591,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    totodile:
-    {
-        learnset:
-        {
+    totodile: {
+        learnset: {
             aerialace: ["3M"],
             ancientpower: ["3E", "3L35"],
             attract: ["3M"],
@@ -9003,10 +8649,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             watersport: ["3E"]
         }
     },
-    croconaw:
-    {
-        learnset:
-        {
+    croconaw: {
+        learnset: {
             aerialace: ["3M", "3L1"],
             ancientpower: ["3L40"],
             attract: ["3M"],
@@ -9063,10 +8707,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    feraligatr:
-    {
-        learnset:
-        {
+    feraligatr: {
+        learnset: {
             aerialace: ["3M", "3L1"],
             ancientpower: ["3L1"],
             attract: ["3M"],
@@ -9126,10 +8768,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    sentret:
-    {
-        learnset:
-        {
+    sentret: {
+        learnset: {
             assist: ["3E"],
             attract: ["3M"],
             bodyslam: ["3T", "3L16"],
@@ -9187,10 +8827,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    furret:
-    {
-        learnset:
-        {
+    furret: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T", "3L19"],
@@ -9248,10 +8886,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    hoothoot:
-    {
-        learnset:
-        {
+    hoothoot: {
+        learnset: {
             aerialace: ["3M", "3L11"],
             attract: ["3M"],
             confusion: ["3L6"],
@@ -9298,10 +8934,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wingattack: ["3E"]
         }
     },
-    noctowl:
-    {
-        learnset:
-        {
+    noctowl: {
+        learnset: {
             aerialace: ["3M"],
             airslash: ["3L1"],
             attract: ["3M"],
@@ -9345,10 +8979,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlwind: ["3L11"]
         }
     },
-    ledyba:
-    {
-        learnset:
-        {
+    ledyba: {
+        learnset: {
             aerialace: ["3M", "3L8"],
             airslash: ["3L23"],
             attract: ["3M"],
@@ -9395,10 +9027,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    ledian:
-    {
-        learnset:
-        {
+    ledian: {
+        learnset: {
             aerialace: ["3M"],
             airslash: ["3L26"],
             attract: ["3M"],
@@ -9442,10 +9072,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    spinarak:
-    {
-        learnset:
-        {
+    spinarak: {
+        learnset: {
             agility: ["3L45"],
             attract: ["3M"],
             batonpass: ["3E"],
@@ -9485,10 +9113,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M", "3L1"]
         }
     },
-    ariados:
-    {
-        learnset:
-        {
+    ariados: {
+        learnset: {
             agility: ["3L53"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -9525,10 +9151,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M", "3L6"]
         }
     },
-    chinchou:
-    {
-        learnset:
-        {
+    chinchou: {
+        learnset: {
             amnesia: ["3E"],
             attract: ["3M"],
             aurorabeam: ["3L24"],
@@ -9571,10 +9195,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wildcharge: ["3L27"]
         }
     },
-    lanturn:
-    {
-        learnset:
-        {
+    lanturn: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bounce: ["3L13"],
@@ -9616,10 +9238,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wildcharge: ["3L25"]
         }
     },
-    togepi:
-    {
-        learnset:
-        {
+    togepi: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L41"],
             charm: ["3L1"],
@@ -9678,10 +9298,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L16"]
         }
     },
-    togetic:
-    {
-        learnset:
-        {
+    togetic: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -9743,10 +9361,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L16"]
         }
     },
-    natu:
-    {
-        learnset:
-        {
+    natu: {
+        learnset: {
             aerialace: ["3M", "3L20"],
             attract: ["3M"],
             calmmind: ["3M"],
@@ -9797,10 +9413,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3L30"]
         }
     },
-    xatu:
-    {
-        learnset:
-        {
+    xatu: {
+        learnset: {
             aerialace: ["3M", "3L20"],
             attract: ["3M"],
             calmmind: ["3M"],
@@ -9848,10 +9462,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3L35"]
         }
     },
-    mareep:
-    {
-        learnset:
-        {
+    mareep: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3E", "3L37"],
             charge: ["3E"],
@@ -9891,10 +9503,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    flaaffy:
-    {
-        learnset:
-        {
+    flaaffy: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L45"],
             brickbreak: ["3M"],
@@ -9939,10 +9549,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    ampharos:
-    {
-        learnset:
-        {
+    ampharos: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L57"],
             brickbreak: ["3M"],
@@ -9987,10 +9595,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    azurill:
-    {
-        learnset:
-        {
+    azurill: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T", "3L15"],
@@ -10033,10 +9639,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    marill:
-    {
-        learnset:
-        {
+    marill: {
+        learnset: {
             amnesia: ["3E"],
             attract: ["3M"],
             bellydrum: ["3E"],
@@ -10091,10 +9695,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M", "3L10"]
         }
     },
-    azumarill:
-    {
-        learnset:
-        {
+    azumarill: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T", "3L10"],
@@ -10145,10 +9747,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M", "3L6"]
         }
     },
-    sudowoodo:
-    {
-        learnset:
-        {
+    sudowoodo: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L1"],
             brickbreak: ["3M"],
@@ -10199,10 +9799,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    hoppip:
-    {
-        learnset:
-        {
+    hoppip: {
+        learnset: {
             aerialace: ["3M", "3L16"],
             amnesia: ["3E"],
             attract: ["3M"],
@@ -10242,10 +9840,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    skiploom:
-    {
-        learnset:
-        {
+    skiploom: {
+        learnset: {
             aerialace: ["3M", "3L15"],
             attract: ["3M"],
             bulletseed: ["3M"],
@@ -10283,10 +9879,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    jumpluff:
-    {
-        learnset:
-        {
+    jumpluff: {
+        learnset: {
             aerialace: ["3M", "3L5"],
             aromatherapy: ["3L1"],
             attract: ["3M"],
@@ -10324,10 +9918,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M", "3L1"]
         }
     },
-    aipom:
-    {
-        learnset:
-        {
+    aipom: {
+        learnset: {
             aerialace: ["3M", "3L5"],
             agility: ["3E"],
             attract: ["3M"],
@@ -10394,10 +9986,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    sunkern:
-    {
-        learnset:
-        {
+    sunkern: {
+        learnset: {
             absorb: ["3L1"],
             attract: ["3M"],
             bulletseed: ["3M"],
@@ -10439,10 +10029,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    sunflora:
-    {
-        learnset:
-        {
+    sunflora: {
+        learnset: {
             aromatherapy: ["3L42"],
             attract: ["3M"],
             bulletseed: ["3M"],
@@ -10479,10 +10067,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    yanma:
-    {
-        learnset:
-        {
+    yanma: {
+        learnset: {
             aerialace: ["3M"],
             airslash: ["3L43"],
             attract: ["3M"],
@@ -10525,10 +10111,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlwind: ["3E"]
         }
     },
-    wooper:
-    {
-        learnset:
-        {
+    wooper: {
+        learnset: {
             ancientpower: ["3E"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -10582,10 +10166,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L31"]
         }
     },
-    quagsire:
-    {
-        learnset:
-        {
+    quagsire: {
+        learnset: {
             ancientpower: ["3L1"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -10642,10 +10224,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L35"]
         }
     },
-    murkrow:
-    {
-        learnset:
-        {
+    murkrow: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             calmmind: ["3M"],
@@ -10695,10 +10275,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wingattack: ["3E"]
         }
     },
-    misdreavus:
-    {
-        learnset:
-        {
+    misdreavus: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             calmmind: ["3M"],
@@ -10751,17 +10329,13 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    unown:
-    {
-        learnset:
-        {
+    unown: {
+        learnset: {
             hiddenpower: ["3L1"]
         }
     },
-    wynaut:
-    {
-        learnset:
-        {
+    wynaut: {
+        learnset: {
             counter: ["3L15"],
             destinybond: ["3L20"],
             encore: ["3L1"],
@@ -10769,20 +10343,16 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             safeguard: ["3L25"]
         }
     },
-    wobbuffet:
-    {
-        learnset:
-        {
+    wobbuffet: {
+        learnset: {
             counter: ["3L1"],
             destinybond: ["3L1"],
             mirrorcoat: ["3L1"],
             safeguard: ["3L1"]
         }
     },
-    girafarig:
-    {
-        learnset:
-        {
+    girafarig: {
+        learnset: {
             amnesia: ["3E"],
             attract: ["3M"],
             beatup: ["3E"],
@@ -10840,10 +10410,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3E"]
         }
     },
-    pineco:
-    {
-        learnset:
-        {
+    pineco: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             counter: ["3T", "3E"],
@@ -10889,10 +10457,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    forretress:
-    {
-        learnset:
-        {
+    forretress: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             counter: ["3T"],
@@ -10936,10 +10502,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    dunsparce:
-    {
-        learnset:
-        {
+    dunsparce: {
+        learnset: {
             ancientpower: ["3E"],
             astonish: ["3E"],
             attract: ["3M"],
@@ -11000,10 +10564,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L11"]
         }
     },
-    gligar:
-    {
-        learnset:
-        {
+    gligar: {
+        learnset: {
             aerialace: ["3M", "3L28"],
             attract: ["3M"],
             counter: ["3T", "3E"],
@@ -11051,10 +10613,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L44"]
         }
     },
-    snubbull:
-    {
-        learnset:
-        {
+    snubbull: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L1"],
             bodyslam: ["3T", "3L26"],
@@ -11121,10 +10681,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    granbull:
-    {
-        learnset:
-        {
+    granbull: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L28"],
             brickbreak: ["3M"],
@@ -11189,10 +10747,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    qwilfish:
-    {
-        learnset:
-        {
+    qwilfish: {
+        learnset: {
             astonish: ["3E"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -11241,10 +10797,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    shuckle:
-    {
-        learnset:
-        {
+    shuckle: {
+        learnset: {
             ancientpower: ["3L75"],
             attract: ["3M"],
             bide: ["3L10"],
@@ -11285,10 +10839,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wrap: ["3L60"]
         }
     },
-    heracross:
-    {
-        learnset:
-        {
+    heracross: {
+        learnset: {
             attract: ["3M"],
             bide: ["3E"],
             bodyslam: ["3T", "3L17"],
@@ -11335,10 +10887,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L30"]
         }
     },
-    sneasel:
-    {
-        learnset:
-        {
+    sneasel: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bite: ["3E", "3L1"],
@@ -11402,10 +10952,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L30"]
         }
     },
-    teddiursa:
-    {
-        learnset:
-        {
+    teddiursa: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -11467,10 +11015,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3E"]
         }
     },
-    ursaring:
-    {
-        learnset:
-        {
+    ursaring: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -11530,10 +11076,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    slugma:
-    {
-        learnset:
-        {
+    slugma: {
+        learnset: {
             acidarmor: ["3E"],
             ancientpower: ["3L29"],
             attract: ["3M"],
@@ -11576,10 +11120,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L1"]
         }
     },
-    magcargo:
-    {
-        learnset:
-        {
+    magcargo: {
+        learnset: {
             ancientpower: ["3L29"],
             attract: ["3M"],
             bodyslam: ["3T", "3L22"],
@@ -11623,10 +11165,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L1"]
         }
     },
-    swinub:
-    {
-        learnset:
-        {
+    swinub: {
+        learnset: {
             ancientpower: ["3E", "3L35"],
             attract: ["3M"],
             bite: ["3E"],
@@ -11672,10 +11212,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    piloswine:
-    {
-        learnset:
-        {
+    piloswine: {
+        learnset: {
             ancientpower: ["3L56"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -11721,10 +11259,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    corsola:
-    {
-        learnset:
-        {
+    corsola: {
+        learnset: {
             amnesia: ["3E"],
             ancientpower: ["3L45"],
             attract: ["3M"],
@@ -11783,10 +11319,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    remoraid:
-    {
-        learnset:
-        {
+    remoraid: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3E", "3L13"],
             blizzard: ["3M"],
@@ -11833,10 +11367,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    octillery:
-    {
-        learnset:
-        {
+    octillery: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bulletseed: ["3M"],
@@ -11882,10 +11414,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterspout: ["3L70"]
         }
     },
-    delibird:
-    {
-        learnset:
-        {
+    delibird: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             aurorabeam: ["3E"],
@@ -11929,10 +11459,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    mantine:
-    {
-        learnset:
-        {
+    mantine: {
+        learnset: {
             aerialace: ["3M"],
             airslash: ["3L29"],
             attract: ["3M"],
@@ -11977,10 +11505,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wingattack: ["3L1"]
         }
     },
-    skarmory:
-    {
-        learnset:
-        {
+    skarmory: {
+        learnset: {
             aerialace: ["3M", "3L16"],
             airslash: ["3L29"],
             attract: ["3M"],
@@ -12026,10 +11552,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L32"]
         }
     },
-    houndour:
-    {
-        learnset:
-        {
+    houndour: {
+        learnset: {
             attract: ["3M"],
             beatup: ["3E"],
             bite: ["3L25"],
@@ -12082,10 +11606,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             willowisp: ["3E"]
         }
     },
-    houndoom:
-    {
-        learnset:
-        {
+    houndoom: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L27"],
             bodyslam: ["3T", "3L35"],
@@ -12135,10 +11657,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    phanpy:
-    {
-        learnset:
-        {
+    phanpy: {
+        learnset: {
             ancientpower: ["3E"],
             attract: ["3M"],
             bodyslam: ["3T", "3E", "3L22"],
@@ -12180,10 +11700,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    donphan:
-    {
-        learnset:
-        {
+    donphan: {
+        learnset: {
             ancientpower: ["3L1"],
             attract: ["3M"],
             bodyslam: ["3T", "3L25"],
@@ -12224,10 +11742,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    stantler:
-    {
-        learnset:
-        {
+    stantler: {
+        learnset: {
             attract: ["3M"],
             bite: ["3E"],
             bodyslam: ["3T"],
@@ -12281,17 +11797,13 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    smeargle:
-    {
-        learnset:
-        {
+    smeargle: {
+        learnset: {
             sketch: ["3L1", "3L11", "3L21", "3L31", "3L41", "3L51", "3L61", "3L71", "3L81", "3L91"]
         }
     },
-    miltank:
-    {
-        learnset:
-        {
+    miltank: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             block: ["3L8"],
@@ -12357,10 +11869,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    raikou:
-    {
-        learnset:
-        {
+    raikou: {
+        learnset: {
             bite: ["3L1"],
             bodyslam: ["3T"],
             calmmind: ["3M"],
@@ -12408,10 +11918,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    entei:
-    {
-        learnset:
-        {
+    entei: {
+        learnset: {
             bite: ["3L1"],
             bodyslam: ["3T"],
             calmmind: ["3M"],
@@ -12459,10 +11967,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    suicune:
-    {
-        learnset:
-        {
+    suicune: {
+        learnset: {
             bite: ["3L61"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -12512,10 +12018,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    larvitar:
-    {
-        learnset:
-        {
+    larvitar: {
+        learnset: {
             ancientpower: ["3E"],
             attract: ["3M"],
             bite: ["3L1"],
@@ -12561,10 +12065,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    pupitar:
-    {
-        learnset:
-        {
+    pupitar: {
+        learnset: {
             ancientpower: ["3L1"],
             attract: ["3M"],
             bite: ["3L1"],
@@ -12606,10 +12108,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    tyranitar:
-    {
-        learnset:
-        {
+    tyranitar: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bite: ["3L1"],
@@ -12675,10 +12175,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    lugia:
-    {
-        learnset:
-        {
+    lugia: {
+        learnset: {
             aerialace: ["3M"],
             aeroblast: ["3L69"],
             ancientpower: ["3L22"],
@@ -12743,10 +12241,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    hooh:
-    {
-        learnset:
-        {
+    hooh: {
+        learnset: {
             aerialace: ["3M"],
             ancientpower: ["3L67"],
             calmmind: ["3M"],
@@ -12805,10 +12301,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    celebi:
-    {
-        learnset:
-        {
+    celebi: {
+        learnset: {
             aerialace: ["3M"],
             ancientpower: ["3L10"],
             calmmind: ["3M"],
@@ -12861,10 +12355,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    treecko:
-    {
-        learnset:
-        {
+    treecko: {
+        learnset: {
             absorb: ["3L6"],
             aerialace: ["3M"],
             attract: ["3M"],
@@ -12922,10 +12414,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    grovyle:
-    {
-        learnset:
-        {
+    grovyle: {
+        learnset: {
             absorb: ["3L6"],
             aerialace: ["3M"],
             attract: ["3M"],
@@ -12983,10 +12473,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             vinewhip: ["3L16"]
         }
     },
-    sceptile:
-    {
-        learnset:
-        {
+    sceptile: {
+        learnset: {
             absorb: ["3L6"],
             aerialace: ["3M"],
             attract: ["3M"],
@@ -13047,10 +12535,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L16"]
         }
     },
-    torchic:
-    {
-        learnset:
-        {
+    torchic: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -13099,10 +12585,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    combusken:
-    {
-        learnset:
-        {
+    combusken: {
+        learnset: {
             aerialace: ["3M", "3L28"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -13158,10 +12642,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    blaziken:
-    {
-        learnset:
-        {
+    blaziken: {
+        learnset: {
             aerialace: ["3M", "3L1"],
             attract: ["3M"],
             blastburn: ["3L1"],
@@ -13218,10 +12700,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    mudkip:
-    {
-        learnset:
-        {
+    mudkip: {
+        learnset: {
             attract: ["3M"],
             bide: ["3L15"],
             blizzard: ["3M"],
@@ -13276,10 +12756,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlpool: ["3L33"]
         }
     },
-    marshtomp:
-    {
-        learnset:
-        {
+    marshtomp: {
+        learnset: {
             ancientpower: ["3L1"],
             attract: ["3M"],
             bide: ["3L15"],
@@ -13335,10 +12813,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    swampert:
-    {
-        learnset:
-        {
+    swampert: {
+        learnset: {
             ancientpower: ["3L1"],
             attract: ["3M"],
             bide: ["3L15"],
@@ -13399,10 +12875,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    poochyena:
-    {
-        learnset:
-        {
+    poochyena: {
+        learnset: {
             astonish: ["3E"],
             attract: ["3M"],
             bite: ["3L5"],
@@ -13449,10 +12923,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3E"]
         }
     },
-    mightyena:
-    {
-        learnset:
-        {
+    mightyena: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L14"],
             bodyslam: ["3T", "3L1"],
@@ -13498,10 +12970,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L24"]
         }
     },
-    zigzagoon:
-    {
-        learnset:
-        {
+    zigzagoon: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T", "3L25"],
@@ -13553,10 +13023,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    linoone:
-    {
-        learnset:
-        {
+    linoone: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T", "3L35"],
@@ -13608,27 +13076,21 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    wurmple:
-    {
-        learnset:
-        {
+    wurmple: {
+        learnset: {
             poisonsting: ["3L5"],
             stringshot: ["3L1"],
             tackle: ["3L1"]
         }
     },
-    silcoon:
-    {
-        learnset:
-        {
+    silcoon: {
+        learnset: {
             harden: ["3L7"],
             poisonsting: ["3L1"]
         }
     },
-    beautifly:
-    {
-        learnset:
-        {
+    beautifly: {
+        learnset: {
             aerialace: ["3M", "3L10"],
             attract: ["3M"],
             doubleedge: ["3T"],
@@ -13665,18 +13127,14 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlwind: ["3L1"]
         }
     },
-    cascoon:
-    {
-        learnset:
-        {
+    cascoon: {
+        learnset: {
             harden: ["3L7"],
             poisonsting: ["3L1"]
         }
     },
-    dustox:
-    {
-        learnset:
-        {
+    dustox: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             doubleedge: ["3T"],
@@ -13713,10 +13171,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlwind: ["3L1"]
         }
     },
-    lotad:
-    {
-        learnset:
-        {
+    lotad: {
+        learnset: {
             absorb: ["3L1"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -13762,10 +13218,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    lombre:
-    {
-        learnset:
-        {
+    lombre: {
+        learnset: {
             absorb: ["3L1"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -13818,10 +13272,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    ludicolo:
-    {
-        learnset:
-        {
+    ludicolo: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -13876,10 +13328,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    seedot:
-    {
-        learnset:
-        {
+    seedot: {
+        learnset: {
             amnesia: ["3E"],
             attract: ["3M"],
             bide: ["3L3"],
@@ -13923,10 +13373,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    nuzleaf:
-    {
-        learnset:
-        {
+    nuzleaf: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
@@ -13978,10 +13426,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    shiftry:
-    {
-        learnset:
-        {
+    shiftry: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -14030,10 +13476,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    taillow:
-    {
-        learnset:
-        {
+    taillow: {
+        learnset: {
             aerialace: ["3M", "3L34"],
             airslash: ["3L43"],
             attract: ["3M"],
@@ -14073,10 +13517,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wingattack: ["3L13"]
         }
     },
-    swellow:
-    {
-        learnset:
-        {
+    swellow: {
+        learnset: {
             aerialace: ["3M", "3L38"],
             airslash: ["3L49"],
             attract: ["3M"],
@@ -14112,10 +13554,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wingattack: ["3L13"]
         }
     },
-    wingull:
-    {
-        learnset:
-        {
+    wingull: {
+        learnset: {
             aerialace: ["3M"],
             agility: ["3E"],
             airslash: ["3L23"],
@@ -14160,10 +13600,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wingattack: ["3L1"]
         }
     },
-    pelipper:
-    {
-        learnset:
-        {
+    pelipper: {
+        learnset: {
             aerialace: ["3M"],
             agility: ["3L1"],
             airslash: ["3L24"],
@@ -14208,10 +13646,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wingattack: ["3L13"]
         }
     },
-    ralts:
-    {
-        learnset:
-        {
+    ralts: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             calmmind: ["3M"],
@@ -14270,10 +13706,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             willowisp: ["3E"]
         }
     },
-    kirlia:
-    {
-        learnset:
-        {
+    kirlia: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             calmmind: ["3M"],
@@ -14330,10 +13764,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    gardevoir:
-    {
-        learnset:
-        {
+    gardevoir: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             calmmind: ["3M"],
@@ -14389,10 +13821,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3L11"]
         }
     },
-    surskit:
-    {
-        learnset:
-        {
+    surskit: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L19"],
             blizzard: ["3M"],
@@ -14435,10 +13865,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M", "3L1"]
         }
     },
-    masquerain:
-    {
-        learnset:
-        {
+    masquerain: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -14482,10 +13910,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M", "3L1"]
         }
     },
-    shroomish:
-    {
-        learnset:
-        {
+    shroomish: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L36"],
             bulletseed: ["3M"],
@@ -14526,10 +13952,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    breloom:
-    {
-        learnset:
-        {
+    breloom: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M", "3L54"],
@@ -14584,10 +14008,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    slakoth:
-    {
-        learnset:
-        {
+    slakoth: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -14648,10 +14070,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L1"]
         }
     },
-    vigoroth:
-    {
-        learnset:
-        {
+    vigoroth: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -14711,10 +14131,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    slaking:
-    {
-        learnset:
-        {
+    slaking: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -14778,10 +14196,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L1"]
         }
     },
-    nincada:
-    {
-        learnset:
-        {
+    nincada: {
+        learnset: {
             aerialace: ["3M", "3L25"],
             cut: ["3M"],
             dig: ["3M", "3L31"],
@@ -14818,10 +14234,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L45"]
         }
     },
-    ninjask:
-    {
-        learnset:
-        {
+    ninjask: {
+        learnset: {
             aerialace: ["3M", "3L14"],
             agility: ["3L20"],
             airslash: ["3L25"],
@@ -14865,10 +14279,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L45"]
         }
     },
-    shedinja:
-    {
-        learnset:
-        {
+    shedinja: {
+        learnset: {
             aerialace: ["3M"],
             agility: ["3R"],
             batonpass: ["3R"],
@@ -14915,10 +14327,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L45"]
         }
     },
-    whismur:
-    {
-        learnset:
-        {
+    whismur: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L15"],
             blizzard: ["3M"],
@@ -14972,10 +14382,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    loudred:
-    {
-        learnset:
-        {
+    loudred: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L15"],
             blizzard: ["3M"],
@@ -15035,10 +14443,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    exploud:
-    {
-        learnset:
-        {
+    exploud: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L15"],
             blizzard: ["3M"],
@@ -15100,10 +14506,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    makuhita:
-    {
-        learnset:
-        {
+    makuhita: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L46"],
             brickbreak: ["3M"],
@@ -15162,10 +14566,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlwind: ["3L22"]
         }
     },
-    hariyama:
-    {
-        learnset:
-        {
+    hariyama: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L51"],
             brickbreak: ["3M"],
@@ -15220,10 +14622,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlwind: ["3L22"]
         }
     },
-    nosepass:
-    {
-        learnset:
-        {
+    nosepass: {
+        learnset: {
             ancientpower: ["3L31"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -15270,10 +14670,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    skitty:
-    {
-        learnset:
-        {
+    skitty: {
+        learnset: {
             assist: ["3L1"],
             attract: ["3M", "3L1"],
             batonpass: ["3E"],
@@ -15330,10 +14728,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3E"]
         }
     },
-    delcatty:
-    {
-        learnset:
-        {
+    delcatty: {
+        learnset: {
             assist: ["3L1"],
             attract: ["3M", "3L1"],
             blizzard: ["3M"],
@@ -15382,10 +14778,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    sableye:
-    {
-        learnset:
-        {
+    sableye: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -15451,10 +14845,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    mawile:
-    {
-        learnset:
-        {
+    mawile: {
+        learnset: {
             ancientpower: ["3E", "3L29"],
             attract: ["3M"],
             bodyslam: ["3T", "3L10"],
@@ -15513,10 +14905,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    aron:
-    {
-        learnset:
-        {
+    aron: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bodyslam: ["3T", "3E"],
@@ -15565,10 +14955,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    lairon:
-    {
-        learnset:
-        {
+    lairon: {
+        learnset: {
             aerialace: ["3M"],
             ancientpower: ["3L1"],
             attract: ["3M"],
@@ -15617,10 +15005,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    aggron:
-    {
-        learnset:
-        {
+    aggron: {
+        learnset: {
             aerialace: ["3M"],
             ancientpower: ["3L1"],
             attract: ["3M"],
@@ -15691,10 +15077,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    meditite:
-    {
-        learnset:
-        {
+    meditite: {
+        learnset: {
             attract: ["3M"],
             batonpass: ["3E"],
             bodyslam: ["3T"],
@@ -15753,10 +15137,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    medicham:
-    {
-        learnset:
-        {
+    medicham: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
@@ -15816,10 +15198,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    electrike:
-    {
-        learnset:
-        {
+    electrike: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L12"],
             bodyslam: ["3T"],
@@ -15862,10 +15242,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wildcharge: ["3L25"]
         }
     },
-    manectric:
-    {
-        learnset:
-        {
+    manectric: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L12"],
             bodyslam: ["3T"],
@@ -15908,10 +15286,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wildcharge: ["3L25"]
         }
     },
-    plusle:
-    {
-        learnset:
-        {
+    plusle: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             charge: ["3L1"],
@@ -15960,10 +15336,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3E"]
         }
     },
-    minun:
-    {
-        learnset:
-        {
+    minun: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             charge: ["3L1"],
@@ -16012,10 +15386,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3E"]
         }
     },
-    volbeat:
-    {
-        learnset:
-        {
+    volbeat: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             batonpass: ["3E"],
@@ -16071,10 +15443,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    illumise:
-    {
-        learnset:
-        {
+    illumise: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             batonpass: ["3E"],
@@ -16132,10 +15502,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3L15"]
         }
     },
-    roselia:
-    {
-        learnset:
-        {
+    roselia: {
+        learnset: {
             acid: ["3L1"],
             aromatherapy: ["3L53"],
             attract: ["3M"],
@@ -16183,10 +15551,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M", "3L45"]
         }
     },
-    gulpin:
-    {
-        learnset:
-        {
+    gulpin: {
+        learnset: {
             acid: ["3L1"],
             acidarmor: ["3E"],
             attract: ["3M"],
@@ -16239,10 +15605,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L6"]
         }
     },
-    swalot:
-    {
-        learnset:
-        {
+    swalot: {
+        learnset: {
             attract: ["3M"],
             block: ["3L1"],
             bodyslam: ["3T", "3L26"],
@@ -16294,10 +15658,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L6"]
         }
     },
-    carvanha:
-    {
-        learnset:
-        {
+    carvanha: {
+        learnset: {
             ancientpower: ["3L22"],
             attract: ["3M"],
             bite: ["3L1"],
@@ -16341,10 +15703,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M", "3L13"]
         }
     },
-    sharpedo:
-    {
-        learnset:
-        {
+    sharpedo: {
+        learnset: {
             ancientpower: ["3L33"],
             attract: ["3M"],
             bite: ["3L1"],
@@ -16395,10 +15755,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    wailmer:
-    {
-        learnset:
-        {
+    wailmer: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L23"],
             blizzard: ["3M"],
@@ -16447,10 +15805,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlpool: ["3L19"]
         }
     },
-    wailord:
-    {
-        learnset:
-        {
+    wailord: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L23"],
             blizzard: ["3M"],
@@ -16497,10 +15853,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlpool: ["3L19"]
         }
     },
-    numel:
-    {
-        learnset:
-        {
+    numel: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3E", "3L25"],
             defensecurl: ["3T", "3E"],
@@ -16542,10 +15896,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    camerupt:
-    {
-        learnset:
-        {
+    camerupt: {
+        learnset: {
             ancientpower: ["3L55"],
             attract: ["3M"],
             bodyslam: ["3T", "3L45"],
@@ -16589,10 +15941,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    torkoal:
-    {
-        learnset:
-        {
+    torkoal: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L20"],
             doubleedge: ["3T"],
@@ -16634,10 +15984,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3E", "3L17"]
         }
     },
-    spoink:
-    {
-        learnset:
-        {
+    spoink: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L36"],
             bounce: ["3L19"],
@@ -16689,10 +16037,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             trick: ["3E"]
         }
     },
-    grumpig:
-    {
-        learnset:
-        {
+    grumpig: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T"],
             bounce: ["3L19"],
@@ -16752,10 +16098,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlwind: ["3L1"]
         }
     },
-    spinda:
-    {
-        learnset:
-        {
+    spinda: {
+        learnset: {
             assist: ["3E", "3L5"],
             attract: ["3M"],
             batonpass: ["3E"],
@@ -16827,10 +16171,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3E"]
         }
     },
-    trapinch:
-    {
-        learnset:
-        {
+    trapinch: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L9"],
             bodyslam: ["3T"],
@@ -16871,10 +16213,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    vibrava:
-    {
-        learnset:
-        {
+    vibrava: {
+        learnset: {
             airslash: ["3L43"],
             attract: ["3M"],
             bite: ["3L1"],
@@ -16917,10 +16257,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    flygon:
-    {
-        learnset:
-        {
+    flygon: {
+        learnset: {
             airslash: ["3L1"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -16970,10 +16308,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    cacnea:
-    {
-        learnset:
-        {
+    cacnea: {
+        learnset: {
             absorb: ["3L5"],
             acid: ["3E"],
             attract: ["3M"],
@@ -17025,10 +16361,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    cacturne:
-    {
-        learnset:
-        {
+    cacturne: {
+        learnset: {
             absorb: ["3L5"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -17080,10 +16414,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    swablu:
-    {
-        learnset:
-        {
+    swablu: {
+        learnset: {
             aerialace: ["3M", "3L16"],
             agility: ["3E"],
             airslash: ["3L38"],
@@ -17130,10 +16462,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    altaria:
-    {
-        learnset:
-        {
+    altaria: {
+        learnset: {
             aerialace: ["3M", "3L18"],
             airslash: ["3L40"],
             attract: ["3M"],
@@ -17183,10 +16513,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    zangoose:
-    {
-        learnset:
-        {
+    zangoose: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -17259,10 +16587,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L13"]
         }
     },
-    seviper:
-    {
-        learnset:
-        {
+    seviper: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L1"],
             bodyslam: ["3T", "3E", "3L10"],
@@ -17308,10 +16634,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L25"]
         }
     },
-    lunatone:
-    {
-        learnset:
-        {
+    lunatone: {
+        learnset: {
             ancientpower: ["3L43"],
             bodyslam: ["3T"],
             calmmind: ["3M"],
@@ -17361,10 +16685,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    solrock:
-    {
-        learnset:
-        {
+    solrock: {
+        learnset: {
             ancientpower: ["3L43"],
             bodyslam: ["3T"],
             calmmind: ["3M"],
@@ -17415,10 +16737,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    barboach:
-    {
-        learnset:
-        {
+    barboach: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L26"],
             blizzard: ["3M"],
@@ -17462,10 +16782,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlpool: ["3E"]
         }
     },
-    whiscash:
-    {
-        learnset:
-        {
+    whiscash: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L26"],
             blizzard: ["3M"],
@@ -17511,10 +16829,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wildcharge: ["3L1"]
         }
     },
-    corphish:
-    {
-        learnset:
-        {
+    corphish: {
+        learnset: {
             aerialace: ["3M", "3L10"],
             ancientpower: ["3E"],
             attract: ["3M"],
@@ -17566,10 +16882,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L26"]
         }
     },
-    crawdaunt:
-    {
-        learnset:
-        {
+    crawdaunt: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             blizzard: ["3M"],
@@ -17622,10 +16936,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L23"]
         }
     },
-    baltoy:
-    {
-        learnset:
-        {
+    baltoy: {
+        learnset: {
             ancientpower: ["3L25"],
             confusion: ["3L1"],
             dig: ["3M"],
@@ -17669,10 +16981,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    claydol:
-    {
-        learnset:
-        {
+    claydol: {
+        learnset: {
             ancientpower: ["3L25"],
             dig: ["3M"],
             doubleedge: ["3T"],
@@ -17723,10 +17033,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    lileep:
-    {
-        learnset:
-        {
+    lileep: {
+        learnset: {
             acid: ["3L15"],
             ancientpower: ["3L43"],
             attract: ["3M"],
@@ -17765,10 +17073,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    cradily:
-    {
-        learnset:
-        {
+    cradily: {
+        learnset: {
             acid: ["3L1"],
             ancientpower: ["3L1"],
             attract: ["3M"],
@@ -17811,10 +17117,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    anorith:
-    {
-        learnset:
-        {
+    anorith: {
+        learnset: {
             aerialace: ["3M", "3L19"],
             ancientpower: ["3L49"],
             attract: ["3M"],
@@ -17856,10 +17160,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L43"]
         }
     },
-    armaldo:
-    {
-        learnset:
-        {
+    armaldo: {
+        learnset: {
             aerialace: ["3M", "3L13"],
             ancientpower: ["3L55"],
             attract: ["3M"],
@@ -17906,10 +17208,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             xscissors: ["3L46"]
         }
     },
-    feebas:
-    {
-        learnset:
-        {
+    feebas: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bounce: ["3L20"],
@@ -17948,10 +17248,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    milotic:
-    {
-        learnset:
-        {
+    milotic: {
+        learnset: {
             attract: ["3M", "3L25"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -17995,10 +17293,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlpool: ["3L40"]
         }
     },
-    castform:
-    {
-        learnset:
-        {
+    castform: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -18047,10 +17343,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             weatherball: ["3L30"]
         }
     },
-    kecleon:
-    {
-        learnset:
-        {
+    kecleon: {
+        learnset: {
             aerialace: ["3M"],
             ancientpower: ["3L36"],
             attract: ["3M"],
@@ -18124,10 +17418,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M"]
         }
     },
-    shuppet:
-    {
-        learnset:
-        {
+    shuppet: {
+        learnset: {
             astonish: ["3E"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -18179,10 +17471,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             willowisp: ["3L32"]
         }
     },
-    banette:
-    {
-        learnset:
-        {
+    banette: {
+        learnset: {
             attract: ["3M"],
             bodyslam: ["3T", "3L25"],
             calmmind: ["3M"],
@@ -18235,10 +17525,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             willowisp: ["3L32"]
         }
     },
-    duskull:
-    {
-        learnset:
-        {
+    duskull: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -18290,10 +17578,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    dusclops:
-    {
-        learnset:
-        {
+    dusclops: {
+        learnset: {
             attract: ["3M"],
             bind: ["3L1"],
             blizzard: ["3M"],
@@ -18358,10 +17644,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    tropius:
-    {
-        learnset:
-        {
+    tropius: {
+        learnset: {
             aerialace: ["3M", "3L17"],
             airslash: ["3L31"],
             attract: ["3M"],
@@ -18412,10 +17696,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlwind: ["3L1"]
         }
     },
-    chimecho:
-    {
-        learnset:
-        {
+    chimecho: {
+        learnset: {
             attract: ["3M"],
             calmmind: ["3M"],
             curse: ["3E"],
@@ -18467,10 +17749,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L25"]
         }
     },
-    absol:
-    {
-        learnset:
-        {
+    absol: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             batonpass: ["3E"],
@@ -18538,10 +17818,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             wish: ["3L9"]
         }
     },
-    snorunt:
-    {
-        learnset:
-        {
+    snorunt: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L10"],
             blizzard: ["3M"],
@@ -18581,10 +17859,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             weatherball: ["3L43"]
         }
     },
-    glalie:
-    {
-        learnset:
-        {
+    glalie: {
+        learnset: {
             attract: ["3M"],
             bite: ["3L10"],
             blizzard: ["3M", "3L1"],
@@ -18632,10 +17908,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             weatherball: ["3L1"]
         }
     },
-    spheal:
-    {
-        learnset:
-        {
+    spheal: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L22"],
             blizzard: ["3M", "3L43"],
@@ -18687,10 +17961,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3E", "3L31"]
         }
     },
-    sealeo:
-    {
-        learnset:
-        {
+    sealeo: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L25"],
             blizzard: ["3M", "3L47"],
@@ -18738,10 +18010,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L31"]
         }
     },
-    walrein:
-    {
-        learnset:
-        {
+    walrein: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L25"],
             blizzard: ["3M", "3L50"],
@@ -18789,10 +18059,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L31"]
         }
     },
-    clamperl:
-    {
-        learnset:
-        {
+    clamperl: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L1"],
             barrier: ["3E"],
@@ -18830,10 +18098,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M", "3L1"]
         }
     },
-    huntail:
-    {
-        learnset:
-        {
+    huntail: {
+        learnset: {
             attract: ["3M"],
             blizzard: ["3M"],
             bodyslam: ["3T", "3L22"],
@@ -18873,10 +18139,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             waterpulse: ["3M", "3L20"]
         }
     },
-    gorebyss:
-    {
-        learnset:
-        {
+    gorebyss: {
+        learnset: {
             attract: ["3M"],
             aurorabeam: ["3L43"],
             blizzard: ["3M"],
@@ -18917,10 +18181,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             whirlpool: ["3L1"]
         }
     },
-    relicanth:
-    {
-        learnset:
-        {
+    relicanth: {
+        learnset: {
             amnesia: ["3E"],
             ancientpower: ["3L36"],
             attract: ["3M"],
@@ -18970,10 +18232,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             yawn: ["3L22"]
         }
     },
-    luvdisc:
-    {
-        learnset:
-        {
+    luvdisc: {
+        learnset: {
             attract: ["3M", "3L22"],
             blizzard: ["3M"],
             charm: ["3L4"],
@@ -19012,10 +18272,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             watersport: ["3E"]
         }
     },
-    bagon:
-    {
-        learnset:
-        {
+    bagon: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bite: ["3L5"],
@@ -19063,10 +18321,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             twister: ["3E", "3L21"]
         }
     },
-    shelgon:
-    {
-        learnset:
-        {
+    shelgon: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bite: ["3L5"],
@@ -19113,10 +18369,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             twister: ["3L21"]
         }
     },
-    salamence:
-    {
-        learnset:
-        {
+    salamence: {
+        learnset: {
             aerialace: ["3M", "3L9"],
             airslash: ["3L1"],
             attract: ["3M"],
@@ -19166,17 +18420,13 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    beldum:
-    {
-        learnset:
-        {
+    beldum: {
+        learnset: {
             takedown: ["3L1"]
         }
     },
-    metang:
-    {
-        learnset:
-        {
+    metang: {
+        learnset: {
             aerialace: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
@@ -19234,10 +18484,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    metagross:
-    {
-        learnset:
-        {
+    metagross: {
+        learnset: {
             aerialace: ["3M"],
             bodyslam: ["3T", "3L32"],
             brickbreak: ["3M"],
@@ -19294,10 +18542,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
             toxic: ["3M"]
         }
     },
-    regirock:
-    {
-        learnset:
-        {
+    regirock: {
+        learnset: {
             ancientpower: ["3L65"],
             bodyslam: ["3T", "3L17"],
             brickbreak: ["3M"],
@@ -19351,10 +18597,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    regice:
-    {
-        learnset:
-        {
+    regice: {
+        learnset: {
             ancientpower: ["3L1"],
             blizzard: ["3M"],
             bodyslam: ["3T"],
@@ -19407,10 +18651,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    registeel:
-    {
-        learnset:
-        {
+    registeel: {
+        learnset: {
             aerialace: ["3M"],
             ancientpower: ["3L25"],
             bodyslam: ["3T"],
@@ -19466,10 +18708,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    latias:
-    {
-        learnset:
-        {
+    latias: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -19533,10 +18773,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    latios:
-    {
-        learnset:
-        {
+    latios: {
+        learnset: {
             aerialace: ["3M"],
             attract: ["3M"],
             bodyslam: ["3T"],
@@ -19599,10 +18837,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    kyogre:
-    {
-        learnset:
-        {
+    kyogre: {
+        learnset: {
             ancientpower: ["3L50"],
             blizzard: ["3M"],
             bodyslam: ["3T", "3L20"],
@@ -19655,10 +18891,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    groudon:
-    {
-        learnset:
-        {
+    groudon: {
+        learnset: {
             aerialace: ["3M"],
             ancientpower: ["3L15"],
             bodyslam: ["3T", "3L35"],
@@ -19720,10 +18954,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    rayquaza:
-    {
-        learnset:
-        {
+    rayquaza: {
+        learnset: {
             aerialace: ["3M"],
             airslash: ["3L5"],
             ancientpower: ["3L15"],
@@ -19783,10 +19015,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    jirachi:
-    {
-        learnset:
-        {
+    jirachi: {
+        learnset: {
             aerialace: ["3M"],
             bodyslam: ["3T"],
             calmmind: ["3M"],
@@ -19845,10 +19075,8 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    deoxys:
-    {
-        learnset:
-        {
+    deoxys: {
+        learnset: {
             aerialace: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
@@ -19912,16 +19140,13 @@ export const Learnsets: {[k: string]: LearnsetData} = {
         },
         eventOnly: true
     },
-    deoxysattack:
-    {
+    deoxysattack: {
         eventOnly: true
     },
-    deoxysdefense:
-    {
+    deoxysdefense: {
         eventOnly: true
     },
-    deoxysspeed:
-    {
+    deoxysspeed: {
         eventOnly: true
     }
 };
