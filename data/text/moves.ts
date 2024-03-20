@@ -3215,6 +3215,13 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		damage: "#crash",
 	},
+	hijumpkick: {
+		name: "High Jump Kick",
+		desc: "If this attack is not successful and the target was not immune, the user loses HP equal to half of the damage the target would have taken, rounded down, but no less than 1 HP and no more than half of the target's maximum HP, as crash damage.",
+		shortDesc: "If miss, user takes 1/2 damage it would've dealt.",
+
+		damage: "#crash",
+	},
 	holdback: {
 		name: "Hold Back",
 		desc: "Leaves the target with at least 1 HP.",
