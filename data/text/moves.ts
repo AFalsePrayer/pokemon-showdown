@@ -539,6 +539,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Blaze Kick",
 		desc: "Has a 10% chance to burn the target and a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio. 10% chance to burn.",
+		gen3: {
+			desc: "Has a 30% chance to burn the target and a higher chance for a critical hit.",
+			shortDesc: "High critical hit ratio. 30% chance to burn.",
+		},
 	},
 	blazingtorque: {
 		name: "Blazing Torque",
@@ -648,10 +652,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	bonerush: {
 		name: "Bone Rush",
-		desc: "No additional effect.",
-		shortDesc: "No additional effect.",
-		/*desc: "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits.",
-		shortDesc: "Hits 2-5 times in one turn.",*/
+		desc: "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits.",
+		shortDesc: "Hits 2-5 times in one turn.",
+		gen3: {
+			desc: "No additional effect.",
+			shortDesc: "No additional effect.",
+		},
 		/*desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
 		shortDesc: "Hits 2-5 times in one turn.",
 		gen4: {
@@ -794,10 +800,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	bulletseed: {
 		name: "Bullet Seed",
-		desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
-		shortDesc: "Hits 2 times in one turn.",
-		/*desc: "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits.",
-		shortDesc: "Hits 2-5 times in one turn.",*/
+		desc: "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits.",
+		shortDesc: "Hits 2-5 times in one turn.",
+		gen3: {
+			desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+			shortDesc: "Hits 2 times in one turn.",
+		},
 		/*desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
 		shortDesc: "Hits 2-5 times in one turn.",
 		gen4: {
@@ -1490,8 +1498,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	dizzypunch: {
 		name: "Dizzy Punch",
-		desc: "Has a 30% chance to confuse the target.",
-		shortDesc: "30% chance to confuse the target.",
+		desc: "Has a 20% chance to confuse the target.",
+		shortDesc: "20% chance to confuse the target.",
+		gen3: {
+			desc: "Has a 30% chance to confuse the target.",
+			shortDesc: "30% chance to confuse the target.",
+		},
 		/*desc: "Has a 20% chance to confuse the target.",
 		shortDesc: "20% chance to confuse the target.",
 		gen1: {
@@ -1620,9 +1632,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	dragonclaw: {
 		name: "Dragon Claw",
-		desc: "Has a higher chance for a critical hit.",
-		shortDesc: "High critical hit ratio.",
-		//shortDesc: "No additional effect.",
+		shortDesc: "No additional effect.",
+		gen3: {
+			desc: "Has a higher chance for a critical hit.",
+			shortDesc: "High critical hit ratio.",
+		},
 	},
 	dragondance: {
 		name: "Dragon Dance",
@@ -1695,9 +1709,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	drillpeck: {
 		name: "Drill Peck",
-		//shortDesc: "No additional effect.",
-		desc: "Has a higher chance for a critical hit.",
-		shortDesc: "High critical hit ratio.",
+		shortDesc: "No additional effect.",
+		gen3: {
+			desc: "Has a higher chance for a critical hit.",
+			shortDesc: "High critical hit ratio.",
+		},
 	},
 	drillrun: {
 		name: "Drill Run",
@@ -1775,9 +1791,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	eggbomb: {
 		name: "Egg Bomb",
-		desc: "If the target lost HP, the user takes recoil damage equal to 1/3 the HP lost by the target, rounded down, but not less than 1 HP.",
-		shortDesc: "Has 1/3 recoil.",
-		//shortDesc: "No additional effect.",
+		shortDesc: "No additional effect.",
+		gen3: {
+			desc: "If the target lost HP, the user takes recoil damage equal to 1/3 the HP lost by the target, rounded down, but not less than 1 HP.",
+			shortDesc: "Has 1/3 recoil.",
+		},
 	},
 	electricterrain: {
 		name: "Electric Terrain",
@@ -1962,10 +1980,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	extrasensory: {
 		name: "Extrasensory",
-		desc: "Has a 20% chance to make the target flinch. Damage doubles if the target has used Minimize while active.",
-		shortDesc: "20% chance to make the target flinch.",
-		/*desc: "Has a 10% chance to make the target flinch. Damage doubles if the target has used Minimize while active.",
-		shortDesc: "10% chance to make the target flinch.",*/
+		desc: "Has a 10% chance to make the target flinch. Damage doubles if the target has used Minimize while active.",
+		shortDesc: "10% chance to make the target flinch.",
+		gen3: {
+			desc: "Has a 20% chance to make the target flinch. Damage doubles if the target has used Minimize while active.",
+			shortDesc: "20% chance to make the target flinch.",
+		},
 		/*desc: "Has a 10% chance to make the target flinch.",
 		shortDesc: "10% chance to make the target flinch.",
 		gen3: {
@@ -2243,10 +2263,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	flatter: {
 		name: "Flatter",
-		desc: "Causes the target to become confused.",
-		shortDesc: "Confuses the target.",
-		/*desc: "Raises the target's Special Attack by 1 stage and confuses it.",
-		shortDesc: "Raises the target's Sp. Atk by 1 and confuses it.",*/
+		desc: "Raises the target's Special Attack by 1 stage and confuses it.",
+		shortDesc: "Raises the target's Sp. Atk by 1 and confuses it.",
+		gen3: {
+			desc: "Causes the target to become confused.",
+			shortDesc: "Confuses the target.",
+		},
 	},
 	fleurcannon: {
 		name: "Fleur Cannon",
@@ -2440,10 +2462,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	frustration: {
 		name: "Frustration",
-		desc: "No additional effect.",
-		shortDesc: "No additional effect.",
-		/*desc: "Power is equal to the greater of ((255 - user's Happiness) * 2/5), rounded down, or 1.",
-		shortDesc: "Max 102 power at minimum Happiness.",*/
+		desc: "Power is equal to the greater of ((255 - user's Happiness) * 2/5), rounded down, or 1.",
+		shortDesc: "Max 102 power at minimum Happiness.",
+		gen3: {
+			desc: "No additional effect.",
+			shortDesc: "No additional effect.",
+		},
 	},
 	furyattack: {
 		name: "Fury Attack",
@@ -3102,10 +3126,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	heatwave: {
 		name: "Heat Wave",
-		desc: "Has a 20% chance to burn the target.",
-		shortDesc: "20% chance to burn the foe(s).",
-		/*desc: "Has a 10% chance to burn the target.",
-		shortDesc: "10% chance to burn the foe(s).",*/
+		desc: "Has a 10% chance to burn the target.",
+		shortDesc: "10% chance to burn the foe(s).",
+		gen3: {
+			desc: "Has a 20% chance to burn the target.",
+			shortDesc: "20% chance to burn the foe(s).",
+		},
 	},
 	heavyslam: {
 		name: "Heavy Slam",
@@ -3339,10 +3365,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	hypervoice: {
 		name: "Hyper Voice",
-		desc: "Has a 20% chance to lower the target's Defense by 1 stage.",
-		shortDesc: "20% chance to lower the target's Defense by 1.",
-		/*desc: "No additional effect.",
-		shortDesc: "No additional effect. Hits adjacent foes.",*/
+		desc: "No additional effect.",
+		shortDesc: "No additional effect. Hits adjacent foes.",
+		gen3: {
+			desc: "Has a 20% chance to lower the target's Defense by 1 stage.",
+			shortDesc: "20% chance to lower the target's Defense by 1.",
+		},
 	},
 	hypnosis: {
 		name: "Hypnosis",
@@ -4743,10 +4771,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	overheat: {
 		name: "Overheat",
-		desc: "If the target lost HP, the user takes recoil damage equal to 1/3 the HP lost by the target, rounded down, but not less than 1 HP.",
-		shortDesc: "Has 1/3 recoil.",
-		/*desc: "Lowers the user's Special Attack by 2 stages.",
-		shortDesc: "Lowers the user's Sp. Atk by 2.",*/
+		desc: "Lowers the user's Special Attack by 2 stages.",
+		shortDesc: "Lowers the user's Sp. Atk by 2.",
+		gen3: {
+			desc: "If the target lost HP, the user takes recoil damage equal to 1/3 the HP lost by the target, rounded down, but not less than 1 HP.",
+			shortDesc: "Has 1/3 recoil.",
+		},
 	},
 	painsplit: {
 		name: "Pain Split",
@@ -4813,10 +4843,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	petaldance: {
 		name: "Petal Dance",
-		desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
-		shortDesc: "10% chance to lower the target's Sp. Def by 1.",
-		/*desc: "The user spends two or three turns locked into this move and becomes confused at the end of the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, falls asleep, becomes frozen, or the attack is not successful against the target, the effect ends without causing confusion. If this move is called by Sleep Talk, the move is used for one turn and does not confuse the user.",
-		shortDesc: "Lasts 2-3 turns. Confuses the user afterwards.",*/
+		desc: "The user spends two or three turns locked into this move and becomes confused at the end of the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, falls asleep, becomes frozen, or the attack is not successful against the target, the effect ends without causing confusion. If this move is called by Sleep Talk, the move is used for one turn and does not confuse the user.",
+		shortDesc: "Lasts 2-3 turns. Confuses the user afterwards.",
+		gen3: {
+			desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+			shortDesc: "10% chance to lower the target's Sp. Def by 1.",
+		},
 		/*desc: "The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
 		shortDesc: "Lasts 2-3 turns. Confuses the user afterwards.",
 		gen6: {
@@ -4938,10 +4970,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	poisontail: {
 		name: "Poison Tail",
-		desc: "Has a 30% chance to badly poison the target.",
-		shortDesc: "30% chance to badly poison the target.",
-		/*desc: "Has a 10% chance to poison the target and a higher chance for a critical hit.",
-		shortDesc: "High critical hit ratio. 10% chance to poison.",*/
+		desc: "Has a 10% chance to poison the target and a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio. 10% chance to poison.",
+		gen3: {
+			desc: "Has a 30% chance to badly poison the target.",
+			shortDesc: "30% chance to badly poison the target.",
+		},
 	},
 	pollenpuff: {
 		name: "Pollen Puff",
@@ -5129,10 +5163,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	psychoboost: {
 		name: "Psycho Boost",
-		desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded down, but not less than 1 HP.",
-		shortDesc: "Has 1/4 recoil.",
-		/*desc: "Lowers the user's Special Attack by 2 stages.",
-		shortDesc: "Lowers the user's Sp. Atk by 2.",*/
+		desc: "Lowers the user's Special Attack by 2 stages.",
+		shortDesc: "Lowers the user's Sp. Atk by 2.",
+		gen3: {
+			desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded down, but not less than 1 HP.",
+			shortDesc: "Has 1/4 recoil.",
+		},
 	},
 	psychocut: {
 		name: "Psycho Cut",
@@ -5161,10 +5197,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	psywave: {
 		name: "Psywave",
-		desc: "Deals damage to the target equal to the user's level.",
-		shortDesc: "Does damage equal to the user's level.",
-		/*desc: "Deals damage to the target equal to (user's level) * (X * 10 + 50) / 100, where X is a random number from 0 to 10, rounded down, but not less than 1 HP.",
-		shortDesc: "Random damage equal to 0.5x-1.5x user's level.",*/
+		desc: "Deals damage to the target equal to (user's level) * (X * 10 + 50) / 100, where X is a random number from 0 to 10, rounded down, but not less than 1 HP.",
+		shortDesc: "Random damage equal to 0.5x-1.5x user's level.",
+		gen3: {
+			desc: "Deals damage to the target equal to the user's level.",
+			shortDesc: "Does damage equal to the user's level.",
+		},
 		/*desc: "Deals damage to the target equal to (user's level) * (X + 50) / 100, where X is a random number from 0 to 100, rounded down, but not less than 1 HP.",
 		shortDesc: "Random damage equal to 0.5x-1.5x user's level.",
 		gen4: {
@@ -5467,10 +5505,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	return: {
 		name: "Return",
-		desc: "No additional effect.",
-		shortDesc: "No additional effect.",
-		/*desc: "Power is equal to the greater of (user's Happiness * 2/5), rounded down, or 1.",
-		shortDesc: "Max 102 power at maximum Happiness.",*/
+		desc: "Power is equal to the greater of (user's Happiness * 2/5), rounded down, or 1.",
+		shortDesc: "Max 102 power at maximum Happiness.",
+		gen3: {
+			desc: "No additional effect.",
+			shortDesc: "No additional effect.",
+		},
 	},
 	revelationdance: {
 		name: "Revelation Dance",
@@ -6091,10 +6131,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	skyattack: {
 		name: "Sky Attack",
-		desc: "If the target lost HP, the user takes recoil damage equal to 1/3 the HP lost by the target, rounded down, but not less than 1 HP.",
-		shortDesc: "Has 1/3 recoil.",
-		/*desc: "Has a 30% chance to make the target flinch and a higher chance for a critical hit. This attack charges on the first turn and executes on the second.",
-		shortDesc: "Charges, then hits turn 2. 30% flinch. High crit.",*/
+		desc: "Has a 30% chance to make the target flinch and a higher chance for a critical hit. This attack charges on the first turn and executes on the second.",
+		shortDesc: "Charges, then hits turn 2. 30% flinch. High crit.",
+		gen3: {
+			desc: "If the target lost HP, the user takes recoil damage equal to 1/3 the HP lost by the target, rounded down, but not less than 1 HP.",
+			shortDesc: "Has 1/3 recoil.",
+		},
 		/*desc: "Has a 30% chance to make the target flinch and a higher chance for a critical hit. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
 		shortDesc: "Charges, then hits turn 2. 30% flinch. High crit.",
 		gen3: {
@@ -6253,9 +6295,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	snatch: {
 		name: "Snatch",
-		shortDesc: "No competitive use.",
-		/*desc: "If another Pokemon uses certain non-damaging moves this turn, the user steals that move to use itself. If multiple Pokemon use this move this turn, the applicable moves are stolen by each of those Pokemon in turn order, and only the last user in turn order will gain the effects.",
-		shortDesc: "User steals certain support moves to use itself.",*/
+		desc: "If another Pokemon uses certain non-damaging moves this turn, the user steals that move to use itself. If multiple Pokemon use this move this turn, the applicable moves are stolen by each of those Pokemon in turn order, and only the last user in turn order will gain the effects.",
+		shortDesc: "User steals certain support moves to use itself.",
+		gen3: {
+			shortDesc: "No competitive use.",
+		},
 		/*desc: "If another Pokemon uses certain non-damaging moves this turn, the user steals that move to use itself. If multiple Pokemon use one of those moves this turn, the applicable moves are all stolen by the first Pokemon in turn order that used this move this turn. This effect is ignored while the user is under the effect of Sky Drop.",
 		shortDesc: "User steals certain support moves to use itself.",
 		gen4: {
@@ -6497,10 +6541,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	spitup: {
 		name: "Spit Up",
-		desc: "No additional effect.",
-		shortDesc: "No additional effect.",
-		/*desc: "Damage is multiplied by the user's Stockpile count. This move does not apply damage variance and cannot be a critical hit. Fails if the user's Stockpile count is 0. Unless this move misses, the user's Stockpile count resets to 0.",
-		shortDesc: "More power with more uses of Stockpile.",*/
+		desc: "Damage is multiplied by the user's Stockpile count. This move does not apply damage variance and cannot be a critical hit. Fails if the user's Stockpile count is 0. Unless this move misses, the user's Stockpile count resets to 0.",
+		shortDesc: "More power with more uses of Stockpile.",
+		gen3: {
+			desc: "No additional effect.",
+			shortDesc: "No additional effect.",
+		},
 		/*desc: "Power is equal to 100 times the user's Stockpile count. Fails if the user's Stockpile count is 0. Whether or not this move is successful, the user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
 		shortDesc: "More power with more uses of Stockpile.",
 		gen4: {
@@ -6618,10 +6664,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	stockpile: {
 		name: "Stockpile",
-		desc: "Raises the user's Defense and Special Defense by 1 stage. The user's Stockpile count increases by 1. Fails if the user's Stockpile count is 3. The user's Stockpile count is reset to 0 when it is no longer active.",
-		shortDesc: "Raises user's Defense, Sp. Def by 1. Max 3 uses.",
-		/*desc: "The user's Stockpile count increases by 1. Fails if the user's Stockpile count is 3. The user's Stockpile count is reset to 0 when it is no longer active.",
-		shortDesc: "Raises user's Stockpile count by 1. Max 3 uses.",*/
+		desc: "The user's Stockpile count increases by 1. Fails if the user's Stockpile count is 3. The user's Stockpile count is reset to 0 when it is no longer active.",
+		shortDesc: "Raises user's Stockpile count by 1. Max 3 uses.",
+		gen3: {
+			desc: "Raises the user's Defense and Special Defense by 1 stage. The user's Stockpile count increases by 1. Fails if the user's Stockpile count is 3. The user's Stockpile count is reset to 0 when it is no longer active.",
+			shortDesc: "Raises user's Defense, Sp. Def by 1. Max 3 uses.",
+		},
 		/*desc: "Raises the user's Defense and Special Defense by 1 stage. The user's Stockpile count increases by 1. Fails if the user's Stockpile count is 3. The user's Stockpile count is reset to 0 when it is no longer active.",
 		shortDesc: "Raises user's Defense, Sp. Def by 1. Max 3 uses.",
 		gen3: {
@@ -6891,10 +6939,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	swallow: {
 		name: "Swallow",
-		desc: "The user restores 1/2 of its maximum HP, rounded down.",
-		shortDesc: "Heals the user by 50% of its max HP.",
-		/*desc: "The user restores its HP based on its Stockpile count. Restores 1/4 of its maximum HP if it's 1, 1/2 of its maximum HP if it's 2, both rounded half down, and all of its HP if it's 3. Fails if the user's Stockpile count is 0. The user's Stockpile count resets to 0.",
-		shortDesc: "Heals the user based on uses of Stockpile.",*/
+		desc: "The user restores its HP based on its Stockpile count. Restores 1/4 of its maximum HP if it's 1, 1/2 of its maximum HP if it's 2, both rounded half down, and all of its HP if it's 3. Fails if the user's Stockpile count is 0. The user's Stockpile count resets to 0.",
+		shortDesc: "Heals the user based on uses of Stockpile.",
+		gen3: {
+			desc: "The user restores 1/2 of its maximum HP, rounded down.",
+			shortDesc: "Heals the user by 50% of its max HP.",
+		},
 		/*desc: "The user restores its HP based on its Stockpile count. Restores 1/4 of its maximum HP if it's 1, 1/2 of its maximum HP if it's 2, both rounded half down, and all of its HP if it's 3. Fails if the user's Stockpile count is 0. The user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
 		shortDesc: "Heals the user based on uses of Stockpile.",
 		gen4: {
@@ -7062,9 +7112,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	taunt: {
 		name: "Taunt",
-		shortDesc: "No competitive use.",
-		/*desc: "For 2 turns, prevents the target from using non-damaging moves.",
-		shortDesc: "For 2 turns, the target can't use status moves.",*/
+		desc: "For 2 turns, prevents the target from using non-damaging moves.",
+		shortDesc: "For 2 turns, the target can't use status moves.",
+		gen3: {
+			shortDesc: "No competitive use.",
+		},
 		/*desc: "Prevents the target from using non-damaging moves for its next three turns. Pokemon with the Oblivious Ability or protected by the Aroma Veil Ability are immune.",
 		shortDesc: "Target can't use status moves its next 3 turns.",
 		gen7: {
@@ -7163,10 +7215,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	thief: {
 		name: "Thief",
-		desc: "No additional effect.",
-		shortDesc: "No additional effect.",
-		/*desc: "If this attack was successful and the user has not fainted, it steals the target's held item if the user is not holding one. The target's item is not stolen if it is a Mail or Enigma Berry. Items lost to this move cannot be regained with Recycle.",
-		shortDesc: "If the user has no item, it steals the target's.",*/
+		desc: "If this attack was successful and the user has not fainted, it steals the target's held item if the user is not holding one. The target's item is not stolen if it is a Mail or Enigma Berry. Items lost to this move cannot be regained with Recycle.",
+		shortDesc: "If the user has no item, it steals the target's.",
+		gen3: {
+			desc: "No additional effect.",
+			shortDesc: "No additional effect.",
+		},
 		/*desc: "If this attack was successful and the user has not fainted, it steals the target's held item if the user is not holding one. The target's item is not stolen if it is a Mail or Z-Crystal, or if the target is a Kyogre holding a Blue Orb, a Groudon holding a Red Orb, a Giratina holding a Griseous Orb, an Arceus holding a Plate, a Genesect holding a Drive, a Silvally holding a Memory, or a Pokemon that can Mega Evolve holding the Mega Stone for its species. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
 		shortDesc: "If the user has no item, it steals the target's.",
 		gen6: {
@@ -7637,10 +7691,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	waterfall: {
 		name: "Waterfall",
-		desc: "Has a 20% chance to make the target flinch.",
-		shortDesc: "20% chance to make the target flinch.",
-		/*desc: "No additional effect.",
-		shortDesc: "No additional effect.",*/
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+		gen3: {
+			desc: "Has a 20% chance to make the target flinch.",
+			shortDesc: "20% chance to make the target flinch.",
+		},
 		/*desc: "Has a 20% chance to make the target flinch.",
 		shortDesc: "20% chance to make the target flinch.",
 		gen3: {
@@ -7689,10 +7745,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	waterspout: {
 		name: "Water Spout",
-		desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded down, but not less than 1 HP.",
-		shortDesc: "Has 1/4 recoil.",
-		/*desc: "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
-		shortDesc: "Less power as user's HP decreases. Hits foe(s).",*/
+		desc: "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
+		shortDesc: "Less power as user's HP decreases. Hits foe(s).",
+		gen3: {
+			desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded down, but not less than 1 HP.",
+			shortDesc: "Has 1/4 recoil.",
+		},
 	},
 	wavecrash: {
 		name: "Wave Crash",
@@ -7918,9 +7976,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	yawn: {
 		name: "Yawn",
-		shortDesc: "Causes the target to fall asleep.",
-		/*desc: "Causes the target to fall asleep at the end of the next turn. Fails when used if the target cannot fall asleep or if it already has a non-volatile status condition. At the end of the next turn, if the target is still active, does not have a non-volatile status condition, and can fall asleep, it falls asleep. If the target becomes affected, this effect cannot be prevented by Safeguard or a substitute, or by falling asleep and waking up during the effect.",
-		shortDesc: "Puts the target to sleep after 1 turn.",*/
+		desc: "Causes the target to fall asleep at the end of the next turn. Fails when used if the target cannot fall asleep or if it already has a non-volatile status condition. At the end of the next turn, if the target is still active, does not have a non-volatile status condition, and can fall asleep, it falls asleep. If the target becomes affected, this effect cannot be prevented by Safeguard or a substitute, or by falling asleep and waking up during the effect.",
+		shortDesc: "Puts the target to sleep after 1 turn.",
+		gen3: {
+			shortDesc: "Causes the target to fall asleep.",
+		},
 
 		start: "  [POKEMON] grew drowsy!",
 	},
