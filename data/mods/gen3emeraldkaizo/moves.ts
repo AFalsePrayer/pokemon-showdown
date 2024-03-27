@@ -472,7 +472,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		pp: 10,
 	},
-	scaredfire: {
+	sacredfire: {
 		inherit: true,
 		basePower: 120,
 		accuracy: 100,
