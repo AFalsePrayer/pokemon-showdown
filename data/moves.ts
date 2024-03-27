@@ -1676,6 +1676,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 90,
 		basePower: 130,
 		category: "Special",
+		isNonstandard: "Unobtainable",
 		name: "Draco Meteor",
 		pp: 5,
 		priority: 0,
