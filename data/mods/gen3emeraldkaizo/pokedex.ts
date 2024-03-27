@@ -102,7 +102,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 60, atk: 75, def: 60, spa: 130, spd: 75, spe: 110},
 		evoLevel: 50,
-		evoType: undefined,
+		evoType: "level",
 	},
 	gloom: {
 		inherit: true,
@@ -117,7 +117,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 80, atk: 120, def: 130, spa: 55, spd: 65, spe: 45},
 		evoLevel: 42,
-		evoType: undefined,
+		evoType: "level",
 	},
 	grimer: {
 		inherit: true,
@@ -152,7 +152,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	kingdra: {
 		inherit: true,
 		evoLevel: 55,
-		evoType: undefined,
+		evoType: "level",
 	},
 	lapras: {
 		inherit: true,
@@ -162,7 +162,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	machamp: {
 		inherit: true,
 		evoLevel: 50,
-		evoType: undefined,
+		evoType: "level",
 	},
 	marowak: {
 		inherit: true,
@@ -486,12 +486,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Swift Swim"},
 		evoLevel: 37,
-		evoType: undefined,
+		evoType: "level",
 	},
 	porygon2: {
 		inherit: true,
 		evoLevel: 42,
-		evoType: undefined,
+		evoType: "level",
 	},
 	qwilfish: {
 		inherit: true,
@@ -506,7 +506,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	scizor: {
 		inherit: true,
 		evoLevel: 50,
-		evoType: undefined,
+		evoType: "level",
 	},
 	sentret: {
 		inherit: true,
@@ -532,7 +532,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	steelix: {
 		inherit: true,
 		evoLevel: 45,
-		evoType: undefined,
+		evoType: "level",
 	},
 	sudowoodo: {
 		inherit: true,
@@ -664,7 +664,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	huntail: {
 		inherit: true,
 		evoLevel: 24,
-		evoType: undefined,
+		evoType: "level",
 	},
 	illumise: {
 		inherit: true,
