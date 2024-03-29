@@ -7,6 +7,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 55, atk: 50, def: 45, spa: 135, spd: 95, spe: 120},
 		evoLevel: 55,
+		evoType: "level",
 	},
 	arbok: {
 		inherit: true,
@@ -106,7 +107,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	gloom: {
 		inherit: true,
-		evoLevel: 18,
+		evoLevel: 16,
 	},
 	golduck: {
 		inherit: true,
@@ -375,6 +376,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 65, atk: 55, def: 95, spa: 65, spd: 95, spe: 35},
 		abilities: {0: "Natural Cure", 1: "Sturdy"},
 	},
+	croconaw: {
+		inherit: true,
+		evoLevel: 16,
+	},
+	cyndaquil: {
+		inherit: true,
+		evoLevel: 16,
+	},
 	donphan: {
 		inherit: true,
 		abilities: {0: "Battle Armor", 1: "Sturdy"},
@@ -620,10 +629,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		abilities: {0: "Shell Armor", 1: "Hyper Cutter"},
 		evoLevel: 25,
 	},
-	cyndaquil: {
-		inherit: true,
-		evoLevel: 16,
-	},
 	delcatty: {
 		inherit: true,
 		baseStats: {hp: 70, atk: 65, def: 65, spa: 55, spd: 55, spe: 90},
@@ -824,7 +829,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Vital Spirit"},
 	},
-	wynaut: {
+	wobbuffet: {
 		inherit: true,
 		evoLevel: 64,
 	},
