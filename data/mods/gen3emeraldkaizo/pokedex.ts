@@ -380,10 +380,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		evoLevel: 16,
 	},
-	cyndaquil: {
-		inherit: true,
-		evoLevel: 16,
-	},
 	donphan: {
 		inherit: true,
 		abilities: {0: "Battle Armor", 1: "Sturdy"},
@@ -571,6 +567,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	quagsire: {
 		inherit: true,
 		abilities: {0: "Water Absorb", 1: "Oblivious"},
+	},
+	quilava: {
+		inherit: true,
+		evoLevel: 16,
 	},
 	wooper: {
 		inherit: true,
@@ -789,10 +789,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	torkoal: {
 		inherit: true,
 		abilities: {0: "White Smoke", 1: "Shell Armor"},
-	},
-	totodile: {
-		inherit: true,
-		evoLevel: 16,
 	},
 	trapinch: {
 		inherit: true,
