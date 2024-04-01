@@ -12278,7 +12278,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             snore: ["3T"],
             substitute: ["3T"],
             swagger: ["3T"],
-            teleport: ["3L46"],
+            teleport: ["3L1", "3L46"],
             thief: ["3M"],
             thunderpunch: ["3T"],
             thunderwave: ["3T"],
