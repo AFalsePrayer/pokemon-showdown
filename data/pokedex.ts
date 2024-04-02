@@ -11,6 +11,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		evos: ["Ivysaur"],
 		eggGroups: ["Monster", "Grass"],
+		catchRate: 45,
 	},
 	ivysaur: {
 		num: 2,

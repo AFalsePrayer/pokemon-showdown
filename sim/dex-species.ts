@@ -232,6 +232,10 @@ export class Species extends BasicEffect implements Readonly<BasicEffect & Speci
 	 */
 	readonly natDexTier: TierTypes.Singles | TierTypes.Other;
 
+	readonly catchRate?: number;
+
+	readonly heldItems?: string[];
+
 	constructor(data: AnyObject) {
 		super(data);
 		// eslint-disable-next-line @typescript-eslint/no-this-alias
@@ -254,6 +258,8 @@ export class Species extends BasicEffect implements Readonly<BasicEffect & Speci
 		this.tier = data.tier || '';
 		this.doublesTier = data.doublesTier || '';
 		this.natDexTier = data.natDexTier || '';
+		this.catchRate = data.catchRate || undefined;
+		this.heldItems = data.heldItems || undefined;
 		this.evos = data.evos || [];
 		this.evoType = data.evoType || undefined;
 		this.evoMove = data.evoMove || undefined;
