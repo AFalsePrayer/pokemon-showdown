@@ -146,6 +146,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 85, atk: 73, def: 70, spa: 115, spd: 115, spe: 67},
 		evoLevel: 38
 	},
+	ivysaur: {
+		inherit: true,
+		catchRate: 25,
+	},
 	jolteon: {
 		inherit: true,
 		abilities: {0: "Static"},
