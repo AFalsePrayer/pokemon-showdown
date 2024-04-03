@@ -39,6 +39,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	butterfree: {
 		inherit: true,
 		baseStats: {hp: 60, atk: 45, def: 50, spa: 90, spd: 80, spe: 70},
+		heldItems: ["005silverpowder"]
 	},
 	chansey: {
 		inherit: true,
