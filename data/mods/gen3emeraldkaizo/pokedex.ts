@@ -1,13 +1,19 @@
 export const Pokedex: {[k: string]: ModdedSpeciesData} = {
+	abra: {
+		inherit: true,
+		catchRate: 45,
+	},
 	aerodactyl: {
 		inherit: true,
 		abilities: {0: "Pressure"},
+		catchRate: 6,
 	},
 	alakazam: {
 		inherit: true,
 		baseStats: {hp: 55, atk: 50, def: 45, spa: 135, spd: 95, spe: 120},
 		evoLevel: 55,
 		evoType: "level",
+		catchRate: 10,
 	},
 	arbok: {
 		inherit: true,
@@ -16,6 +22,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	arcanine: {
 		inherit: true,
 		abilities: {0: "Intimidate", 1: "Blaze"},
+		catchRate: 15,
 	},
 	articuno: {
 		inherit: true,
@@ -25,6 +32,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 65, atk: 90, def: 40, spa: 45, spd: 80, spe: 75},
 	},
+	blastoise: {
+		inherit: true,
+		catchRate: 10,
+	},
 	butterfree: {
 		inherit: true,
 		baseStats: {hp: 60, atk: 45, def: 50, spa: 90, spd: 80, spe: 70},
@@ -32,6 +43,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	chansey: {
 		inherit: true,
 		baseStats: {hp: 250, atk: 5, def: 25, spa: 35, spd: 105, spe: 50},
+		catchRate: 15,
+	},
+	charizard: {
+		inherit: true,
+		catchRate: 10,
+	},
+	charmeleon: {
+		inherit: true,
+		catchRate: 25,
 	},
 	clefable: {
 		inherit: true,
@@ -54,6 +74,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	diglett: {
 		inherit: true,
 		abilities: {0: "Arena Trap", 1: "Sand Veil"},
+		catchRate: 150,
 	},
 	ditto: {
 		inherit: true,
@@ -64,19 +85,31 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 60, atk: 110, def: 70, spa: 60, spd: 60, spe: 110},
 		abilities: {0: "Early Bird", 1: "Run Away"},
+		catchRate: 10,
 	},
 	doduo: {
 		inherit: true,
 		abilities: {0: "Early Bird", 1: "Run Away"},
+		catchRate: 45,
+	},
+	dragonair: {
+		inherit: true,
+		catchRate: 2,
 	},
 	dragonite: {
 		inherit: true,
 		abilities: {0: "Thick Fat", 1: "Shed Skin"},
+		catchRate: 1,
+	},
+	dratini: {
+		inherit: true,
+		catchRate: 3,
 	},
 	dugtrio: {
 		inherit: true,
 		baseStats: {hp: 35, atk: 100, def: 50, spa: 50, spd: 70, spe: 120},
 		abilities: {0: "Arena Trap", 1: "Sand Veil"},
+		catchRate: 8,
 	},
 	electrode: {
 		inherit: true,
@@ -90,6 +123,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	farfetchd: {
 		inherit: true,
 		baseStats: {hp: 52, atk: 90, def: 55, spa: 58, spd: 62, spe: 60},
+		catchRate: 145,
 	},
 	fearow: {
 		inherit: true,
@@ -99,11 +133,16 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Flame Body"},
 	},
+	gastly: {
+		inherit: true,
+		catchRate: 45,
+	},
 	gengar: {
 		inherit: true,
 		baseStats: {hp: 60, atk: 75, def: 60, spa: 130, spd: 75, spe: 110},
 		evoLevel: 50,
 		evoType: "level",
+		catchRate: 10,
 	},
 	gloom: {
 		inherit: true,
@@ -127,6 +166,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	growlithe: {
 		inherit: true,
 		abilities: {0: "Intimidate", 1: "Run Away"},
+		catchRate: 90,
+	},
+	gyarados: {
+		inherit: true,
+		catchRate: 10,
+	},
+	haunter: {
+		inherit: true,
+		catchRate: 25,
 	},
 	hitmonchan: {
 		inherit: true,
@@ -153,21 +201,41 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	jolteon: {
 		inherit: true,
 		abilities: {0: "Static"},
+		catchRate: 3,
+	},
+	kadabra: {
+		inherit: true,
+		catchRate: 25,
 	},
 	kingdra: {
 		inherit: true,
 		evoLevel: 55,
 		evoType: "level",
+		catchRate: 5,
+	},
+	koffing: {
+		inherit: true,
+		catchRate: 45,
 	},
 	lapras: {
 		inherit: true,
 		baseStats: {hp: 130, atk: 85, def: 80, spa: 95, spd: 105, spe: 60},
 		abilities: {0: "Shell Armor"},
+		catchRate: 3,
+	},
+	lickitung: {
+		inherit: true,
+		catchRate: 65,
 	},
 	machamp: {
 		inherit: true,
 		evoLevel: 50,
 		evoType: "level",
+		catchRate: 5,
+	},
+	magikarp: {
+		inherit: true,
+		catchRate: 100,
 	},
 	marowak: {
 		inherit: true,
@@ -178,9 +246,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Limber"},
 	},
+	mew: {
+		inherit: true,
+		catchRate: 3,
+	},
 	mewtwo: {
 		inherit: true,
 		abilities: {0: "Pressure", 1: "Run Away"},
+		catchRate: 1,
 	},
 	moltres: {
 		inherit: true,
@@ -221,6 +294,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 35, atk: 55, def: 40, spa: 50, spd: 50, spe: 90},
 		abilities: {0: "Lightning Rod"},
+		catchRate: 45,
 	},
 	pinsir: {
 		inherit: true,
@@ -261,6 +335,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Run Away"},
 	},
+	rhydon: {
+		inherit: true,
+		catchRate: 15,
+	},
+	rhyhorn: {
+		inherit: true,
+		catchRate: 45,
+	},
 	seadra: {
 		inherit: true,
 		evoLevel: 30,
@@ -272,6 +354,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	slowbro: {
 		inherit: true,
 		abilities: {0: "Shell Armor", 1: "Own Tempo"},
+		catchRate: 25,
 	},
 	slowking: {
 		inherit: true,
@@ -282,23 +365,31 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	slowpoke: {
 		inherit: true,
 		abilities: {0: "Shell Armor", 1: "Own Tempo"},
+		catchRate: 60,
 	},
 	snorlax: {
 		inherit: true,
 		abilities: {0: "Guts", 1: "Thick Fat"},
+		catchRate: 3,
 	},
 	starmie: {
 		inherit: true,
 		baseStats: {hp: 60, atk: 75, def: 85, spa: 100, spd: 100, spe: 115},
 		abilities: {0: "Natural Cure", 1: "Illuminate"},
+		catchRate: 15,
 	},
 	staryu: {
 		inherit: true,
 		abilities: {0: "Natural Cure", 1: "Illuminate"},
+		catchRate: 35,
 	},
 	tangela: {
 		inherit: true,
 		baseStats: {hp: 65, atk: 55, def: 115, spa: 100, spd: 100, spe: 60},
+	},
+	tauros: {
+		inherit: true,
+		catchRate: 10,
 	},
 	tentacruel: {
 		inherit: true,
@@ -307,6 +398,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	vaporeon: {
 		inherit: true,
 		abilities: {0: "Swift Swim"},
+		catchRate: 3,
 	},
 	venomoth: {
 		inherit: true,
@@ -319,6 +411,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	venusaur: {
 		inherit: true,
 		abilities: {0: "Chlorophyll", 1: "Overgrow"},
+		catchRate: 10,
 	},
 	victreebel: {
 		inherit: true,
@@ -327,11 +420,20 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	vileplume: {
 		inherit: true,
 		baseStats: {hp: 75, atk: 80, def: 85, spa: 110, spd: 90, spe: 50},
+		catchRate: 34,
+	},
+	voltorb: {
+		inherit: true,
+		abilities: {0: "Static"},
 	},
 	vulpix: {
 		inherit: true,
 		baseStats: {hp: 38, atk: 41, def: 40, spa: 65, spd: 65, spe: 65},
 		abilities: {0: "Pressure"},
+	},
+	wartortle: {
+		inherit: true,
+		catchRate: 25,
 	},
 	weepinbell: {
 		inherit: true,
@@ -340,6 +442,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	weezing: {
 		inherit: true,
 		baseStats: {hp: 65, atk: 90, def: 120, spa: 85, spd: 85, spe: 60},
+		catchRate: 25,
 	},
 	wigglytuff: {
 		inherit: true,
@@ -356,6 +459,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	ampharos: {
 		inherit: true,
 		baseStats: {hp: 90, atk: 75, def: 85, spa: 115, spd: 90, spe: 55},
+		catchRate: 25,
 	},
 	ariados: {
 		inherit: true,
@@ -366,6 +470,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 100, atk: 60, def: 80, spa: 60, spd: 80, spe: 50},
 		abilities: {0: "Huge Power", 1: "Thick Fat"},
+		catchRate: 35,
+	},
+	bayleef: {
+		inherit: true,
+		catchRate: 25,
 	},
 	bellossom: {
 		inherit: true,
@@ -374,28 +483,56 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	blissey: {
 		inherit: true,
 		baseStats: {hp: 255, atk: 5, def: 35, spa: 75, spd: 115, spe: 55},
+		catchRate: 1,
+	},
+	celebi: {
+		inherit: true,
+		catchRate: 3,
+	},
+	chinchou: {
+		inherit: true,
+		catchRate: 60,
 	},
 	corsola: {
 		inherit: true,
 		baseStats: {hp: 65, atk: 55, def: 95, spa: 65, spd: 95, spe: 35},
 		abilities: {0: "Natural Cure", 1: "Sturdy"},
+		catchRate: 230,
 	},
 	croconaw: {
 		inherit: true,
 		evoLevel: 16,
+		catchRate: 25,
+	},
+	delibird: {
+		inherit: true,
+		catchRate: 255,
 	},
 	donphan: {
 		inherit: true,
 		abilities: {0: "Battle Armor", 1: "Sturdy"},
+	},
+	dunsparce: {
+		inherit: true,
+		catchRate: 25,
 	},
 	entei: {
 		inherit: true,
 		baseStats: {hp: 115, atk: 115, def: 85, spa: 110, spd: 75, spe: 100},
 		abilities: {0: "Inner Focus", 1: "Pressure"},
 	},
+	espeon: {
+		inherit: true,
+		catchRate: 25,
+	},
 	feraligatr: {
 		inherit: true,
 		abilities: {0: "Battle Armor", 1: "Torrent"},
+		catchRate: 10,
+	},
+	flaaffy: {
+		inherit: true,
+		catchRate: 55,
 	},
 	forretress: {
 		inherit: true,
@@ -412,16 +549,23 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	heracross: {
 		inherit: true,
 		abilities: {0: "Guts", 1: "Swarm"},
+		catchRate: 5,
 	},
 	hooh: {
 		inherit: true,
 		abilities: {0: "Pressure", 1: "Run Away"},
+		catchRate: 1,
+	},
+	hoppip: {
+		inherit: true,
+		catchRate: 160,
 	},
 	houndoom: {
 		inherit: true,
 		baseStats: {hp: 75, atk: 90, def: 50, spa: 130, spd: 80, spe: 110},
 		abilities: {0: "Intimidate", 1: "Early Bird"},
 		evoLevel: 66,
+		catchRate: 10,
 	},
 	houndour: {
 		inherit: true,
@@ -430,10 +574,16 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	jumpluff: {
 		inherit: true,
 		baseStats: {hp: 75, atk: 55, def: 70, spa: 55, spd: 95, spe: 110},
+		catchRate: 35,
 	},
 	lanturn: {
 		inherit: true,
 		baseStats: {hp: 125, atk: 50, def: 66, spa: 76, spd: 76, spe: 67},
+		catchRate: 10,
+	},
+	larvitar: {
+		inherit: true,
+		catchRate: 3,
 	},
 	ledian: {
 		inherit: true,
@@ -446,6 +596,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	lugia: {
 		inherit: true,
 		abilities: {0: "Pressure", 1: "Run Away"},
+		catchRate: 1,
 	},
 	magcargo: {
 		inherit: true,
@@ -457,6 +608,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 85, atk: 40, def: 70, spa: 80, spd: 140, spe: 70},
 		abilities: {0: "Swift Swim", 1: "Water Veil"},
+		catchRate: 65,
+	},
+	mareep: {
+		inherit: true,
+		catchRate: 140,
 	},
 	marill: {
 		inherit: true,
@@ -465,10 +621,16 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	meganium: {
 		inherit: true,
 		abilities: {0: "Thick Fat", 1: "Overgrow"},
+		catchRate: 5,
+	},
+	miltank: {
+		inherit: true,
+		catchRate: 10,
 	},
 	misdreavus: {
 		inherit: true,
 		baseStats: {hp: 60, atk: 60, def: 60, spa: 105, spd: 105, spe: 105},
+		catchRate: 25,
 	},
 	natu: {
 		inherit: true,
@@ -496,16 +658,33 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		abilities: {0: "Swift Swim"},
 		evoLevel: 37,
 		evoType: "level",
+		catchRate: 35,
 	},
 	porygon2: {
 		inherit: true,
 		evoLevel: 42,
 		evoType: "level",
+		catchRate: 15,
+	},
+	pupitar: {
+		inherit: true,
+		catchRate: 2,
+	},
+	quagsire: {
+		inherit: true,
+		abilities: {0: "Water Absorb", 1: "Oblivious"},
+		catchRate: 20,
+	},
+	quilava: {
+		inherit: true,
+		evoLevel: 16,
+		catchRate: 25,
 	},
 	qwilfish: {
 		inherit: true,
 		baseStats: {hp: 65, atk: 95, def: 85, spa: 75, spd: 65, spe: 85},
 		abilities: {0: "Swift Swim", 1: "Poison Point"},
+		catchRate: 75,
 	},
 	raikou: {
 		inherit: true,
@@ -525,6 +704,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 50, atk: 15, def: 230, spa: 5, spd: 230, spe: 5},
 		abilities: {0: "Shell Armor", 1: "Sturdy"},
+		catchRate: 3,
+	},
+	skarmory: {
+		inherit: true,
+		catchRate: 3,
+	},
+	skiploom: {
+		inherit: true,
+		catchRate: 100,
 	},
 	slugma: {
 		inherit: true,
@@ -564,29 +752,52 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Serene Grace", 1: "Hustle"},
 	},
+	typhlosion: {
+		inherit: true,
+		catchRate: 10,
+	},
 	tyranitar: {
 		inherit: true,
 		abilities: {0: "Intimidate"},
+		catchRate: 1,
 	},
-	quagsire: {
+	umbreon: {
 		inherit: true,
-		abilities: {0: "Water Absorb", 1: "Oblivious"},
+		catchRate: 25,
 	},
-	quilava: {
+	unown: {
 		inherit: true,
-		evoLevel: 16,
+		catchRate: 225,
+	},
+	wobbuffet: {
+		inherit: true,
+		evoLevel: 64,
+		catchRate: 1,
 	},
 	wooper: {
 		inherit: true,
 		abilities: {0: "Water Absorb", 1: "Oblivious"},
+		catchRate: 90,
+	},
+	wynaut: {
+		inherit: true,
+		catchRate: 6,
 	},
 	xatu: {
 		inherit: true,
 		abilities: {0: "Early Bird", 1: "Synchronize"},
 	},
+	yanma: {
+		inherit: true,
+		catchRate: 45,
+	},
 	aggron: {
 		inherit: true,
 		abilities: {0: "Rock Head", 1: "Sturdy"},
+	},
+	armaldo: {
+		inherit: true,
+		catchRate: 25,
 	},
 	aron: {
 		inherit: true,
@@ -596,9 +807,29 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Huge Power", 1: "Thick Fat"},
 	},
+	bagon: {
+		inherit: true,
+		catchRate: 10,
+	},
+	banette: {
+		inherit: true,
+		catchRate: 35,
+	},
 	beautifly: {
 		inherit: true,
 		baseStats: {hp: 60, atk: 70, def: 50, spa: 100, spd: 50, spe: 65},
+	},
+	beldum: {
+		inherit: true,
+		catchRate: 9,
+	},
+	blaziken: {
+		inherit: true,
+		catchRate: 10,
+	},
+	cacnea: {
+		inherit: true,
+		catchRate: 160,
 	},
 	cacturne: {
 		inherit: true,
@@ -624,9 +855,18 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 75, atk: 50, def: 80, spa: 95, spd: 90, spe: 65},
 	},
+	combusken: {
+		inherit: true,
+		catchRate: 25,
+	},
 	corphish: {
 		inherit: true,
 		abilities: {0: "Shell Armor", 1: "Hyper Cutter"},
+		catchRate: 235,
+	},
+	cradily: {
+		inherit: true,
+		catchRate: 25,
 	},
 	crawdaunt: {
 		inherit: true,
@@ -642,15 +882,25 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 90, atk: 100, def: 130, spa: 60, spd: 130, spe: 25},
 		abilities: {0: "Pressure", 1: "Keen Eye"},
 		evoLevel: 65,
+		catchRate: 3,
+	},
+	duskull: {
+		inherit: true,
+		catchRate: 45,
 	},
 	exploud: {
 		inherit: true,
 		abilities: {0: "Vital Spirit"},
 		evoLevel: 36,
 	},
+	flygon: {
+		inherit: true,
+		catchRate: 3,
+	},
 	gardevoir: {
 		inherit: true,
 		baseStats: {hp: 70, atk: 65, def: 75, spa: 125, spd: 115, spe: 90},
+		catchRate: 6,
 	},
 	glalie: {
 		inherit: true,
@@ -661,10 +911,16 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		evoItem: "Water Stone",
 		evoType: "useItem",
+		catchRate: 20,
 	},
 	groudon: {
 		inherit: true,
 		abilities: {0: "Pressure", 1: "Run Away"},
+		catchRate: 1,
+	},
+	grovyle: {
+		inherit: true,
+		catchRate: 25,
 	},
 	grumpig: {
 		inherit: true,
@@ -682,10 +938,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	kirlia: {
 		inherit: true,
 		abilities: {0: "Synchronize"},
+		catchRate: 45,
 	},
 	kyogre: {
 		inherit: true,
 		abilities: {0: "Pressure", 1: "Run Away"},
+		catchRate: 1,
 	},
 	lairon: {
 		inherit: true,
@@ -696,29 +954,67 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Guts"},
 	},
+	lombre: {
+		inherit: true,
+		catchRate: 20,
+	},
+	lotad: {
+		inherit: true,
+		catchRate: 45,
+	},
 	loudred: {
 		inherit: true,
 		abilities: {0: "Vital Spirit"},
 	},
+	ludicolo: {
+		inherit: true,
+		catchRate: 5,
+	},
 	lunatone: {
 		inherit: true,
 		baseStats: {hp: 90, atk: 55, def: 65, spa: 95, spd: 85, spe: 70},
+		catchRate: 25,
 	},
 	manectric: {
 		inherit: true,
 		abilities: {0: "Intimidate", 1: "Lightning Rod"},
 	},
+	marshtomp: {
+		inherit: true,
+		catchRate: 25,
+	},
 	masquerain: {
 		inherit: true,
 		baseStats: {hp: 70, atk: 60, def: 62, spa: 100, spd: 82, spe: 60},
+		catchRate: 90,
 	},
 	mawile: {
 		inherit: true,
 		abilities: {0: "Intimidate", 1: "Hyper Cutter"},
 	},
+	medicham: {
+		inherit: true,
+		catchRate: 15,
+	},
+	meditite: {
+		inherit: true,
+		catchRate: 80,
+	},
+	metagross: {
+		inherit: true,
+		catchRate: 25,
+	},
 	milotic: {
 		inherit: true,
 		abilities: {0: "Swift Swim", 1: "Marvel Scale"},
+	},
+	nincada: {
+		inherit: true,
+		catchRate: 7,
+	},
+	ninjask: {
+		inherit: true,
+		catchRate: 7,
 	},
 	nosepass: {
 		inherit: true,
@@ -740,6 +1036,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	rayquaza: {
 		inherit: true,
 		abilities: {0: "Pressure", 1: "Run Away"},
+		catchRate: 1,
 	},
 	regice: {
 		inherit: true,
@@ -761,6 +1058,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 95, atk: 125, def: 125, spa: 65, spd: 115, spe: 20},
 		abilities: {0: "Pressure"},
+		catchRate: 3,
+	},
+	salamence: {
+		inherit: true,
+		catchRate: 2,
+	},
+	sceptile: {
+		inherit: true,
+		catchRate: 10,
 	},
 	sealeo: {
 		inherit: true,
@@ -769,10 +1075,28 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	shedinja: {
 		inherit: true,
 		baseStats: {hp: 1, atk: 110, def: 35, spa: 30, spd: 20, spe: 40},
+		catchRate: 1,
+	},
+	shelgon: {
+		inherit: true,
+		catchRate: 4,
+	},
+	shuppet: {
+		inherit: true,
+		catchRate: 190,
+	},
+	slaking: {
+		inherit: true,
+		catchRate: 3,
+	},
+	slakoth: {
+		inherit: true,
+		catchRate: 65,
 	},
 	solrock: {
 		inherit: true,
 		baseStats: {hp: 90, atk: 95, def: 85, spa: 55, spd: 65, spe: 70},
+		catchRate: 25,
 	},
 	spinda: {
 		inherit: true,
@@ -781,6 +1105,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	swampert: {
 		inherit: true,
 		abilities: {0: "Swift Swim", 1: "Torrent"},
+		catchRate: 5,
 	},
 	swellow: {
 		inherit: true,
@@ -797,25 +1122,32 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	trapinch: {
 		inherit: true,
 		abilities: {0: "Arena Trap", 1: "Hyper Cutter"},
+		catchRate: 20,
+	},
+	vibrava: {
+		inherit: true,
+		catchRate: 6,
+	},
+	vigoroth: {
+		inherit: true,
+		catchRate: 35,
 	},
 	volbeat: {
 		inherit: true,
 		baseStats: {hp: 65, atk: 73, def: 75, spa: 47, spd: 85, spe: 85},
 		abilities: {0: "Swarm"},
 	},
-	voltorb: {
-		inherit: true,
-		abilities: {0: "Static"},
-	},
 	wailmer: {
 		inherit: true,
 		abilities: {0: "Pressure", 1: "Oblivious"},
+		catchRate: 2,
 	},
 	wailord: {
 		inherit: true,
 		baseStats: {hp: 160, atk: 110, def: 64, spa: 110, spd: 110, spe: 1},
 		abilities: {0: "Pressure", 1: "Oblivious"},
 		evoLevel: 70,
+		catchRate: 1,
 	},
 	walrein: {
 		inherit: true,
@@ -828,10 +1160,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	whismur: {
 		inherit: true,
 		abilities: {0: "Vital Spirit"},
-	},
-	wobbuffet: {
-		inherit: true,
-		evoLevel: 64,
 	},
 	zangoose: {
 		inherit: true,
