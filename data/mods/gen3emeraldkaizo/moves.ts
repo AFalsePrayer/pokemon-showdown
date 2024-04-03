@@ -383,6 +383,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		pp: 3,
 	},
+	sweetkiss: {
+		inherit: true,
+		type: "Normal",
+	},
 	bellydrum: {
 		inherit: true,
 		pp: 3,
@@ -432,6 +436,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	charm: {
 		inherit: true,
 		pp: 5,
+		type: "Normal",
 	},
 	wildcharge: {
 		inherit: true,
@@ -507,6 +512,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	moonlight: {
 		inherit: true,
 		pp: 10,
+		type: "Normal",
 	},
 	crosschop: {
 		inherit: true,
