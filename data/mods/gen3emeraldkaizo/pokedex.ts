@@ -161,6 +161,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	gengar: {
 		inherit: true,
 		baseStats: {hp: 60, atk: 75, def: 60, spa: 130, spd: 75, spe: 110},
+		abilities: ["Levitate"],
 		evoLevel: 50,
 		evoType: "level",
 		catchRate: 10,
