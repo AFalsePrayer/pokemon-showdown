@@ -66,6 +66,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	growl: {
 		inherit: true,
 		pp: 1,
+		isNonstandard: 'Unobtainable',
 	},
 	roar: {
 		inherit: true,
@@ -117,6 +118,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	submission: {
 		inherit: true,
 		isNonstandard: 'Removed',
+	},
+	lowkick: {
+		inherit: true,
+		isNonstandard: 'Unobtainable',
 	},
 	counter: {
 		inherit: true,
@@ -224,6 +229,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	minimize: {
 		inherit: true,
 		pp: 6,
+		isNonstandard: 'Unobtainable',
 	},
 	smokescreen: {
 		inherit: true,
@@ -302,6 +308,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	spikecannon: {
 		inherit: true,
 		isNonstandard: 'Removed',
+	},
+	guillotine: {
+		inherit: true,
+		isNonstandard: 'Unobtainable',
 	},
 	constrict: {
 		inherit: true,
@@ -485,6 +495,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		basePower: 100,
 		pp: 24,
+	},
+	lockon: {
+		inherit: true,
+		isNonstandard: 'Unobtainable',
 	},
 	outrage: {
 		inherit: true,
@@ -881,6 +895,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	cosmicpower: {
 		inherit: true,
 		pp: 6,
+		isNonstandard: 'Unobtainable',
 	},
 	waterspout: {
 		inherit: true,
@@ -908,6 +923,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	sheercold: {
 		inherit: true,
 		pp: 8,
+		isNonstandard: 'Unobtainable',
 	},
 	muddywater: {
 		inherit: true,
@@ -929,6 +945,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	irondefense: {
 		inherit: true,
 		pp: 3,
+		isNonstandard: 'Unobtainable',
 	},
 	howl: {
 		inherit: true,
@@ -946,6 +963,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	bulkup: {
 		inherit: true,
 		pp: 3,
+		isNonstandard: 'Unobtainable',
 	},
 	mudshot: {
 		inherit: true,
