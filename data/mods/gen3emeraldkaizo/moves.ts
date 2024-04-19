@@ -1,4 +1,12 @@
 export const Moves: {[k: string]: ModdedMoveData} = {
+	cometpunch: {
+		inherit: true,
+		isNonstandard: 'Removed',
+	},
+	visegrip: {
+		inherit: true,
+		isNonstandard: 'Removed',
+	},
 	cut: {
 		inherit: true,
 		accuracy: 100,
@@ -19,6 +27,11 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	sandattack: {
 		inherit: true,
 		pp: 5
+	},
+	horndrill: {
+		inherit: true,
+		isNonstandard: 'Removed',
+		replacedBy: 'drillrun',
 	},
 	drillrun: {
 		inherit: true,

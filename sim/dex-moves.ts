@@ -274,6 +274,9 @@ export interface MoveData extends EffectData, MoveEventMethods, HitEffect {
 	noSketch?: boolean;
 	stallingMove?: boolean;
 	baseMove?: string;
+
+	// Custom flags
+	replacedBy?: string;
 }
 
 export type ModdedMoveData = MoveData | Partial<Omit<MoveData, 'name'>> & {
