@@ -15,10 +15,10 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             flash: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M"],
             grasswhistle: ["3E"],
             headbutt: ["3L10"],
+            headsmash: ["3E"],
             hiddenpower: ["3M"],
             leafblade: ["3L32"],
             lightscreen: ["3E"],
@@ -32,7 +32,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             safeguard: ["3E"],
             secretpower: ["3M"],
-            skullbash: ["3E"],
             sleeppowder: ["3L46"],
             sleeptalk: ["3T"],
             sludgebomb: ["3M", "3L25"],
@@ -45,7 +44,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             synthesis: ["3L39"],
             tackle: ["3L1"],
             toxic: ["3M"],
-            vinewhip: ["3L7"]
+            vinewhip: ["3L7"],
+            xscissors: ["3T"]
         }
     },
     ivysaur: {
@@ -61,7 +61,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             flash: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M"],
             headbutt: ["3L7"],
             hiddenpower: ["3M"],
@@ -87,7 +86,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T"],
             synthesis: ["3L47"],
             toxic: ["3M"],
-            vinewhip: ["3L10"]
+            vinewhip: ["3L10"],
+            xscissors: ["3T"]
         }
     },
     venusaur: {
@@ -106,7 +106,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             frenzyplant: ["3T", "3L4"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M", "3L1"],
             hiddenpower: ["3M"],
             leafblade: ["3L41"],
@@ -132,7 +131,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T"],
             synthesis: ["3L53"],
             toxic: ["3M", "3L1"],
-            weatherball: ["3L15"]
+            weatherball: ["3L15"],
+            xscissors: ["3T"]
         }
     },
     charmander: {
@@ -162,7 +162,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M", "3L49"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             irontail: ["3M"],
             megakick: ["3T"],
@@ -170,7 +169,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             metalclaw: ["3L13"],
             mimic: ["3T"],
             mudslap: ["3T"],
-            outrage: ["3E"],
             overheat: ["3M"],
             quickattack: ["3L19"],
             rest: ["3M"],
@@ -179,7 +177,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             scratch: ["3L1"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             slash: ["3L37"],
             sleeptalk: ["3T"],
             smokescreen: ["3L7"],
@@ -189,7 +187,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swagger: ["3T"],
             swift: ["3T"],
             swordsdance: ["3T", "3E"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     charmeleon: {
@@ -217,7 +216,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M", "3L55"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             irontail: ["3M"],
             megakick: ["3T"],
@@ -232,7 +230,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rockslide: ["3T"],
             rocksmash: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             slash: ["3L41"],
             sleeptalk: ["3T"],
             smokescreen: ["3L7"],
@@ -242,7 +240,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swagger: ["3T"],
             swift: ["3T"],
             swordsdance: ["3T"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     charizard: {
@@ -272,7 +271,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             fly: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             irontail: ["3M"],
             megakick: ["3T"],
@@ -289,7 +287,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             scratch: ["3L1"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             slash: ["3L44"],
             sleeptalk: ["3T"],
             smokescreen: ["3L7"],
@@ -301,7 +299,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swift: ["3T"],
             swordsdance: ["3T"],
             toxic: ["3M"],
-            wingattack: ["3L36"]
+            wingattack: ["3L36"],
+            xscissors: ["3T"]
         }
     },
     squirtle: {
@@ -346,7 +345,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M", "3L18"],
-            seismictoss: ["3T", "3L13"],
+            seismictoss: ["3M", "3T", "3L13"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -398,7 +397,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M", "3L19"],
-            seismictoss: ["3T", "3L13"],
+            seismictoss: ["3M", "3T", "3L13"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -451,7 +450,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M", "3L19"],
-            seismictoss: ["3T", "3L25"],
+            seismictoss: ["3M", "3T", "3L25"],
             signalbeam: ["3L2"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -541,7 +540,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             endure: ["3T"],
             facade: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M"],
             hiddenpower: ["3M"],
             knockoff: ["3L28"],
@@ -562,14 +560,13 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thief: ["3M"],
             toxic: ["3M", "3L12"],
             twineedle: ["3L16"],
-            xscissors: ["3L32"]
+            xscissors: ["3T", "3L32"],
         }
     },
     pidgey: {
         learnset: {
             aerialace: ["3M"],
-            aircutter: ["3E"],
-            airslash: ["3L19"],
+            airslash: ["3E", "3L19"],
             attract: ["3M"],
             doubleedge: ["3T", "3L25"],
             endure: ["3T"],
@@ -756,7 +753,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
     spearow: {
         learnset: {
             aerialace: ["3M", "3L25"],
-            astonish: ["3E"],
             attract: ["3M"],
             doubleedge: ["3T", "3L30"],
             drillpeck: ["3L28"],
@@ -777,6 +773,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             scaryface: ["3E"],
             secretpower: ["3M", "3L13"],
+            shadowsneak: ["3E"],
             skyattack: ["3T", "3E"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -928,7 +925,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             reversal: ["3E"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -971,7 +968,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L15"],
+            seismictoss: ["3M", "3T", "3L15"],
             shockwave: ["3M"],
             signalbeam: ["3L33"],
             sleeptalk: ["3T"],
@@ -1018,7 +1015,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L1"],
+            seismictoss: ["3M", "3T", "3L1"],
             shockwave: ["3M"],
             signalbeam: ["3L1"],
             sleeptalk: ["3T"],
@@ -1053,7 +1050,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flail: ["3E"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             irontail: ["3M"],
             metalclaw: ["3E"],
@@ -1071,7 +1067,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             sandattack: ["3L11"],
             scratch: ["3L1"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             slash: ["3L37"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -1081,7 +1077,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swift: ["3T", "3L23"],
             swordsdance: ["3T", "3E"],
             thief: ["3M"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     sandslash: {
@@ -1102,7 +1099,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             irontail: ["3M"],
             magnitude: ["3L1"],
@@ -1118,7 +1114,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             sandattack: ["3L11"],
             scratch: ["3L1"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             slash: ["3L24"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -1128,7 +1124,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swift: ["3T"],
             swordsdance: ["3T"],
             thief: ["3M"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     nidoranf: {
@@ -1243,7 +1240,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
             icepunch: ["3T"],
@@ -1262,7 +1258,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rocktomb: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
@@ -1278,7 +1274,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderpunch: ["3T"],
             torment: ["3M"],
             toxic: ["3M"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     nidoranm: {
@@ -1392,7 +1389,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             headsmash: ["3L48"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
@@ -1413,7 +1409,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rocktomb: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
@@ -1427,7 +1423,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderpunch: ["3T"],
             torment: ["3M"],
             toxic: ["3M"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     cleffa: {
@@ -1468,14 +1465,13 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             softboiled: ["3T"],
             solarbeam: ["3M"],
-            splash: ["3E"],
             substitute: ["3T", "3E"],
             swagger: ["3T"],
             sweetkiss: ["3L13"],
@@ -1533,7 +1529,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             signalbeam: ["3L29"],
@@ -1595,7 +1591,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L1"],
+            seismictoss: ["3M", "3T", "3L1"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
@@ -1724,7 +1720,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             safeguard: ["3M"],
             secretpower: ["3M", "3L4"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             sing: ["3L1"],
@@ -1781,7 +1777,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L14"],
+            seismictoss: ["3M", "3T", "3L14"],
             shadowball: ["3M", "3L39"],
             shockwave: ["3M"],
             sing: ["3L1"],
@@ -1835,7 +1831,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M", "3L1"],
             shockwave: ["3M"],
             sing: ["3L1"],
@@ -2120,7 +2116,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flail: ["3E"],
             flash: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M", "3L19"],
             hiddenpower: ["3M"],
             knockoff: ["3L13"],
@@ -2146,7 +2141,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T"],
             thief: ["3M"],
             toxic: ["3M", "3L9"],
-            xscissors: ["3L24"]
+            xscissors: ["3T", "3L24"]
         }
     },
     parasect: {
@@ -2165,7 +2160,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             flash: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M", "3L26"],
             hiddenpower: ["3M"],
             knockoff: ["3L13"],
@@ -2187,7 +2181,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T"],
             thief: ["3M"],
             toxic: ["3M", "3L8"],
-            xscissors: ["3L28"]
+            xscissors: ["3T", "3L28"]
         }
     },
     venonat: {
@@ -2457,7 +2451,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             focuspunch: ["3M"],
             foresight: ["3E"],
             frustration: ["3M"],
-            futuresight: ["3E"],
             hiddenpower: ["3M"],
             hydropump: ["3L45"],
             hypnosis: ["3E", "3L31"],
@@ -2479,7 +2472,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             scratch: ["3L2"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -2515,7 +2508,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             hydropump: ["3L47"],
             hypnosis: ["3L36"],
@@ -2533,7 +2525,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             rocksmash: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L1"],
+            seismictoss: ["3M", "3T", "3L1"],
             signalbeam: ["3L1"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -2545,6 +2537,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             toxic: ["3M"],
             waterfall: ["3M"],
             waterpulse: ["3M"],
+            xscissors: ["3T"],
             yawn: ["3L1"]
         }
     },
@@ -2555,7 +2548,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             beatup: ["3E"],
             bodyslam: ["3T"],
             brickbreak: ["3M", "3L33"],
-            bulkup: ["3M"],
             counter: ["3T", "3E"],
             crosschop: ["3L51"],
             defensecurl: ["3T"],
@@ -2591,7 +2583,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rocktomb: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L1"],
+            seismictoss: ["3M", "3T", "3L1"],
             sleeptalk: ["3T"],
             smellingsalts: ["3E"],
             snore: ["3T"],
@@ -2613,7 +2605,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             beatup: ["3L1"],
             bodyslam: ["3T", "3L54"],
             brickbreak: ["3M", "3L36"],
-            bulkup: ["3M"],
             counter: ["3T", "3L1"],
             crosschop: ["3L63"],
             defensecurl: ["3T"],
@@ -2647,7 +2638,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rocktomb: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L15"],
+            seismictoss: ["3M", "3T", "3L15"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -2764,7 +2755,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             secretpower: ["3M"],
             sleeptalk: ["3T"],
             snore: ["3T"],
-            splash: ["3E"],
             substitute: ["3T"],
             surf: ["3M"],
             swagger: ["3T"],
@@ -2805,7 +2795,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             rocksmash: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -2824,7 +2814,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             blizzard: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             counter: ["3T"],
             defensecurl: ["3T"],
             dig: ["3M"],
@@ -2851,7 +2840,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rocktomb: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -2897,7 +2886,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             rocksmash: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -2944,7 +2933,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             skillswap: ["3M"],
@@ -2997,7 +2986,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             roleplay: ["3L25"],
             safeguard: ["3M"],
             secretpower: ["3M", "3L1"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M", "3L23"],
             shockwave: ["3M"],
             signalbeam: ["3L43"],
@@ -3049,7 +3038,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             roleplay: ["3L25"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L43"],
+            seismictoss: ["3M", "3T", "3L43"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             signalbeam: ["3L23"],
@@ -3071,7 +3060,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             counter: ["3T", "3E"],
             crosschop: ["3L40"],
             dig: ["3M"],
@@ -3106,7 +3094,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             rollingkick: ["3E"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L13"],
+            seismictoss: ["3M", "3T", "3L13"],
             sleeptalk: ["3T"],
             smellingsalts: ["3E"],
             snore: ["3T"],
@@ -3125,7 +3113,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T", "3L13"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             counter: ["3T", "3L1"],
             crosschop: ["3L46"],
             dig: ["3M"],
@@ -3154,7 +3141,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rocktomb: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L19"],
+            seismictoss: ["3M", "3T", "3L19"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -3172,7 +3159,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T", "3L13"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             counter: ["3T", "3L1"],
             crosschop: ["3L46"],
             dig: ["3M"],
@@ -3201,7 +3187,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rocktomb: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L19"],
+            seismictoss: ["3M", "3T", "3L19"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -3438,7 +3424,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M", "3L6"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             selfdestruct: ["3T", "3L21"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -3485,7 +3471,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M", "3L6"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             selfdestruct: ["3T", "3L21"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -3516,7 +3502,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             headsmash: ["3L1"],
             hiddenpower: ["3M"],
             magnitude: ["3L11"],
@@ -3535,14 +3520,15 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M", "3L6"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             selfdestruct: ["3T", "3L21"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
             substitute: ["3T"],
             swagger: ["3T"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     ponyta: {
@@ -3641,7 +3627,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M"],
             flash: ["3M"],
             frustration: ["3M"],
-            futuresight: ["3E"],
             headbutt: ["3L1"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
@@ -3697,7 +3682,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
             icepunch: ["3T", "3L37"],
@@ -3717,7 +3701,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             signalbeam: ["3L15"],
             skillswap: ["3M"],
@@ -3733,6 +3717,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             toxic: ["3M"],
             waterpulse: ["3M", "3L54"],
             whirlpool: ["3L1"],
+            xscissors: ["3T"],
             yawn: ["3L1"]
         }
     },
@@ -3758,7 +3743,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icebeam: ["3M", "3L37"],
             icepunch: ["3T"],
@@ -3778,7 +3762,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             signalbeam: ["3L1"],
             skillswap: ["3M"],
@@ -3793,6 +3777,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderwave: ["3T", "3L1"],
             toxic: ["3M"],
             waterpulse: ["3M", "3L20"],
+            xscissors: ["3T"],
             yawn: ["3L1"]
         }
     },
@@ -3990,6 +3975,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             disable: ["3E"],
             dive: ["3M"],
             doubleedge: ["3T"],
+            drillrun: ["3E"],
             encore: ["3E"],
             endure: ["3T"],
             facade: ["3M"],
@@ -3997,11 +3983,9 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             frustration: ["3M"],
             headbutt: ["3L1"],
             hiddenpower: ["3M"],
-            horndrill: ["3E"],
             hydropump: ["3L49"],
             icebeam: ["3M", "3L41"],
-            iceshard: ["3L57"],
-            iciclespear: ["3E"],
+            iceshard: ["3E", "3L57"],
             icywind: ["3T", "3L17"],
             lick: ["3E"],
             mimic: ["3T"],
@@ -4165,8 +4149,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             frustration: ["3M"],
             hiddenpower: ["3M"],
             icebeam: ["3M", "3L45"],
-            iceshard: ["3L49"],
-            iciclespear: ["3E"],
+            iceshard: ["3E", "3L49"],
             icywind: ["3T"],
             mimic: ["3T"],
             rapidspin: ["3E"],
@@ -4222,7 +4205,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
     },
     gastly: {
         learnset: {
-            astonish: ["3E"],
             attract: ["3M"],
             confuseray: ["3L28"],
             dreameater: ["3T"],
@@ -4249,7 +4231,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             secretpower: ["3M"],
             selfdestruct: ["3T"],
             shadowball: ["3M", "3L36"],
-            shadowsneak: ["3L16"],
+            shadowsneak: ["3E", "3L16"],
             skillswap: ["3M"],
             sleeptalk: ["3T"],
             sludgebomb: ["3M", "3L33"],
@@ -4334,7 +4316,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             rocksmash: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             selfdestruct: ["3T"],
             shadowball: ["3M", "3L48"],
             shadowpunch: ["3L21"],
@@ -4469,7 +4451,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             roleplay: ["3E"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L10"],
+            seismictoss: ["3M", "3T", "3L10"],
             shadowball: ["3M", "3L43"],
             signalbeam: ["3L25"],
             skillswap: ["3M"],
@@ -4517,7 +4499,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L18"],
+            seismictoss: ["3M", "3T", "3L18"],
             shadowball: ["3M", "3L55"],
             signalbeam: ["3L25"],
             skillswap: ["3M"],
@@ -4549,7 +4531,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             flail: ["3E"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             haze: ["3E"],
             hiddenpower: ["3M"],
             icebeam: ["3M", "3L12"],
@@ -4576,7 +4557,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thief: ["3M"],
             toxic: ["3M"],
             waterpulse: ["3M"],
-            xscissors: ["3L34"]
+            xscissors: ["3T", "3L34"]
         }
     },
     kingler: {
@@ -4595,7 +4576,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             falseswipe: ["3L5"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
             icywind: ["3T"],
@@ -4619,7 +4599,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thief: ["3M"],
             toxic: ["3M"],
             waterpulse: ["3M"],
-            xscissors: ["3L49"]
+            xscissors: ["3T", "3L49"]
         }
     },
     voltorb: {
@@ -4801,6 +4781,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             focuspunch: ["3M"],
             frustration: ["3M"],
             headbutt: ["3L13"],
+            headsmash: ["3E"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
             icywind: ["3T"],
@@ -4818,8 +4799,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             screech: ["3E"],
             secretpower: ["3M", "3L9"],
-            seismictoss: ["3T"],
-            skullbash: ["3E"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -4870,7 +4850,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rocktomb: ["3M", "3L1"],
             secretpower: ["3M", "3L5"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -4888,7 +4868,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             counter: ["3T"],
             doubleedge: ["3T"],
             earthquake: ["3M"],
@@ -4909,7 +4888,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rockslide: ["3T"],
             rocksmash: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -4927,7 +4906,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             blazekick: ["3L6"],
             bodyslam: ["3T", "3L36"],
             brickbreak: ["3M", "3L20"],
-            bulkup: ["3M"],
             counter: ["3T"],
             doubleedge: ["3T"],
             doublekick: ["3L1"],
@@ -4953,7 +4931,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             rollingkick: ["3L11"],
             secretpower: ["3M", "3L21"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -4969,7 +4947,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T", "3L28"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             counter: ["3T"],
             doubleedge: ["3T"],
             dynamicpunch: ["3T"],
@@ -4995,7 +4972,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rocktomb: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowpunch: ["3L38"],
             skyuppercut: ["3L32"],
             sleeptalk: ["3T"],
@@ -5014,7 +4991,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             counter: ["3T", "3L1"],
             detect: ["3L43"],
             dig: ["3M"],
@@ -5038,7 +5014,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rollingkick: ["3L20"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L25"],
+            seismictoss: ["3M", "3T", "3L25"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -5095,7 +5071,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M", "3L34"],
             shockwave: ["3M"],
             sleeptalk: ["3T", "3E"],
@@ -5260,7 +5236,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
             icywind: ["3T"],
@@ -5280,7 +5255,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M", "3L1"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -5293,7 +5268,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             takedown: ["3L1"],
             thief: ["3M"],
             thunderpunch: ["3T"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     chansey: {
@@ -5344,7 +5320,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L41"],
+            seismictoss: ["3M", "3T", "3L41"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             sing: ["3L23"],
@@ -5406,7 +5382,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L47"],
+            seismictoss: ["3M", "3T", "3L47"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             sing: ["3L3"],
@@ -5496,7 +5472,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             focuspunch: ["3M"],
             foresight: ["3E"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
             icepunch: ["3T"],
@@ -5514,7 +5489,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             safeguard: ["3E"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M", "3L43"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
@@ -5529,7 +5504,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thief: ["3M"],
             thunderpunch: ["3T"],
             toxic: ["3M"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     horsea: {
@@ -5559,7 +5535,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             secretpower: ["3M"],
             sleeptalk: ["3T"],
             snore: ["3T"],
-            splash: ["3E"],
             substitute: ["3T"],
             surf: ["3M"],
             swagger: ["3T"],
@@ -5615,6 +5590,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             bubblebeam: ["3L29"],
             dive: ["3M"],
             doubleedge: ["3T", "3L40"],
+            dracometeor: ["3M"],
             dragonbreath: ["3L62"],
             endure: ["3T"],
             facade: ["3M"],
@@ -5807,7 +5783,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            futuresight: ["3E"],
             hiddenpower: ["3M"],
             hypnosis: ["3E", "3L49"],
             icepunch: ["3T", "3L17"],
@@ -5828,7 +5803,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             roleplay: ["3L33"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L1"],
+            seismictoss: ["3M", "3T", "3L1"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             signalbeam: ["3L34"],
@@ -5861,7 +5836,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             falseswipe: ["3L16"],
             focusenergy: ["3L6"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             lightscreen: ["3E"],
             mimic: ["3T"],
@@ -5886,7 +5860,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thief: ["3M"],
             toxic: ["3M"],
             wingattack: ["3L1"],
-            xscissors: ["3L36"]
+            xscissors: ["3T", "3L36"]
         }
     },
     scizor: {
@@ -5902,7 +5876,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             falseswipe: ["3L16"],
             focusenergy: ["3L11"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             metalclaw: ["3L26"],
             mimic: ["3T"],
@@ -5924,7 +5897,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T"],
             thief: ["3M"],
             toxic: ["3M"],
-            xscissors: ["3L46"]
+            xscissors: ["3T", "3L46"]
         }
     },
     smoochum: {
@@ -5965,7 +5938,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rest: ["3M"],
             return: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             sing: ["3L49"],
             skillswap: ["3M"],
@@ -6020,7 +5993,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rest: ["3M"],
             return: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L1"],
+            seismictoss: ["3M", "3T", "3L1"],
             shadowball: ["3M"],
             skillswap: ["3M"],
             sleeptalk: ["3T"],
@@ -6066,7 +6039,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rollingkick: ["3E"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shockwave: ["3M", "3L1"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -6109,7 +6082,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             rocksmash: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -6158,7 +6131,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             screech: ["3E"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             smog: ["3L13"],
             smokescreen: ["3L25"],
@@ -6199,7 +6172,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             rocksmash: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             smog: ["3L1"],
             snore: ["3T"],
@@ -6217,7 +6190,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             bind: ["3L7"],
             bodyslam: ["3T"],
             brickbreak: ["3M", "3L31"],
-            bulkup: ["3M"],
             cut: ["3M"],
             dig: ["3M"],
             doubleedge: ["3T"],
@@ -6231,7 +6203,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             focuspunch: ["3M"],
             frustration: ["3M"],
             furyattack: ["3E"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             leechlife: ["3L1"],
             mimic: ["3T"],
@@ -6243,7 +6214,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rocktomb: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L13"],
+            seismictoss: ["3M", "3T", "3L13"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -6252,7 +6223,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T"],
             thief: ["3M"],
             toxic: ["3M"],
-            xscissors: ["3L36"]
+            xscissors: ["3T", "3L36"]
         }
     },
     tauros: {
@@ -6355,13 +6326,12 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             doubleedge: ["3T", "3L49"],
             dragondance: ["3E"],
             dreameater: ["3T"],
-            drillrun: ["3L1"],
+            drillrun: ["3E", "3L1"],
             endure: ["3T"],
             facade: ["3M"],
             foresight: ["3E"],
             frustration: ["3M"],
             hiddenpower: ["3M"],
-            horndrill: ["3E"],
             hydropump: ["3L37"],
             icebeam: ["3M", "3L55"],
             icywind: ["3T"],
@@ -6789,7 +6759,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M", "3L13"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L40"],
+            seismictoss: ["3M", "3T", "3L40"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             spikes: ["3L1"],
@@ -6864,7 +6834,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             endure: ["3T"],
             facade: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M"],
             hiddenpower: ["3M"],
             hydropump: ["3L1"],
@@ -6894,7 +6863,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             toxic: ["3M"],
             waterfall: ["3M"],
             waterpulse: ["3M", "3L13"],
-            xscissors: ["3L40"]
+            xscissors: ["3T", "3L40"]
         }
     },
     aerodactyl: {
@@ -6955,12 +6924,12 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             defensecurl: ["3T"],
             doubleedge: ["3T", "3E", "3L42"],
             dynamicpunch: ["3T"],
+            earthpower: ["3E"],
             earthquake: ["3M"],
             endure: ["3T"],
             facade: ["3M", "3L24"],
             fireblast: ["3M"],
             firepunch: ["3T"],
-            fissure: ["3E"],
             flamethrower: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
@@ -6983,7 +6952,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             selfdestruct: ["3T"],
             shadowball: ["3M"],
             shockwave: ["3M"],
@@ -7042,6 +7011,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             aerialace: ["3M"],
             detect: ["3L37"],
             doubleedge: ["3T", "3L73"],
+            dracometeor: ["3M"],
             drillpeck: ["3L49"],
             endure: ["3T"],
             extrasensory: ["3L25"],
@@ -7112,6 +7082,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             blizzard: ["3M"],
             bodyslam: ["3T"],
             doubleedge: ["3T", "3L50"],
+            dracometeor: ["3M"],
             dragonbreath: ["3E", "3L36"],
             dragondance: ["3E"],
             dragonrage: ["3L22"],
@@ -7158,6 +7129,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             blizzard: ["3M"],
             bodyslam: ["3T"],
             doubleedge: ["3T", "3L65"],
+            dracometeor: ["3M"],
             dragonbreath: ["3L38"],
             dragonrage: ["3L22"],
             endure: ["3T"],
@@ -7203,6 +7175,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             cut: ["3M"],
             dive: ["3M"],
             doubleedge: ["3T", "3L61"],
+            dracometeor: ["3M"],
             dragonbreath: ["3L15"],
             dragonclaw: ["3M", "3L75"],
             dragonrage: ["3L22"],
@@ -7216,7 +7189,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             fly: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             hydropump: ["3L38"],
             icebeam: ["3M"],
@@ -7250,7 +7222,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             waterfall: ["3M"],
             waterpulse: ["3M"],
             wingattack: ["3L55"],
-            wrap: ["3L1"]
+            wrap: ["3L1"],
+            xscissors: ["3T"]
         }
     },
     mewtwo: {
@@ -7259,7 +7232,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             blizzard: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M", "3L44"],
-            bulkup: ["3M"],
             calmmind: ["3M"],
             counter: ["3T"],
             doubleedge: ["3T"],
@@ -7298,7 +7270,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L11"],
+            seismictoss: ["3M", "3T", "3L11"],
             selfdestruct: ["3T", "3L77"],
             shadowball: ["3M", "3L1"],
             shockwave: ["3M"],
@@ -7328,7 +7300,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             blizzard: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             bulletseed: ["3M"],
             calmmind: ["3M"],
             counter: ["3T"],
@@ -7351,7 +7322,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             fly: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M"],
             hiddenpower: ["3M"],
             hypnosis: ["3L1"],
@@ -7380,7 +7350,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             selfdestruct: ["3T"],
             shadowball: ["3M"],
             shockwave: ["3M"],
@@ -7406,7 +7376,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             toxic: ["3M"],
             transform: ["3L10"],
             waterfall: ["3M"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         },
         eventOnly: true
     },
@@ -7467,7 +7438,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             flash: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M"],
             hiddenpower: ["3M"],
             irontail: ["3M"],
@@ -7493,7 +7463,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swagger: ["3T"],
             swordsdance: ["3T"],
             tackle: ["3L1"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     meganium: {
@@ -7509,7 +7480,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             flash: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M"],
             hiddenpower: ["3M"],
             irontail: ["3M"],
@@ -7536,7 +7506,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swagger: ["3T"],
             swordsdance: ["3T"],
             tackle: ["3L1"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     cyndaquil: {
@@ -7544,7 +7515,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             aerialace: ["3M"],
             attract: ["3M"],
             bodyslam: ["3T"],
-            covet: ["3E"],
             crushclaw: ["3E"],
             cut: ["3M"],
             defensecurl: ["3T"],
@@ -7599,7 +7569,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamewheel: ["3L12"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             mimic: ["3T"],
             mudslap: ["3T"],
@@ -7620,7 +7589,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swift: ["3T", "3L6"],
             tackle: ["3L1"],
             toxic: ["3M"],
-            wildcharge: ["3L1"]
+            wildcharge: ["3L1"],
+            xscissors: ["3T"]
         }
     },
     typhlosion: {
@@ -7645,7 +7615,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamewheel: ["3L12"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             megakick: ["3T"],
             megapunch: ["3T"],
@@ -7660,7 +7629,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             smokescreen: ["3L6"],
             snore: ["3T"],
@@ -7670,7 +7639,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swift: ["3T"],
             tackle: ["3L1"],
             thunderpunch: ["3T", "3L40"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     totodile: {
@@ -7710,7 +7680,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rockslide: ["3T", "3E"],
             scratch: ["3L1"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             slash: ["3L13"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -7747,7 +7717,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             hydropump: ["3L55"],
             icebeam: ["3M"],
@@ -7765,7 +7734,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             scratch: ["3L2"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             slash: ["3L13"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -7778,7 +7747,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             toxic: ["3M"],
             waterfall: ["3M"],
             watergun: ["3L3"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     feraligatr: {
@@ -7803,7 +7773,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             hydropump: ["3L58"],
             icebeam: ["3M"],
@@ -7821,7 +7790,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             scratch: ["3L1"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             slash: ["3L13"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -7834,7 +7803,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             toxic: ["3M"],
             waterfall: ["3M"],
             watergun: ["3L1"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     sentret: {
@@ -7856,7 +7826,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             focuspunch: ["3M"],
             followme: ["3L5"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             helpinghand: ["3L12"],
             hiddenpower: ["3M"],
             hypervoice: ["3L28"],
@@ -7887,8 +7856,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thief: ["3M"],
             thunderpunch: ["3T"],
             toxic: ["3M"],
-            trick: ["3E"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     furret: {
@@ -7909,7 +7878,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             focuspunch: ["3M"],
             followme: ["3L7"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             helpinghand: ["3L12"],
             hiddenpower: ["3M"],
             hypervoice: ["3L36"],
@@ -7940,7 +7908,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderpunch: ["3T"],
             thunderwave: ["3L1"],
             toxic: ["3M"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     hoothoot: {
@@ -8278,7 +8247,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             followme: ["3L26"],
             foresight: ["3E"],
             frustration: ["3M"],
-            futuresight: ["3E"],
             hiddenpower: ["3M"],
             lightscreen: ["3M"],
             megakick: ["3T"],
@@ -8298,7 +8266,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             safeguard: ["3M", "3L36"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
@@ -8354,7 +8322,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             safeguard: ["3M", "3L36"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             skyattack: ["3T"],
@@ -8529,7 +8497,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             rocksmash: ["3M"],
             secretpower: ["3M", "3L1"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shockwave: ["3M", "3L27"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -8570,7 +8538,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             rocksmash: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shockwave: ["3M", "3L18"],
             signalbeam: ["3L1"],
             sleeptalk: ["3T"],
@@ -8644,7 +8612,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            futuresight: ["3E"],
             hiddenpower: ["3M"],
             hydropump: ["3L45"],
             icebeam: ["3M", "3L36"],
@@ -8664,7 +8631,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -8711,7 +8678,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -8760,7 +8727,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M", "3L9"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             selfdestruct: ["3T", "3E"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -8903,7 +8870,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             firepunch: ["3T"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icepunch: ["3T"],
             irontail: ["3M"],
@@ -8921,7 +8887,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             sandattack: ["3L1"],
             screech: ["3E"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M", "3L25"],
             shockwave: ["3M"],
             slam: ["3E"],
@@ -8938,7 +8904,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderwave: ["3T", "3L20"],
             tickle: ["3L25"],
             toxic: ["3M"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     sunkern: {
@@ -9144,7 +9111,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             sludgebomb: ["3M", "3L61"],
             snore: ["3T"],
@@ -9289,7 +9256,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             foresight: ["3E"],
             frustration: ["3M"],
-            futuresight: ["3E"],
             hiddenpower: ["3M"],
             hypervoice: ["3L49"],
             irontail: ["3M"],
@@ -9410,7 +9376,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
     dunsparce: {
         learnset: {
             ancientpower: ["3E"],
-            astonish: ["3E"],
             attract: ["3M"],
             bide: ["3E"],
             bite: ["3E", "3L31"],
@@ -9448,6 +9413,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             secretpower: ["3M"],
             shadowball: ["3M"],
+            shadowsneak: ["3E"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -9477,7 +9443,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             faintattack: ["3L1"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             irontail: ["3M"],
             metalclaw: ["3E"],
@@ -9504,7 +9469,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thief: ["3M"],
             toxic: ["3M"],
             wingattack: ["3E"],
-            xscissors: ["3L44"]
+            xscissors: ["3T", "3L44"]
         }
     },
     snubbull: {
@@ -9513,7 +9478,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             bite: ["3L1"],
             bodyslam: ["3T", "3L26"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             counter: ["3T"],
             crunch: ["3E", "3L19"],
             defensecurl: ["3T"],
@@ -9573,7 +9537,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T", "3L28"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             counter: ["3T"],
             crunch: ["3L19"],
             defensecurl: ["3T"],
@@ -9628,7 +9591,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
     },
     qwilfish: {
         learnset: {
-            astonish: ["3E"],
             attract: ["3M"],
             blizzard: ["3M"],
             bubblebeam: ["3E", "3L10"],
@@ -9655,6 +9617,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             secretpower: ["3M"],
             selfdestruct: ["3T"],
             shadowball: ["3M"],
+            shadowsneak: ["3E"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
             sludgebomb: ["3M", "3L10"],
@@ -9716,7 +9679,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             bide: ["3E"],
             bodyslam: ["3T", "3L17"],
             brickbreak: ["3M", "3L45"],
-            bulkup: ["3M"],
             counter: ["3T", "3L1"],
             cut: ["3M"],
             dig: ["3M"],
@@ -9728,7 +9690,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flail: ["3E"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             harden: ["3E"],
             hiddenpower: ["3M"],
             hornattack: ["3L6"],
@@ -9750,7 +9711,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             tackle: ["3L1"],
             thief: ["3M"],
             toxic: ["3M"],
-            xscissors: ["3L30"]
+            xscissors: ["3T", "3L30"]
         }
     },
     sneasel: {
@@ -9777,7 +9738,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             focuspunch: ["3M"],
             foresight: ["3E"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icebeam: ["3M", "3L27"],
             icepunch: ["3T", "3L1"],
@@ -9808,7 +9768,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thief: ["3M"],
             torment: ["3M"],
             toxic: ["3M"],
-            xscissors: ["3L30"]
+            xscissors: ["3T", "3L30"]
         }
     },
     teddiursa: {
@@ -9817,7 +9777,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M", "3L30"],
-            bulkup: ["3M"],
             counter: ["3T", "3E"],
             crosschop: ["3L43"],
             crunch: ["3E", "3L37"],
@@ -9834,7 +9793,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             firepunch: ["3T"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icepunch: ["3T"],
             lick: ["3L1"],
@@ -9866,6 +9824,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderpunch: ["3T"],
             torment: ["3M"],
             toxic: ["3M"],
+            xscissors: ["3T"],
             yawn: ["3E"]
         }
     },
@@ -9875,7 +9834,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M", "3L31"],
-            bulkup: ["3M"],
             counter: ["3T"],
             crosschop: ["3L19"],
             crunch: ["3L37"],
@@ -9891,7 +9849,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             firepunch: ["3T"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gunkshot: ["3L1"],
             hiddenpower: ["3M"],
             icepunch: ["3T"],
@@ -9909,7 +9866,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L1"],
+            seismictoss: ["3M", "3T", "3L1"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -9921,7 +9878,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thief: ["3M"],
             thunderpunch: ["3T"],
             torment: ["3M"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     slugma: {
@@ -10022,7 +9980,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             frustration: ["3M"],
             hiddenpower: ["3M"],
             icebeam: ["3M", "3L25"],
-            iciclespear: ["3E"],
+            iceshard: ["3E"],
             icywind: ["3T"],
             lightscreen: ["3M"],
             mimic: ["3T"],
@@ -10110,7 +10068,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             frustration: ["3M"],
             hiddenpower: ["3M"],
             icebeam: ["3M", "3L34"],
-            iciclespear: ["3E"],
+            iceshard: ["3E"],
             ingrain: ["3E"],
             lightscreen: ["3M"],
             mimic: ["3T"],
@@ -10210,7 +10168,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             rockblast: ["3L22"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             signalbeam: ["3L36"],
             sleeptalk: ["3T"],
             sludgebomb: ["3M"],
@@ -10241,7 +10199,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             fly: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            futuresight: ["3E"],
             hiddenpower: ["3M"],
             iceball: ["3E"],
             icebeam: ["3M", "3L1"],
@@ -10255,11 +10212,10 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rest: ["3M"],
             return: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             skyattack: ["3T"],
             sleeptalk: ["3T"],
             snore: ["3T"],
-            splash: ["3E"],
             substitute: ["3T"],
             swagger: ["3T"],
             swift: ["3T"],
@@ -10454,11 +10410,11 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             counter: ["3T", "3E"],
             defensecurl: ["3T"],
             doubleedge: ["3T", "3L41"],
+            earthpower: ["3E"],
             earthquake: ["3M", "3L49"],
             endeavor: ["3L19"],
             endure: ["3T"],
             facade: ["3M"],
-            fissure: ["3E"],
             focusenergy: ["3E"],
             frustration: ["3M"],
             hiddenpower: ["3M"],
@@ -10617,7 +10573,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3E", "3L53"],
+            seismictoss: ["3M", "3T", "3E", "3L53"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             sleeptalk: ["3T", "3E"],
@@ -10785,7 +10741,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             magnitude: ["3L1"],
             mimic: ["3T"],
             mudslap: ["3T", "3L15"],
-            outrage: ["3E"],
             pursuit: ["3E"],
             rest: ["3M"],
             return: ["3M"],
@@ -10863,7 +10818,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
             irontail: ["3M"],
@@ -10883,7 +10837,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M", "3L25"],
             sandtomb: ["3L8"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -10895,7 +10849,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderwave: ["3T"],
             torment: ["3M"],
             toxic: ["3M"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     lugia: {
@@ -11078,7 +11033,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M", "3L46"],
             hiddenpower: ["3M"],
             irontail: ["3M"],
@@ -11098,7 +11052,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             solarbeam: ["3M"],
@@ -11108,7 +11062,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swift: ["3T"],
             swordsdance: ["3T"],
             thunderpunch: ["3T", "3L41"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     grovyle: {
@@ -11133,7 +11088,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M"],
             headbutt: ["3L1"],
             hiddenpower: ["3M"],
@@ -11153,7 +11107,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             solarbeam: ["3M"],
@@ -11164,7 +11118,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T"],
             thunderpunch: ["3T"],
             toxic: ["3M"],
-            vinewhip: ["3L16"]
+            vinewhip: ["3L16"],
+            xscissors: ["3T"]
         }
     },
     sceptile: {
@@ -11191,7 +11146,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             focuspunch: ["3M"],
             frenzyplant: ["3L1"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M"],
             hiddenpower: ["3M"],
             irontail: ["3M"],
@@ -11211,7 +11165,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             solarbeam: ["3M"],
@@ -11222,7 +11176,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T"],
             thunderpunch: ["3T"],
             toxic: ["3M"],
-            xscissors: ["3L16"]
+            xscissors: ["3T", "3L16"]
         }
     },
     torchic: {
@@ -11260,7 +11214,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             sandattack: ["3L19"],
             scratch: ["3L1"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L10"],
+            seismictoss: ["3M", "3T", "3L10"],
             sleeptalk: ["3T"],
             smellingsalts: ["3E"],
             snore: ["3T"],
@@ -11278,7 +11232,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             counter: ["3T", "3L1"],
             crushclaw: ["3L39"],
             cut: ["3M"],
@@ -11296,7 +11249,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamewheel: ["3L17"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             helpinghand: ["3L1"],
             hiddenpower: ["3M"],
             megakick: ["3T"],
@@ -11312,7 +11264,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             sandattack: ["3L21"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             skyuppercut: ["3L50"],
             sleeptalk: ["3T"],
             smellingsalts: ["3L7"],
@@ -11323,7 +11275,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swift: ["3T"],
             swordsdance: ["3T"],
             thunderpunch: ["3T"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     blaziken: {
@@ -11334,7 +11287,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             blazekick: ["3L36"],
             bodyslam: ["3T"],
             brickbreak: ["3M", "3L1"],
-            bulkup: ["3M"],
             counter: ["3T", "3L13"],
             crushclaw: ["3L49"],
             cut: ["3M"],
@@ -11349,7 +11301,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             heatwave: ["3L17"],
             hiddenpower: ["3M"],
             hijumpkick: ["3L16"],
@@ -11366,7 +11317,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rocktomb: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L28"],
+            seismictoss: ["3M", "3T", "3L28"],
             skyuppercut: ["3L59"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -11377,7 +11328,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swift: ["3T"],
             swordsdance: ["3T"],
             thunderpunch: ["3T", "3L1"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     mudkip: {
@@ -11416,6 +11368,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M"],
+            seismictoss: ["3M"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             stomp: ["3E"],
@@ -11471,7 +11424,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             sludgebomb: ["3L1"],
             snore: ["3T"],
@@ -11528,7 +11481,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             sludgebomb: ["3L1"],
             snore: ["3T"],
@@ -11544,12 +11497,10 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
     },
     poochyena: {
         learnset: {
-            astonish: ["3E"],
             attract: ["3M"],
             bite: ["3L5"],
             bodyslam: ["3T"],
             counter: ["3T"],
-            covet: ["3E"],
             crunch: ["3L25"],
             dig: ["3M"],
             doubleedge: ["3T"],
@@ -11572,6 +11523,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             sandattack: ["3L4"],
             secretpower: ["3M", "3L10"],
             shadowball: ["3M", "3L41"],
+            shadowsneak: ["3E"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             substitute: ["3T"],
@@ -11638,7 +11590,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             extremespeed: ["3L41"],
             facade: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             headbutt: ["3L9"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
@@ -11667,8 +11618,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderwave: ["3T"],
             tickle: ["3E"],
             toxic: ["3M"],
-            trick: ["3E"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     linoone: {
@@ -11684,7 +11635,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             extremespeed: ["3L73"],
             facade: ["3M", "3L1"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             headbutt: ["3L9"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
@@ -11714,7 +11664,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thief: ["3M"],
             thunderwave: ["3T"],
             toxic: ["3M"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     wurmple: {
@@ -11929,7 +11880,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             rocksmash: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             solarbeam: ["3M"],
@@ -12005,7 +11956,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             fakeout: ["3L31"],
             flash: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M", "3L25"],
             hiddenpower: ["3M"],
             megadrain: ["3L7"],
@@ -12033,7 +11983,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T"],
             thief: ["3M"],
             torment: ["3M"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     shiftry: {
@@ -12054,7 +12005,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             faintattack: ["3L1"],
             flash: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M", "3L1"],
             hiddenpower: ["3M"],
             megakick: ["3T"],
@@ -12079,7 +12029,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T"],
             thief: ["3M"],
             torment: ["3M"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     taillow: {
@@ -12510,7 +12461,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M", "3L54"],
-            bulkup: ["3M"],
             bulletseed: ["3M"],
             counter: ["3T", "3L1"],
             cut: ["3M"],
@@ -12521,7 +12471,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M", "3L28"],
             hiddenpower: ["3M"],
             irontail: ["3M"],
@@ -12539,7 +12488,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             skyuppercut: ["3L36"],
             sleeptalk: ["3T"],
             sludgebomb: ["3M"],
@@ -12553,7 +12502,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T"],
             synthesis: ["3L10"],
             thunderpunch: ["3T", "3L45"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     slakoth: {
@@ -12563,7 +12513,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             blizzard: ["3M"],
             bodyslam: ["3T", "3E", "3L25"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             counter: ["3T"],
             crushclaw: ["3E", "3L37"],
             curse: ["3E"],
@@ -12579,7 +12528,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
             icepunch: ["3T"],
@@ -12595,7 +12543,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             scratch: ["3L1"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             slackoff: ["3L43"],
@@ -12609,6 +12557,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderpunch: ["3T"],
             toxic: ["3M"],
             waterpulse: ["3M"],
+            xscissors: ["3T"],
             yawn: ["3L1"]
         }
     },
@@ -12619,7 +12568,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             blizzard: ["3M"],
             bodyslam: ["3T", "3L43"],
             brickbreak: ["3M", "3L25"],
-            bulkup: ["3M"],
             counter: ["3T", "3L37"],
             crushclaw: ["3L49"],
             cut: ["3M"],
@@ -12634,7 +12582,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
             icepunch: ["3T"],
@@ -12650,7 +12597,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             scratch: ["3L1"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             slash: ["3L31"],
@@ -12663,7 +12610,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderpunch: ["3T"],
             toxic: ["3M"],
             uproar: ["3L19"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     slaking: {
@@ -12673,7 +12621,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             blizzard: ["3M"],
             bodyslam: ["3T", "3L25"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             counter: ["3T", "3L1"],
             crushclaw: ["3L54"],
             cut: ["3M"],
@@ -12689,7 +12636,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
             icepunch: ["3T"],
@@ -12706,7 +12652,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             scratch: ["3L1"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             slackoff: ["3L70"],
@@ -12720,6 +12666,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderpunch: ["3T"],
             toxic: ["3M"],
             waterpulse: ["3M"],
+            xscissors: ["3T"],
             yawn: ["3L1"]
         }
     },
@@ -12735,7 +12682,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             feintattack: ["3E"],
             flash: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M", "3L19"],
             gust: ["3E", "3L1"],
             hiddenpower: ["3M"],
@@ -12754,7 +12700,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             substitute: ["3T"],
             swagger: ["3T"],
             toxic: ["3M"],
-            xscissors: ["3L45"]
+            xscissors: ["3T", "3L45"]
         }
     },
     ninjask: {
@@ -12771,7 +12717,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             falseswipe: ["3L1"],
             flash: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M", "3L23"],
             gust: ["3L1"],
             hiddenpower: ["3M"],
@@ -12794,7 +12739,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T"],
             thief: ["3M"],
             toxic: ["3M"],
-            xscissors: ["3L45"]
+            xscissors: ["3T", "3L45"]
         }
     },
     shedinja: {
@@ -12811,7 +12756,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             flash: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M"],
             hiddenpower: ["3M"],
             leechlife: ["3L1"],
@@ -12837,7 +12781,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             takedown: ["3L5"],
             thief: ["3M"],
             toxic: ["3M"],
-            xscissors: ["3L45"]
+            xscissors: ["3T", "3L45"]
         }
     },
     whismur: {
@@ -12874,7 +12818,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             roar: ["3M", "3L35"],
             rollout: ["3T"],
             secretpower: ["3M", "3L11"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M", "3L41"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
@@ -12929,7 +12873,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M", "3L11"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M", "3L51"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
@@ -12986,7 +12930,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M", "3L11"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M", "3L54"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
@@ -13010,7 +12954,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T", "3L46"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             counter: ["3T", "3E"],
             crosschop: ["3E", "3L31"],
             detect: ["3E"],
@@ -13045,7 +12988,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             sandattack: ["3L4"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowpunch: ["3L37"],
             sleeptalk: ["3T"],
             smellingsalts: ["3L1"],
@@ -13066,7 +13009,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T", "3L51"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             counter: ["3T"],
             crosschop: ["3L33"],
             dig: ["3M"],
@@ -13096,7 +13038,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             sandattack: ["3L4"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L1"],
+            seismictoss: ["3M", "3T", "3L1"],
             shadowpunch: ["3L40"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -13271,7 +13213,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             focuspunch: ["3M"],
             foresight: ["3L5"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             furyswipes: ["3L17"],
             hiddenpower: ["3M"],
             icepunch: ["3T"],
@@ -13294,7 +13235,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             scratch: ["3L1"],
             secretpower: ["3M", "3L25"],
-            seismictoss: ["3T", "3L1"],
+            seismictoss: ["3M", "3T", "3L1"],
             shadowball: ["3M", "3L41"],
             shadowsneak: ["3L13"],
             shockwave: ["3M"],
@@ -13306,7 +13247,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderpunch: ["3T"],
             torment: ["3M"],
             toxic: ["3M"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     mawile: {
@@ -13344,7 +13286,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rocktomb: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L28"],
+            seismictoss: ["3M", "3T", "3L28"],
             shadowball: ["3L32"],
             sleeptalk: ["3T"],
             sludgebomb: ["3M"],
@@ -13378,7 +13320,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             flashcannon: ["3L34"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             headbutt: ["3L1"],
             headsmash: ["3L44"],
             hiddenpower: ["3M"],
@@ -13404,7 +13345,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             substitute: ["3T"],
             swagger: ["3T"],
             toxic: ["3M"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     lairon: {
@@ -13424,7 +13366,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             flashcannon: ["3L37"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             headbutt: ["3L1"],
             headsmash: ["3L63"],
             hiddenpower: ["3M"],
@@ -13449,7 +13390,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swagger: ["3T"],
             takedown: ["3L1"],
             toxic: ["3M"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     aggron: {
@@ -13478,7 +13420,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flashcannon: ["3L45"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             headbutt: ["3L10"],
             headsmash: ["3L75"],
             hiddenpower: ["3M"],
@@ -13499,7 +13440,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M", "3L1"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -13512,7 +13453,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderpunch: ["3T"],
             thunderwave: ["3T"],
             toxic: ["3M"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     meditite: {
@@ -13521,7 +13463,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             batonpass: ["3E"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             calmmind: ["3M"],
             confusion: ["3L9"],
             counter: ["3T"],
@@ -13559,7 +13500,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rocktomb: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L4"],
+            seismictoss: ["3M", "3T", "3L4"],
             shadowball: ["3M"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -13576,7 +13517,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             calmmind: ["3M"],
             counter: ["3T", "3L1"],
             detect: ["3L1"],
@@ -13614,7 +13554,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             roleplay: ["3L9"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             signalbeam: ["3L1"],
             sleeptalk: ["3T"],
@@ -13735,7 +13675,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L13"],
+            seismictoss: ["3M", "3T", "3L13"],
             shockwave: ["3M"],
             signalbeam: ["3L37"],
             sleeptalk: ["3T"],
@@ -13781,7 +13721,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L13"],
+            seismictoss: ["3M", "3T", "3L13"],
             shockwave: ["3M"],
             signalbeam: ["3L37"],
             sleeptalk: ["3T"],
@@ -13830,7 +13770,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rest: ["3M"],
             return: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L17"],
+            seismictoss: ["3M", "3T", "3L17"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             signalbeam: ["3L25"],
@@ -13846,7 +13786,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderpunch: ["3T"],
             thunderwave: ["3T", "3L37"],
             toxic: ["3M"],
-            trick: ["3E"],
             waterpulse: ["3M"]
         }
     },
@@ -13884,7 +13823,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rest: ["3M"],
             return: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L11"],
+            seismictoss: ["3M", "3T", "3L11"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             signalbeam: ["3L21"],
@@ -13910,14 +13849,12 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T"],
             bulletseed: ["3M"],
-            cottonspore: ["3E"],
             cut: ["3M"],
             doubleedge: ["3T"],
             endure: ["3T"],
             facade: ["3M"],
             flash: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M", "3L33"],
             grasswhistle: ["3L29"],
             hiddenpower: ["3M"],
@@ -13946,7 +13883,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swift: ["3T"],
             swordsdance: ["3T"],
             synthesis: ["3E", "3L57"],
-            toxic: ["3M", "3L45"]
+            toxic: ["3M", "3L45"],
+            xscissors: ["3T"]
         }
     },
     gulpin: {
@@ -14058,7 +13996,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             endure: ["3T"],
             facade: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             hydropump: ["3E", "3L37"],
             icebeam: ["3M"],
@@ -14082,7 +14019,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             toxic: ["3M"],
             waterfall: ["3M"],
             watergun: ["3L1"],
-            waterpulse: ["3M", "3L13"]
+            waterpulse: ["3M", "3L13"],
+            xscissors: ["3T"]
         }
     },
     sharpedo: {
@@ -14100,7 +14038,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             endure: ["3T"],
             facade: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             hydropump: ["3L43"],
             icebeam: ["3M"],
@@ -14128,7 +14065,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             toxic: ["3M"],
             uproar: ["3L1"],
             waterfall: ["3M"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     wailmer: {
@@ -14142,10 +14080,10 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             defensecurl: ["3T"],
             dive: ["3M"],
             doubleedge: ["3T", "3E", "3L32"],
+            earthpower: ["3E"],
             earthquake: ["3M"],
             endure: ["3T"],
             facade: ["3M"],
-            fissure: ["3E"],
             frustration: ["3M"],
             hiddenpower: ["3M"],
             hydropump: ["3L46"],
@@ -14304,10 +14242,10 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T", "3L20"],
             doubleedge: ["3T"],
+            dracometeor: ["3E"],
             earthpower: ["3L40"],
             ember: ["3L1"],
             endure: ["3T", "3E"],
-            eruption: ["3E"],
             explosion: ["3T", "3L33"],
             facade: ["3M"],
             fireblast: ["3M"],
@@ -14354,7 +14292,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             flash: ["3M"],
             frustration: ["3M"],
-            futuresight: ["3E"],
             hiddenpower: ["3M"],
             icywind: ["3T"],
             irontail: ["3M"],
@@ -14422,7 +14359,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rest: ["3M"],
             return: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             signalbeam: ["3L43"],
@@ -14486,7 +14423,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M", "3L28"],
             shockwave: ["3M"],
             skillswap: ["3M"],
@@ -14503,7 +14440,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderpunch: ["3T"],
             thunderwave: ["3L24"],
             toxic: ["3M"],
-            trick: ["3E"],
             waterpulse: ["3M"],
             wish: ["3E"]
         }
@@ -14554,6 +14490,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             crunch: ["3L49"],
             dig: ["3M", "3L33"],
             doubleedge: ["3T", "3L44"],
+            dracometeor: ["3M"],
             dragonbreath: ["3L42"],
             earthquake: ["3M", "3L57"],
             endure: ["3T"],
@@ -14592,6 +14529,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             crunch: ["3L41"],
             dig: ["3M"],
             doubleedge: ["3T", "3L35"],
+            dracometeor: ["3M"],
             dragonbreath: ["3L33"],
             dragonclaw: ["3M", "3L53"],
             earthquake: ["3M", "3L65"],
@@ -14602,7 +14540,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M"],
             fly: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M"],
             heatwave: ["3L1"],
             hiddenpower: ["3M"],
@@ -14627,7 +14564,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             superpower: ["3L17"],
             swagger: ["3T"],
             swift: ["3T"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     cacnea: {
@@ -14648,7 +14586,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M"],
             grasswhistle: ["3E"],
             hiddenpower: ["3M"],
@@ -14666,7 +14603,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             revenge: ["3L41"],
             sandattack: ["3L17"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L9"],
+            seismictoss: ["3M", "3T", "3L9"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             solarbeam: ["3M"],
@@ -14676,7 +14613,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T"],
             teeterdance: ["3E"],
             thunderpunch: ["3T"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     cacturne: {
@@ -14696,7 +14634,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M"],
             grasswhistle: ["3L1"],
             hiddenpower: ["3M"],
@@ -14710,7 +14647,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             sandattack: ["3L17"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             solarbeam: ["3M"],
@@ -14724,7 +14661,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             teeterdance: ["3L1"],
             thunderpunch: ["3T", "3L53"],
             thunderwave: ["3L1"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     swablu: {
@@ -14778,6 +14716,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             attract: ["3M"],
             bodyslam: ["3T", "3L28"],
             doubleedge: ["3T", "3L1"],
+            dracometeor: ["3M"],
             dragonbreath: ["3L35"],
             dragonclaw: ["3M", "3L42"],
             dreameater: ["3T"],
@@ -14842,7 +14781,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
@@ -14864,7 +14802,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             scratch: ["3L1"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M", "3L37"],
             shockwave: ["3M"],
             slash: ["3L19"],
@@ -14881,7 +14819,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderwave: ["3T"],
             toxic: ["3M"],
             waterpulse: ["3M"],
-            xscissors: ["3L13"]
+            xscissors: ["3T", "3L13"]
         }
     },
     seviper: {
@@ -14897,7 +14835,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             flamethrower: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M", "3L28"],
             glare: ["3L34"],
             hiddenpower: ["3M"],
@@ -14922,7 +14859,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swift: ["3T"],
             thief: ["3M"],
             toxic: ["3M", "3L7"],
-            xscissors: ["3L25"]
+            xscissors: ["3T", "3L25"]
         }
     },
     lunatone: {
@@ -15046,7 +14983,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             secretpower: ["3M"],
             sleeptalk: ["3T"],
             snore: ["3T"],
-            spark: ["3E"],
             substitute: ["3T"],
             surf: ["3M"],
             swagger: ["3T"],
@@ -15055,7 +14991,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             waterfall: ["3M"],
             watergun: ["3L6"],
             waterpulse: ["3M"],
-            whirlpool: ["3E"]
+            whirlpool: ["3E"],
+            wildcharge: ["3E"]
         }
     },
     whiscash: {
@@ -15119,7 +15056,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             facade: ["3M"],
             falseswipe: ["3L7"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icebeam: ["3M", "3L38"],
             icywind: ["3T"],
@@ -15144,7 +15080,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             toxic: ["3M"],
             waterfall: ["3M"],
             waterpulse: ["3M", "3L20"],
-            xscissors: ["3L26"]
+            xscissors: ["3T", "3L26"]
         }
     },
     crawdaunt: {
@@ -15166,7 +15102,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             endure: ["3T"],
             facade: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icebeam: ["3M", "3L39"],
             icywind: ["3T"],
@@ -15192,7 +15127,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             toxic: ["3M"],
             waterfall: ["3M"],
             waterpulse: ["3M"],
-            xscissors: ["3L23"]
+            xscissors: ["3T", "3L23"]
         }
     },
     baltoy: {
@@ -15372,7 +15307,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             endure: ["3T"],
             facade: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             knockoff: ["3E"],
             leechlife: ["3L13"],
@@ -15393,7 +15327,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T", "3E"],
             toxic: ["3M"],
             waterpulse: ["3M"],
-            xscissors: ["3L43"]
+            xscissors: ["3T", "3L43"]
         }
     },
     armaldo: {
@@ -15413,7 +15347,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             endure: ["3T"],
             facade: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             irontail: ["3M"],
             leechlife: ["3L7"],
@@ -15426,7 +15359,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M", "3L1"],
             sandattack: ["3L1"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L1"],
+            seismictoss: ["3M", "3T", "3L1"],
             sleeptalk: ["3T"],
             snore: ["3T"],
             strength: ["3M"],
@@ -15436,7 +15369,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T"],
             toxic: ["3M"],
             waterpulse: ["3M"],
-            xscissors: ["3L46"]
+            xscissors: ["3T", "3L46"]
         }
     },
     feebas: {
@@ -15530,7 +15463,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamewheel: ["3L20"],
             flash: ["3M"],
             frustration: ["3M"],
-            futuresight: ["3E"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
             icywind: ["3T", "3L20"],
@@ -15583,7 +15515,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             focuspunch: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
             icepunch: ["3T"],
@@ -15605,7 +15536,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             rollout: ["3T"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L7"],
+            seismictoss: ["3M", "3T", "3L7"],
             shadowball: ["3M", "3L25"],
             shadowsneak: ["3L1"],
             shockwave: ["3M"],
@@ -15621,13 +15552,12 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderpunch: ["3T"],
             thunderwave: ["3T", "3L17"],
             toxic: ["3M"],
-            trick: ["3E"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         }
     },
     shuppet: {
         learnset: {
-            astonish: ["3E"],
             attract: ["3M"],
             bodyslam: ["3T"],
             calmmind: ["3M"],
@@ -15656,7 +15586,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             return: ["3M"],
             secretpower: ["3M", "3L25"],
             shadowball: ["3M", "3L44"],
-            shadowsneak: ["3L8"],
+            shadowsneak: ["3E", "3L8"],
             shockwave: ["3M"],
             skillswap: ["3M"],
             sleeptalk: ["3T"],
@@ -15804,7 +15734,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocksmash: ["3M"],
             rocktomb: ["3M"],
             secretpower: ["3M", "3L1"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M", "3L58"],
             shadowpunch: ["3L37"],
             shadowsneak: ["3L16"],
@@ -15836,7 +15766,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             fly: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             gigadrain: ["3M", "3L41"],
             headbutt: ["3E"],
             hiddenpower: ["3M"],
@@ -15866,7 +15795,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T"],
             synthesis: ["3L47"],
             toxic: ["3M"],
-            whirlwind: ["3L1"]
+            whirlwind: ["3L1"],
+            xscissors: ["3T"]
         }
     },
     chimecho: {
@@ -15937,7 +15867,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M"],
             flash: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
             icywind: ["3T"],
@@ -15971,7 +15900,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             toxic: ["3M"],
             waterpulse: ["3M"],
             willowisp: ["3L5"],
-            wish: ["3L9"]
+            wish: ["3L9"],
+            xscissors: ["3T"]
         }
     },
     snorunt: {
@@ -16065,11 +15995,11 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             defensecurl: ["3T"],
             dive: ["3M"],
             doubleedge: ["3T", "3L37"],
+            earthpower: ["3E"],
             earthquake: ["3M"],
             encore: ["3L1"],
             endure: ["3T"],
             facade: ["3M"],
-            fissure: ["3E"],
             frustration: ["3M"],
             headbutt: ["3L7"],
             hiddenpower: ["3M"],
@@ -16314,7 +16244,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             endure: ["3T"],
             facade: ["3M"],
             frustration: ["3M"],
-            headsmash: ["3L64"],
+            headsmash: ["3E", "3L64"],
             hiddenpower: ["3M"],
             hydropump: ["3L50"],
             icebeam: ["3M", "3L29"],
@@ -16330,7 +16260,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M", "3L1"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            skullbash: ["3E"],
             sleeptalk: ["3T", "3E"],
             snore: ["3T"],
             substitute: ["3T"],
@@ -16367,7 +16296,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             secretpower: ["3M", "3L1"],
             sleeptalk: ["3T"],
             snore: ["3T"],
-            splash: ["3E"],
             substitute: ["3T"],
             supersonic: ["3E"],
             surf: ["3M", "3L29"],
@@ -16390,6 +16318,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             crunch: ["3L41"],
             cut: ["3M"],
             doubleedge: ["3T", "3L53"],
+            dracometeor: ["3M"],
             dragonbreath: ["3L33"],
             dragonclaw: ["3M", "3L49"],
             dragondance: ["3E"],
@@ -16400,7 +16329,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             fireblast: ["3M"],
             flamethrower: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             headbutt: ["3L17"],
             hiddenpower: ["3M"],
             hydropump: ["3E"],
@@ -16422,7 +16350,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             takedown: ["3L25"],
             thrash: ["3E"],
             toxic: ["3M"],
-            twister: ["3E", "3L21"]
+            twister: ["3E", "3L21"],
+            xscissors: ["3T"]
         }
     },
     shelgon: {
@@ -16436,6 +16365,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             cut: ["3M"],
             defensecurl: ["3T"],
             doubleedge: ["3T", "3L78"],
+            dracometeor: ["3M"],
             dragonbreath: ["3L38"],
             dragonclaw: ["3M", "3L69"],
             dragonrage: ["3L1"],
@@ -16445,7 +16375,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             fireblast: ["3M"],
             flamethrower: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             headbutt: ["3L17"],
             hiddenpower: ["3M"],
             hydropump: ["3L1"],
@@ -16466,7 +16395,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swagger: ["3T"],
             takedown: ["3L30"],
             toxic: ["3M"],
-            twister: ["3L21"]
+            twister: ["3L21"],
+            xscissors: ["3T"]
         }
     },
     salamence: {
@@ -16481,6 +16411,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             cut: ["3M"],
             defensecurl: ["3T"],
             doubleedge: ["3T", "3L71"],
+            dracometeor: ["3M"],
             dragonbreath: ["3L38"],
             dragonclaw: ["3M", "3L93"],
             earthquake: ["3M"],
@@ -16490,7 +16421,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M", "3L1"],
             fly: ["3M", "3L50"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             headbutt: ["3L17"],
             hiddenpower: ["3M"],
             hydropump: ["3L1"],
@@ -16512,7 +16442,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             substitute: ["3T"],
             swagger: ["3T"],
             swift: ["3T"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     beldum: {
@@ -16537,7 +16468,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             flashcannon: ["3L38"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icepunch: ["3T"],
             icywind: ["3T"],
@@ -16570,7 +16500,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             takedown: ["3L1"],
             teleport: ["3L62"],
             thunderpunch: ["3T"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     metagross: {
@@ -16591,7 +16522,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             flashcannon: ["3L38"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             icepunch: ["3T", "3L1"],
             icywind: ["3T"],
@@ -16622,7 +16552,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swift: ["3T"],
             teleport: ["3L69"],
             thunderpunch: ["3T", "3L1"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         }
     },
     regirock: {
@@ -16658,7 +16589,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             selfdestruct: ["3T", "3L33"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
@@ -16705,7 +16636,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             selfdestruct: ["3T", "3L33"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
@@ -16755,7 +16686,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T", "3L1"],
+            seismictoss: ["3M", "3T", "3L1"],
             selfdestruct: ["3T", "3L39"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
@@ -16779,6 +16710,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             cut: ["3M"],
             dive: ["3M"],
             doubleedge: ["3T"],
+            dracometeor: ["3M"],
             dragonbreath: ["3L20"],
             dragonclaw: ["3M", "3L50"],
             dreameater: ["3T"],
@@ -16788,7 +16720,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             fly: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             helpinghand: ["3L10"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
@@ -16823,7 +16754,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             toxic: ["3M"],
             waterfall: ["3M"],
             waterpulse: ["3M"],
-            wish: ["3L5"]
+            wish: ["3L5"],
+            xscissors: ["3T"]
         },
         eventOnly: true
     },
@@ -16836,6 +16768,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             cut: ["3M"],
             dive: ["3M"],
             doubleedge: ["3T"],
+            dracometeor: ["3M"],
             dragonbreath: ["3L20"],
             dragonclaw: ["3M", "3L50"],
             dreameater: ["3T"],
@@ -16845,7 +16778,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flash: ["3M"],
             fly: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             helpinghand: ["3L10"],
             hiddenpower: ["3M"],
             icebeam: ["3M"],
@@ -16879,7 +16811,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderwave: ["3T"],
             toxic: ["3M"],
             waterfall: ["3M"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         },
         eventOnly: true
     },
@@ -16936,7 +16869,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             ancientpower: ["3L15"],
             bodyslam: ["3T", "3L35"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             counter: ["3T"],
             cut: ["3M"],
             defensecurl: ["3T"],
@@ -16951,7 +16883,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             firepunch: ["3T"],
             flamethrower: ["3M"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             irontail: ["3M"],
             megakick: ["3T"],
@@ -16970,7 +16901,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rollout: ["3T"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -16982,7 +16913,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             swordsdance: ["3T"],
             thunderpunch: ["3T"],
             thunderwave: ["3T", "3L5"],
-            toxic: ["3M"]
+            toxic: ["3M"],
+            xscissors: ["3T"]
         },
         eventOnly: true
     },
@@ -16994,10 +16926,10 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             blizzard: ["3M"],
             bodyslam: ["3T"],
             brickbreak: ["3M"],
-            bulkup: ["3M"],
             crunch: ["3L35"],
             dive: ["3M"],
             doubleedge: ["3T", "3L1"],
+            dracometeor: ["3M"],
             dragonclaw: ["3M", "3L70"],
             earthquake: ["3M"],
             endure: ["3T"],
@@ -17007,7 +16939,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             flamethrower: ["3M"],
             fly: ["3M", "3L45"],
             frustration: ["3M"],
-            furycutter: ["3T"],
             hiddenpower: ["3M"],
             hypervoice: ["3L60"],
             icebeam: ["3M"],
@@ -17023,6 +16954,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rockslide: ["3T", "3L30"],
             rocksmash: ["3M"],
             secretpower: ["3M"],
+            seismictoss: ["3M", "3T"],
             shockwave: ["3M"],
             sleeptalk: ["3T"],
             snore: ["3T"],
@@ -17035,7 +16967,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             thunderwave: ["3T"],
             toxic: ["3M"],
             waterfall: ["3M"],
-            waterpulse: ["3M"]
+            waterpulse: ["3M"],
+            xscissors: ["3T"]
         },
         eventOnly: true
     },
@@ -17128,7 +17061,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             rocktomb: ["3M"],
             safeguard: ["3M"],
             secretpower: ["3M"],
-            seismictoss: ["3T"],
+            seismictoss: ["3M", "3T"],
             shadowball: ["3M"],
             shockwave: ["3M"],
             skillswap: ["3M"],
