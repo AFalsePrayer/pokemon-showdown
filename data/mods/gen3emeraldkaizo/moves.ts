@@ -114,6 +114,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 100,
 		pp: 8,
 	},
+	submission: {
+		inherit: true,
+		isNonstandard: 'Removed',
+	},
 	counter: {
 		inherit: true,
 		pp: 32,
@@ -163,10 +167,16 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	thunder: {
 		inherit: true,
 		pp: 16,
+		isNonstandard: "Unobtainable",
 	},
 	earthquake: {
 		inherit: true,
 		pp: 16,
+	},
+	fissure: {
+		inherit: true,
+		isNonstandard: 'Removed',
+		replacedBy: 'earthpower',
 	},
 	earthpower: {
 		inherit: true,
@@ -201,6 +211,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	doubleteam: {
 		inherit: true,
 		pp: 6,
+		isNonstandard: "Unobtainable",
 	},
 	recover: {
 		inherit: true,
@@ -260,6 +271,11 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		type: "Grass",
 	},
+	sludge: {
+		inherit: true,
+		isNonstandard: 'Removed',
+		replacedBy: 'gunkshot',
+	},
 	sludgebomb: {
 		inherit: true,
 		pp: 16,
@@ -273,10 +289,23 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		pp: 6,
 	},
+	skullbash: {
+		inherit: true,
+		isNonstandard: 'Removed',
+		replacedBy: 'headsmash',
+	},
 	headsmash: {
 		inherit: true,
 		accuracy: 100,
 		pp: 8,
+	},
+	spikecannon: {
+		inherit: true,
+		isNonstandard: 'Removed',
+	},
+	constrict: {
+		inherit: true,
+		isNonstandard: 'Removed',
 	},
 	amnesia: {
 		inherit: true,
@@ -295,6 +324,14 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		accuracy: 100,
 		type: "Dark",
+	},
+	poisongas: {
+		inherit: true,
+		isNonstandard: 'Removed',
+	},
+	barrage: {
+		inherit: true,
+		isNonstandard: 'Removed',
 	},
 	leechlife: {
 		inherit: true,
@@ -327,6 +364,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		pp: 24,
 	},
+	splash: {
+		inherit: true,
+		isNonstandard: 'Removed',
+	},
 	acidarmor: {
 		inherit: true,
 		pp: 3,
@@ -356,6 +397,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		pp: 24,
 	},
+	sharpen: {
+		inherit: true,
+		isNonstandard: 'Removed',
+	},
 	triattack: {
 		inherit: true,
 		pp: 16,
@@ -364,6 +409,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		pp: 16,
 		type: "Dark",
+	},
+	triplekick: {
+		inherit: true,
+		isNonstandard: 'Removed',
 	},
 	snore: {
 		inherit: true,
@@ -383,6 +432,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 120,
 		accuracy: 100,
 		pp: 10,
+	},
+	cottonspore: {
+		inherit: true,
+		isNonstandard: 'Removed',
 	},
 	reversal: {
 		inherit: true,
@@ -433,9 +486,14 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 100,
 		pp: 24,
 	},
+	outrage: {
+		inherit: true,
+		isNonstandard: 'Removed',
+	},
 	sandstorm: {
 		inherit: true,
 		pp: 1,
+		isNonstandard: "Unobtainable",
 	},
 	gigadrain: {
 		inherit: true,
@@ -451,9 +509,19 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		pp: 5,
 		type: "Normal",
 	},
+	spark: {
+		inherit: true,
+		isNonstandard: 'Removed',
+		replacedBy: 'wildcharge',
+	},
 	wildcharge: {
 		inherit: true,
 		pp: 24,
+	},
+	furycutter: {
+		inherit: true,
+		isNonstandard: 'Removed',
+		replacedBy: 'xscissors',
 	},
 	xscissors: {
 		inherit: true,
@@ -535,10 +603,12 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	raindance: {
 		inherit: true,
 		pp: 1,
+		isNonstandard: "Unobtainable",
 	},
 	sunnyday: {
 		inherit: true,
 		pp: 1,
+		isNonstandard: "Unobtainable",
 	},
 	crunch: {
 		inherit: true,
@@ -561,6 +631,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	shadowball: {
 		inherit: true,
 		pp: 24,
+	},
+	futuresight: {
+		inherit: true,
+		isNonstandard: 'Removed',
 	},
 	rocksmash: {
 		inherit: true,
@@ -592,6 +666,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	hail: {
 		inherit: true,
 		pp: 1,
+		isNonstandard: "Unobtainable",
 	},
 	torment: {
 		inherit: true,
@@ -617,6 +692,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		pp: 3,
 	},
+	trick: {
+		inherit: true,
+		isNonstandard: 'Removed',
+	},
 	wish: {
 		inherit: true,
 		pp: 2,
@@ -641,6 +720,11 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		accuracy: 70,
 	},
+	eruption: {
+		inherit: true,
+		isNonstandard: 'Removed',
+		replacedBy: 'dracometeor',
+	},
 	dracometeor: {
 		inherit: true,
 		basePower: 120,
@@ -653,6 +737,11 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	snatch: {
 		inherit: true,
 		pp: 3,
+	},
+	armthrust: {
+		inherit: true,
+		isNonstandard: 'Removed',
+		replacedBy: 'forcepalm',
 	},
 	forcepalm: {
 		inherit: true,
@@ -723,6 +812,11 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 100,
 		pp: 16,
 	},
+	astonish: {
+		inherit: true,
+		isNonstandard: 'Removed',
+		replacedBy: 'shadowsneak',
+	},
 	shadowsneak: {
 		inherit: true,
 		pp: 24,
@@ -738,6 +832,11 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	faketears: {
 		inherit: true,
 		pp: 3,
+	},
+	aircutter: {
+		inherit: true,
+		isNonstandard: 'Removed',
+		replacedBy: 'airslash',
 	},
 	airslash: {
 		inherit: true,
@@ -759,6 +858,11 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 55,
 		accuracy: 100,
 		pp: 15,
+	},
+	metalsound: {
+		inherit: true,
+		isNonstandard: 'Removed',
+		replacedBy: 'flashcannon',
 	},
 	flashcannon: {
 		inherit: true,
@@ -817,6 +921,11 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		pp: 32,
 	},
+	iciclespear: {
+		inherit: true,
+		isNonstandard: 'Removed',
+		replacedBy: 'iceshard',
+	},
 	irondefense: {
 		inherit: true,
 		pp: 3,
@@ -847,6 +956,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		basePower: 120,
 		pp: 16,
+	},
+	covet: {
+		inherit: true,
+		isNonstandard: 'Removed',
 	},
 	volttackle: {
 		inherit: true,
