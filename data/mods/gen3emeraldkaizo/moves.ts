@@ -420,6 +420,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		pp: 16,
 		type: "Dark",
 	},
+	substitute: {
+		inherit: true,
+		isNonstandard: 'Unobtainable',
+	},
 	triplekick: {
 		inherit: true,
 		isNonstandard: 'Removed',
