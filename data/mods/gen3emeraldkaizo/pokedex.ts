@@ -443,7 +443,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	slowpoke: {
 		inherit: true,
-		abilities: {0: "Shell Armor", 1: "Own Tempo"},
 		catchRate: 60,
 		heldItems: ["005kingsrock"],
 	},
