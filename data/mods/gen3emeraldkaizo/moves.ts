@@ -112,7 +112,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	hyperbeam: {
 		inherit: true,
-		basePower: 100,
+		accuracy: 100,
 		pp: 8,
 	},
 	submission: {
