@@ -587,7 +587,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	corsola: {
 		inherit: true,
 		baseStats: {hp: 65, atk: 55, def: 95, spa: 65, spd: 95, spe: 35},
-		abilities: {0: "Natural Cure", 1: "Sturdy"},
+		abilities: {0: "Natural Cure", 1: "Hustle"},
 		catchRate: 230,
 		heldItems: ["005redshard"],
 	},
