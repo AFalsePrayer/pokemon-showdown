@@ -95,7 +95,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	hydropump: {
 		inherit: true,
-		basePower: 85,
+		accuracy: 85,
 		pp: 8,
 	},
 	surf: {
