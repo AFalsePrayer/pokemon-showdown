@@ -19,7 +19,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		accuracy: 100,
 	},
-	rollingKick: {
+	rollingkick: {
 		inherit: true,
 		accuracy: 100,
 		pp: 24
