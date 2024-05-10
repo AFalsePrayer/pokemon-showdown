@@ -865,6 +865,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	overheat: {
 		inherit: true,
 		basePower: 120,
+		accuracy: 100,
 		pp: 16,
 	},
 	odorsleuth: {
