@@ -17,11 +17,11 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	bind: {
 		inherit: true,
-		basePower: 100,
+		accuracy: 100,
 	},
 	rollingKick: {
 		inherit: true,
-		basePower: 100,
+		accuracy: 100,
 		pp: 24
 	},
 	sandattack: {
@@ -827,7 +827,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	meteormash: {
 		inherit: true,
-		basePower: 100,
+		accuracy: 100,
 		pp: 16,
 	},
 	astonish: {
