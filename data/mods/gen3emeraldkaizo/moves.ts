@@ -353,9 +353,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 85,
 		pp: 16,
 	},
-	skyattacl: {
+	skyattack: {
 		inherit: true,
 		basePower: 120,
+		accuracy: 100,
 	},
 	transform: {
 		inherit: true,
@@ -746,6 +747,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	dracometeor: {
 		inherit: true,
 		basePower: 120,
+		accuracy: 100,
 		pp: 8,
 	},
 	refresh: {
