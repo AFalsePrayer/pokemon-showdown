@@ -357,6 +357,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		basePower: 120,
 		accuracy: 100,
+		pp: 16,
 	},
 	transform: {
 		inherit: true,
