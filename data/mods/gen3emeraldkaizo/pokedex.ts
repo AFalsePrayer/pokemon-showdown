@@ -436,7 +436,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	slowking: {
 		inherit: true,
-		abilities: {0: "Shell Armor", 1: "Natural Cure"},
+		abilities: {0: "Natural Cure", 1: "Own Tempo"},
 		evoItem: "Water Stone",
 		evoType: "useItem",
 		heldItems: ["005kingsrock"],
