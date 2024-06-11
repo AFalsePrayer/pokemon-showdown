@@ -499,6 +499,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	bonerush: {
 		inherit: true,
+		basePower: 100,
 		accuracy: 100,
 		pp: 24,
 	},
