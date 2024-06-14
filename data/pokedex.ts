@@ -2622,7 +2622,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1.2,
 		weightkg: 38,
 		color: "Brown",
-		prevo: "Bonsly",
 		evoType: "levelMove",
 		evoMove: "Mimic",
 		eggGroups: ["Mineral"],
