@@ -313,6 +313,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: 'Unobtainable',
 	},
+	swordsdance: {
+		inherit: true,
+		pp: 5,
+	},
 	constrict: {
 		inherit: true,
 		isNonstandard: 'Removed',
