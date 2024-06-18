@@ -6988,7 +6988,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             dragonbreath: ["3L38"],
             dragonrage: ["3L22"],
             endure: ["3T"],
-            extremepseed: ["3L1"],
+            extremespeed: ["3L1"],
             facade: ["3M"],
             fireblast: ["3M"],
             flamethrower: ["3M"],
