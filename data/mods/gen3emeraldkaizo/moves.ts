@@ -293,7 +293,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	clamp: {
 		inherit: true,
 		accuracy: 100,
-		pp: 6,
+		pp: 16,
 	},
 	skullbash: {
 		inherit: true,
@@ -480,7 +480,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	gunkshot: {
 		inherit: true,
 		accuracy: 100,
-		pp: 18,
+		pp: 8,
 	},
 	octazooka: {
 		inherit: true,
@@ -884,7 +884,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		basePower: 55,
 		accuracy: 100,
-		pp: 15,
+		pp: 16,
 	},
 	metalsound: {
 		inherit: true,
@@ -1002,7 +1002,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	leafblade: {
 		inherit: true,
-		basePower: 90,
+		basePower: 95,
 		pp: 24,
 	},
 	dragondance: {
