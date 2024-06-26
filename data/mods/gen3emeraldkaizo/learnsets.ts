@@ -4782,7 +4782,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
             frustration: ["3M"],
             helpinghand: ["3E"],
             hiddenpower: ["3M"],
-            highjumpkick: ["3E"],
+            hijumpkick: ["3E"],
             machpunch: ["3E"],
             megakick: ["3T"],
             mimic: ["3T"],
